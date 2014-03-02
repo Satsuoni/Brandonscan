@@ -7,7 +7,10 @@ class SmartRedirectHandler(urllib2.HTTPRedirectHandler):
         result = urllib2.HTTPRedirectHandler.http_error_301(
                                                             self, req, fp, code, msg, headers)
         
-        #
+        print "301"
+        if not hasattr(result, 'chain'):
+          result.chain=[]
+        result.chain.append(req.get_full_url())
         if hasattr(result, 'status'):	
          if result.status!=404:		
           result.status = code
@@ -25,7 +28,10 @@ class SmartRedirectHandler(urllib2.HTTPRedirectHandler):
         #print req.get_full_url()
         result = urllib2.HTTPRedirectHandler.http_error_302(
                                                             self, req, fp, code, msg, headers)
-        print req.get_full_url()													
+        if not hasattr(result, 'chain'):
+          result.chain=[]
+        print "302"    
+        result.chain.append(req.get_full_url())        												
         result.status = code
         return result
 
@@ -35,6 +41,10 @@ class SmartErrorHandler(urllib2.HTTPDefaultErrorHandler):
 	 result=self
 	 #print result
  	 result.url=req.get_full_url()
+ 	 if not hasattr(result, 'chain'):
+          result.chain=[]
+ 	 result.chain.append(req.get_full_url()) 
+ 	 #result.chain.append(result.url)
 	 #print result.url
  	 #result = urllib2.HTTPDefaultErrorHandler.http_error_default(
                                                          #   self, req, fp, code, msg, hdrs)
@@ -63,7 +73,19 @@ for page_id in range(fromnum,9000):
   except:
       print str(page_id)+ ": Error: "+str(sys.exc_value)
   else:
-   #if hasattr(p,status)
+    redirchain=[]
+    if hasattr(p,"chain"):
+     #print p.chain
+     #print p.url     
+     p.chain.pop()
+     while len(p.chain)>0:
+      redirchain.append(p.chain.pop()) 
+    p.chain=[]
+    if (len(redirchain)>=1 and redirchain[-1]!= p.url) or(len(redirchain)==0) :
+     redirchain.append(p.url)
+    strp=' :-> '.join(redirchain)
+    
+    #print redirchain    
     canread=False
     try:
 	 http=p.read()
@@ -78,13 +100,13 @@ for page_id in range(fromnum,9000):
      m1=pat.search(http)
      if m1:
       m=m1.group(1)
-      strg= str(page_id)+':{{'+m+'}}  {{'+p.url+'}}'
+      strg= str(page_id)+':{{'+m+'}}  {{'+strp+'}}'
       file.write(strg+"\r\n")
       file.flush()
       print strg
     elif p.status==777:
 	 hidden='hidden'
-	 strg= str(page_id)+':{{'+hidden+'}}  {{'+p.url+'}}'
+	 strg= str(page_id)+':{{'+hidden+'}}  {{'+strp+'}}'
 	 file.write(strg+"\r\n")
 	 file.flush()
 	 print strg

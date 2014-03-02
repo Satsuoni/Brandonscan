@@ -1,4 +1,4 @@
-1:{{  About the annotation system Introduction}}  {{http://brandonsanderson.com/about-the-annotation-system-introduction/}}
+﻿1:{{  About the annotation system Introduction}}  {{http://brandonsanderson.com/about-the-annotation-system-introduction/}}
 2:{{  EUOLogy: EUOL Visits Tor}}  {{http://brandonsanderson.com/euology-euol-visits-tor/}}
 4:{{  My Brother is Cool}}  {{http://brandonsanderson.com/my-brother-is-cool/}}
 5:{{  Suppose I&#8217;d better use this thing. . . .}}  {{http://brandonsanderson.com/suppose-id-better-use-this-thing/}}
@@ -1752,3 +1752,509 @@
 3885:{{  Annotation Alcatraz Epilogue and End Material}}  {{http://brandonsanderson.com/annotation-alcatraz-epilogue-and-end-material/}}
 3993:{{  SteelheartSampler}}  {{http://brandonsanderson.com/steelheart-prologue/steelheartsampler/}}
 3994:{{  STEELHEART book trailer &amp; free 5-chapter sample ebook/audiobook}}  {{http://brandonsanderson.com/steelheart-book-trailer-free-5-chapter-sample-ebookaudiobook/}}
+4360:{{  hugo_comic}}  {{http://brandonsanderson.com/hugo-awards-comic-video/hugo_comic/}}
+4361:{{  Hugo Awards Comic &amp; Video}}  {{http://brandonsanderson.com/hugo-awards-comic-video/}}
+4367:{{  emperor_uk}}  {{http://brandonsanderson.com/books/elantris/the-emperors-soul/emperor_uk/}}
+4368:{{  legion_uk}}  {{http://brandonsanderson.com/books/elantris/the-emperors-soul/legion_uk/}}
+4370:{{  Infinity Blade videos, IB:III out today, &amp; Letter to Robert Jordan}}  {{http://brandonsanderson.com/infinity-blade-videos-ibiii-out-today-letter-to-robert-jordan/}}
+4389:{{  Introducing the Steelhunt}}  {{http://brandonsanderson.com/introducing-the-steelhunt/}}
+4393:{{  Surprise}}  {{http://brandonsanderson.com/introducing-the-steelhunt/surprise/}}
+4396:{{  Surprise-small}}  {{http://brandonsanderson.com/introducing-the-steelhunt/surprise-small/}}
+4404:{{hidden}}  {{http://brandonsanderson.com/lift-interlude/}}
+4408:{{hidden}}  {{http://brandonsanderson.com/the-vault/wor_arch-i-9/}}
+4413:{{  List of Steelhunters}}  {{http://brandonsanderson.com/list-of-steelhunters/}}
+4422:{{  Steelheart Launch Day}}  {{http://brandonsanderson.com/steelheart-launch-day/}}
+4426:{{hidden}}  {{http://brandonsanderson.com/the-vault/chris-king/}}
+4427:{{  Brandon Sanderson Newsletter for September 2013 – STEELHEART out now!}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-september-2013-steelheart-out-now/}}
+4429:{{  Steelheart On Sale}}  {{http://brandonsanderson.com/?attachment_id=4429}}
+4430:{{hidden}}  {{http://brandonsanderson.com/the-vault/dhen/}}
+4431:{{hidden}}  {{http://brandonsanderson.com/the-vault/rebeccadawn/}}
+4432:{{hidden}}  {{http://brandonsanderson.com/the-vault/4generations/}}
+4433:{{hidden}}  {{http://brandonsanderson.com/the-vault/roxanna/}}
+4434:{{hidden}}  {{http://brandonsanderson.com/the-vault/mark-silvereye-laird/}}
+4435:{{hidden}}  {{http://brandonsanderson.com/the-vault/lightreader/}}
+4438:{{hidden}}  {{http://brandonsanderson.com/the-vault/trevor-danger/}}
+4439:{{hidden}}  {{http://brandonsanderson.com/the-vault/shawn-m-halversen-herofly/}}
+4440:{{hidden}}  {{http://brandonsanderson.com/the-vault/gstew/}}
+4441:{{  legion_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/legion_uk-2/}}
+4442:{{  emperor_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/emperor_uk-2/}}
+4443:{{  alcatraz_omni_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/alcatraz_omni_uk/}}
+4444:{{  alcatraz1_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/alcatraz1_uk/}}
+4445:{{  alcatraz2_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/alcatraz2_uk/}}
+4446:{{  alcatraz3_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/alcatraz3_uk/}}
+4447:{{  alcatraz4_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/alcatraz4_uk/}}
+4448:{{  amol_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/amol_uk/}}
+4449:{{  elantris_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/elantris_uk/}}
+4450:{{  gathering_storm_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/gathering_storm_uk/}}
+4451:{{  legion_emp_soul_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/legion_emp_soul_uk/}}
+4452:{{  mb_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/mb_uk/}}
+4453:{{  mb2_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/mb2_uk/}}
+4454:{{  mb3_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/mb3_uk/}}
+4455:{{  mb4_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/mb4_uk/}}
+4456:{{  rith_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/rith_uk/}}
+4457:{{  steelheart_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/steelheart_uk-2/}}
+4458:{{  tom_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/tom_uk/}}
+4459:{{  wb_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/wb_uk/}}
+4460:{{  wok_uk}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/wok_uk/}}
+4462:{{  Sanderson’s Third Law of Magic}}  {{http://brandonsanderson.com/sandersons-third-law-of-magic/}}
+4467:{{hidden}}  {{http://brandonsanderson.com/the-vault/jilly/}}
+4471:{{hidden}}  {{http://brandonsanderson.com/the-vault/john/}}
+4472:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-wilson/}}
+4473:{{hidden}}  {{http://brandonsanderson.com/the-vault/raziel2983/}}
+4474:{{hidden}}  {{http://brandonsanderson.com/the-vault/theilmadeknight/}}
+4475:{{hidden}}  {{http://brandonsanderson.com/the-vault/lord-zod-ruler-of-the-underworld-and-kicker-of-puppies/}}
+4476:{{hidden}}  {{http://brandonsanderson.com/the-vault/austin-hussey/}}
+4477:{{hidden}}  {{http://brandonsanderson.com/the-vault/hoid/}}
+4478:{{hidden}}  {{http://brandonsanderson.com/test-page/}}
+4481:{{hidden}}  {{http://brandonsanderson.com/the-vault/shillstrom/}}
+4482:{{  Games Creatures Play}}  {{http://brandonsanderson.com/dreamer/games-creatures-play-thumb/}}
+4492:{{  Games Creatures Play}}  {{http://brandonsanderson.com/dreamer/games-creatures-play-600/}}
+4494:{{  The STEELHEART Big Idea + Games Creatures Play}}  {{http://brandonsanderson.com/the-steelheart-big-idea-games-creatures-play/}}
+4500:{{  STEELHEART Release in the UK + UK Trailer}}  {{http://brandonsanderson.com/steelheart-release-in-the-uk-uk-trailer/}}
+4502:{{  Steelheart UK cover by Sam Green}}  {{http://brandonsanderson.com/steelheart-release-in-the-uk-uk-trailer/stelheartuk/}}
+4511:{{hidden}}  {{http://brandonsanderson.com/the-vault/cameron-copeland/}}
+4512:{{hidden}}  {{http://brandonsanderson.com/the-vault/tomd/}}
+4514:{{hidden}}  {{http://brandonsanderson.com/the-vault/whyte-rhyno/}}
+4515:{{hidden}}  {{http://brandonsanderson.com/the-vault/ebyss/}}
+4516:{{hidden}}  {{http://brandonsanderson.com/the-vault/scott-stevens/}}
+4517:{{hidden}}  {{http://brandonsanderson.com/the-vault/hunter-woodley/}}
+4519:{{hidden}}  {{http://brandonsanderson.com/the-vault/stormblessed/}}
+4520:{{hidden}}  {{http://brandonsanderson.com/the-vault/bloodfyre/}}
+4521:{{hidden}}  {{http://brandonsanderson.com/the-vault/torka/}}
+4522:{{hidden}}  {{http://brandonsanderson.com/the-vault/crystal/}}
+4523:{{hidden}}  {{http://brandonsanderson.com/the-vault/trey/}}
+4524:{{hidden}}  {{http://brandonsanderson.com/the-vault/technicaltoast/}}
+4525:{{hidden}}  {{http://brandonsanderson.com/the-vault/mysty/}}
+4526:{{hidden}}  {{http://brandonsanderson.com/the-vault/rebarbill/}}
+4527:{{hidden}}  {{http://brandonsanderson.com/the-vault/chris-glacialis-brinkley/}}
+4528:{{hidden}}  {{http://brandonsanderson.com/the-vault/tashkiel/}}
+4529:{{hidden}}  {{http://brandonsanderson.com/the-vault/jennifer/}}
+4532:{{hidden}}  {{http://brandonsanderson.com/the-vault/jason-lockhart-sr/}}
+4533:{{hidden}}  {{http://brandonsanderson.com/the-vault/nuckcup1/}}
+4535:{{hidden}}  {{http://brandonsanderson.com/the-vault/elan/}}
+4536:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeremy-waters/}}
+4537:{{hidden}}  {{http://brandonsanderson.com/the-vault/john-bearden/}}
+4538:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeff-hampton/}}
+4539:{{hidden}}  {{http://brandonsanderson.com/the-vault/scott/}}
+4540:{{hidden}}  {{http://brandonsanderson.com/the-vault/beau-tschetter/}}
+4541:{{hidden}}  {{http://brandonsanderson.com/the-vault/sam-baskin/}}
+4542:{{hidden}}  {{http://brandonsanderson.com/the-vault/mendy-kittner/}}
+4543:{{hidden}}  {{http://brandonsanderson.com/the-vault/jonjohn/}}
+4544:{{hidden}}  {{http://brandonsanderson.com/the-vault/mark-lindberg/}}
+4545:{{  Legion: Skin Deep}}  {{http://brandonsanderson.com/legion-skin-deep/}}
+4548:{{hidden}}  {{http://brandonsanderson.com/the-vault/steven-muniz/}}
+4549:{{hidden}}  {{http://brandonsanderson.com/the-vault/charlie-addison/}}
+4550:{{hidden}}  {{http://brandonsanderson.com/the-vault/don-van-huyck-aka-eman-emal/}}
+4551:{{hidden}}  {{http://brandonsanderson.com/the-vault/erin-szalapski/}}
+4552:{{hidden}}  {{http://brandonsanderson.com/the-vault/matt-john/}}
+4553:{{hidden}}  {{http://brandonsanderson.com/the-vault/tyler-and-jared-workman/}}
+4554:{{hidden}}  {{http://brandonsanderson.com/the-vault/april-moore/}}
+4555:{{hidden}}  {{http://brandonsanderson.com/the-vault/surfgoat/}}
+4556:{{hidden}}  {{http://brandonsanderson.com/the-vault/andy-lee/}}
+4557:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeffrey-thibeault/}}
+4558:{{hidden}}  {{http://brandonsanderson.com/the-vault/dixon/}}
+4559:{{hidden}}  {{http://brandonsanderson.com/the-vault/aoibheann/}}
+4560:{{hidden}}  {{http://brandonsanderson.com/the-vault/sabrina-castiglione/}}
+4561:{{hidden}}  {{http://brandonsanderson.com/the-vault/satsuoni-yugov-seva/}}
+4562:{{hidden}}  {{http://brandonsanderson.com/the-vault/nighteyes/}}
+4563:{{hidden}}  {{http://brandonsanderson.com/the-vault/livvie/}}
+4564:{{  SteelheartLenticular_600_low}}  {{http://brandonsanderson.com/steelhunt-week-two/steelheartlenticular_600_low/}}
+4565:{{  Steelhunt, Week Two}}  {{http://brandonsanderson.com/steelhunt-week-two/}}
+4572:{{hidden}}  {{http://brandonsanderson.com/the-vault/johnnie-bailey/}}
+4573:{{hidden}}  {{http://brandonsanderson.com/the-vault/daniel-rich/}}
+4574:{{hidden}}  {{http://brandonsanderson.com/the-vault/evgeni-eugene-kirilov/}}
+4575:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-fleeting/}}
+4576:{{hidden}}  {{http://brandonsanderson.com/the-vault/rachel-l/}}
+4577:{{hidden}}  {{http://brandonsanderson.com/the-vault/steve-scriver/}}
+4578:{{hidden}}  {{http://brandonsanderson.com/the-vault/rbnguevara/}}
+4579:{{hidden}}  {{http://brandonsanderson.com/the-vault/firearcadia/}}
+4581:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=4581}}
+4582:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=4582}}
+4583:{{  JordanCon 6}}  {{http://brandonsanderson.com/events/jordancon-6/}}
+4584:{{hidden}}  {{http://brandonsanderson.com/the-vault/ari-shatz/}}
+4585:{{  Balticon 48}}  {{http://brandonsanderson.com/events/balticon-48/}}
+4586:{{  Westercon 67 / CONduit 24}}  {{http://brandonsanderson.com/events/westercon-67-conduit-24/}}
+4587:{{  Celsius 232}}  {{http://brandonsanderson.com/events/celsius-232/}}
+4588:{{hidden}}  {{http://brandonsanderson.com/the-vault/stephen-q/}}
+4589:{{hidden}}  {{http://brandonsanderson.com/the-vault/donnie/}}
+4590:{{hidden}}  {{http://brandonsanderson.com/the-vault/mindo/}}
+4591:{{hidden}}  {{http://brandonsanderson.com/the-vault/brian-y/}}
+4592:{{hidden}}  {{http://brandonsanderson.com/the-vault/haruko/}}
+4593:{{hidden}}  {{http://brandonsanderson.com/the-vault/vtwiggin/}}
+4594:{{  Legion: Skin Deep}}  {{http://brandonsanderson.com/legion-skin-deep/legion-skin-deep-2/}}
+4596:{{hidden}}  {{http://brandonsanderson.com/the-vault/hugh57/}}
+4599:{{  Shadows of Self}}  {{http://brandonsanderson.com/shadows-of-self/}}
+4600:{{  ShadowsSelf1}}  {{http://brandonsanderson.com/shadows-of-self/shadowsself1/}}
+4601:{{  ShadowsSelf2}}  {{http://brandonsanderson.com/shadows-of-self/shadowsself2/}}
+4606:{{hidden}}  {{http://brandonsanderson.com/the-vault/vicky-james/}}
+4607:{{hidden}}  {{http://brandonsanderson.com/the-vault/fred-easey/}}
+4608:{{hidden}}  {{http://brandonsanderson.com/the-vault/reiko/}}
+4609:{{hidden}}  {{http://brandonsanderson.com/the-vault/donavynn/}}
+4610:{{hidden}}  {{http://brandonsanderson.com/the-vault/jimmy-h/}}
+4612:{{  More places to get signed books}}  {{http://brandonsanderson.com/more-places-to-get-signed-books/}}
+4616:{{hidden}}  {{http://brandonsanderson.com/the-vault/jay-walther/}}
+4617:{{hidden}}  {{http://brandonsanderson.com/the-vault/duplicity/}}
+4618:{{hidden}}  {{http://brandonsanderson.com/the-vault/qgroff/}}
+4619:{{hidden}}  {{http://brandonsanderson.com/the-vault/keri-bailey/}}
+4620:{{hidden}}  {{http://brandonsanderson.com/the-vault/joshua-forbes/}}
+4621:{{hidden}}  {{http://brandonsanderson.com/the-vault/raatz/}}
+4622:{{hidden}}  {{http://brandonsanderson.com/the-vault/thora/}}
+4623:{{hidden}}  {{http://brandonsanderson.com/the-vault/j-scott-marlatt/}}
+4624:{{hidden}}  {{http://brandonsanderson.com/the-vault/ashleyisamistborn/}}
+4626:{{  Tweets September 2013}}  {{http://brandonsanderson.com/tweets-september-2013/}}
+4628:{{  Tweets August 2013}}  {{http://brandonsanderson.com/tweets-august-2013/}}
+4632:{{hidden}}  {{http://brandonsanderson.com/the-vault/mdragon/}}
+4633:{{hidden}}  {{http://brandonsanderson.com/the-vault/wyatt-p/}}
+4634:{{  Tweets April–June 2009}}  {{http://brandonsanderson.com/tweets-april-june-2009/}}
+4638:{{  Tweets July 2009}}  {{http://brandonsanderson.com/tweets-july-2009/}}
+4641:{{hidden}}  {{http://brandonsanderson.com/the-vault/jacob-ekdahl/}}
+4642:{{hidden}}  {{http://brandonsanderson.com/the-vault/kevin-kastelic/}}
+4643:{{hidden}}  {{http://brandonsanderson.com/the-vault/vern/}}
+4644:{{hidden}}  {{http://brandonsanderson.com/the-vault/phantom-jedi-aka-caitlin/}}
+4646:{{hidden}}  {{http://brandonsanderson.com/the-vault/connor/}}
+4648:{{hidden}}  {{http://brandonsanderson.com/the-vault/daryl-bamforth/}}
+4649:{{hidden}}  {{http://brandonsanderson.com/the-vault/gr1ffma3str0/}}
+4650:{{hidden}}  {{http://brandonsanderson.com/the-vault/the-squirrel/}}
+4651:{{hidden}}  {{http://brandonsanderson.com/the-vault/scott-2/}}
+4652:{{hidden}}  {{http://brandonsanderson.com/the-vault/nelluk/}}
+4653:{{hidden}}  {{http://brandonsanderson.com/the-vault/amy-junker/}}
+4654:{{hidden}}  {{http://brandonsanderson.com/the-vault/jill-rosset/}}
+4655:{{hidden}}  {{http://brandonsanderson.com/the-vault/luke-foster/}}
+4656:{{hidden}}  {{http://brandonsanderson.com/the-vault/marcy/}}
+4657:{{hidden}}  {{http://brandonsanderson.com/the-vault/cameron/}}
+4658:{{hidden}}  {{http://brandonsanderson.com/the-vault/brady-e/}}
+4659:{{hidden}}  {{http://brandonsanderson.com/the-vault/curtis-sprung/}}
+4660:{{hidden}}  {{http://brandonsanderson.com/the-vault/josh/}}
+4661:{{hidden}}  {{http://brandonsanderson.com/the-vault/jim/}}
+4662:{{hidden}}  {{http://brandonsanderson.com/the-vault/joshua-lacey/}}
+4663:{{hidden}}  {{http://brandonsanderson.com/the-vault/dustin/}}
+4665:{{  Writing Excuses catch-up &amp; Updates}}  {{http://brandonsanderson.com/writing-excuses-catch-up-updates/}}
+4669:{{  Tweets August–October 2009}}  {{http://brandonsanderson.com/tweets-august-october-2009/}}
+4671:{{  Tweets November 2009}}  {{http://brandonsanderson.com/tweets-november-2009/}}
+4673:{{  Tweets December 2009}}  {{http://brandonsanderson.com/tweets-december-2009/}}
+4675:{{hidden}}  {{http://brandonsanderson.com/the-vault/ancalagon-the-black/}}
+4676:{{hidden}}  {{http://brandonsanderson.com/the-vault/fahrenuf/}}
+4677:{{hidden}}  {{http://brandonsanderson.com/the-vault/mark-henning/}}
+4678:{{hidden}}  {{http://brandonsanderson.com/the-vault/w4nd3rl0st/}}
+4679:{{hidden}}  {{http://brandonsanderson.com/the-vault/jake-williamson/}}
+4680:{{hidden}}  {{http://brandonsanderson.com/the-vault/michael-mchugh/}}
+4681:{{hidden}}  {{http://brandonsanderson.com/the-vault/josh-2/}}
+4682:{{  The Wheel of Time Retrospective: The Notes}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-the-notes/}}
+4692:{{  Tweets January–March 2010}}  {{http://brandonsanderson.com/tweets-january-march-2010/}}
+4694:{{  Tweets April 2010}}  {{http://brandonsanderson.com/tweets-april-2010/}}
+4696:{{  Tweets May 2010}}  {{http://brandonsanderson.com/tweets-may-2010/}}
+4697:{{hidden}}  {{http://brandonsanderson.com/the-vault/technosis/}}
+4701:{{hidden}}  {{http://brandonsanderson.com/the-vault/nathaniel-h/}}
+4702:{{hidden}}  {{http://brandonsanderson.com/the-vault/bethany/}}
+4703:{{hidden}}  {{http://brandonsanderson.com/the-vault/akito-fan/}}
+4704:{{hidden}}  {{http://brandonsanderson.com/the-vault/andrew/}}
+4705:{{hidden}}  {{http://brandonsanderson.com/the-vault/tom-f-and-samantha-c/}}
+4706:{{hidden}}  {{http://brandonsanderson.com/the-vault/beth-long/}}
+4709:{{hidden}}  {{http://brandonsanderson.com/the-vault/mike-plavin/}}
+4711:{{  THE EYE OF MINDS + Steelhunt updates}}  {{http://brandonsanderson.com/the-eye-of-minds-steelhunt-updates/}}
+4712:{{  EyeOfMindsUK}}  {{http://brandonsanderson.com/the-eye-of-minds-steelhunt-updates/eyeofmindsuk/}}
+4713:{{  EyeOfMindsUS}}  {{http://brandonsanderson.com/the-eye-of-minds-steelhunt-updates/eyeofmindsus/}}
+4720:{{  When Words Collide}}  {{http://brandonsanderson.com/events/when-words-collide/}}
+4721:{{hidden}}  {{http://brandonsanderson.com/the-vault/bri/}}
+4722:{{hidden}}  {{http://brandonsanderson.com/the-vault/corey-p/}}
+4723:{{hidden}}  {{http://brandonsanderson.com/the-vault/kamielle-wood/}}
+4724:{{hidden}}  {{http://brandonsanderson.com/the-vault/david-carpenter/}}
+4725:{{hidden}}  {{http://brandonsanderson.com/the-vault/emma-lisa-and-ellie/}}
+4727:{{  Sixth of the Dusk}}  {{http://brandonsanderson.com/sixth-of-the-dusk/}}
+4728:{{hidden}}  {{http://brandonsanderson.com/the-vault/divernick/}}
+4729:{{hidden}}  {{http://brandonsanderson.com/the-vault/kimberly-woods/}}
+4730:{{hidden}}  {{http://brandonsanderson.com/the-vault/ben/}}
+4731:{{hidden}}  {{http://brandonsanderson.com/the-vault/rob-moreau/}}
+4732:{{hidden}}  {{http://brandonsanderson.com/the-vault/gus-mendoza/}}
+4733:{{hidden}}  {{http://brandonsanderson.com/the-vault/jim-urban/}}
+4734:{{hidden}}  {{http://brandonsanderson.com/the-vault/ryan-mcgee/}}
+4746:{{  The Wheel of Time Retrospective: The Process}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-the-process/}}
+4791:{{  It&#8217;s Here}}  {{http://brandonsanderson.com/its-here-2/}}
+4794:{{  BrandonSanderson_Manuscript}}  {{http://brandonsanderson.com/its-here-2/brandonsanderson_manuscript/}}
+4798:{{  The Way of Kings: An Introduction}}  {{http://brandonsanderson.com/the-way-of-kings-an-introduction/}}
+4806:{{  Michael Whelan, an appreciation}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/}}
+4807:{{  TheWayOfKings}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/thewayofkings/}}
+4808:{{  MicahelWhelan_Otherland}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/micahelwhelan_otherland/}}
+4809:{{  MichaelWhelan_snowqueen}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/michaelwhelan_snowqueen/}}
+4810:{{  MichaelWhelan_DragonPrince}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/michaelwhelan_dragonprince/}}
+4811:{{  MichaelWhelan_dragonflight}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/michaelwhelan_dragonflight/}}
+4812:{{  MichaelWhelan_Dragonsbane}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/michaelwhelan_dragonsbane/}}
+4813:{{  MicahelWhelan_WayOfKings_full}}  {{http://brandonsanderson.com/michael-whelan-an-appreciation/micahelwhelan_wayofkings_full/}}
+4814:{{hidden}}  {{http://brandonsanderson.com/the-vault/triss/}}
+4835:{{hidden}}  {{http://brandonsanderson.com/the-vault/ryan-bond/}}
+4841:{{  Signed STEELHEART at Powell&#8217;s + Steelhunt update}}  {{http://brandonsanderson.com/signed-steelheart-at-powells-steelhunt-update/}}
+4846:{{hidden}}  {{http://brandonsanderson.com/the-vault/udchemist/}}
+4848:{{hidden}}  {{http://brandonsanderson.com/the-vault/dacovale/}}
+4850:{{hidden}}  {{http://brandonsanderson.com/the-vault/tom-connolly/}}
+4851:{{hidden}}  {{http://brandonsanderson.com/the-vault/trevor-mishy-stark/}}
+4852:{{hidden}}  {{http://brandonsanderson.com/the-vault/michael-macatangay/}}
+4853:{{hidden}}  {{http://brandonsanderson.com/the-vault/christien-skousen/}}
+4854:{{hidden}}  {{http://brandonsanderson.com/the-vault/ravi-rao/}}
+4855:{{hidden}}  {{http://brandonsanderson.com/the-vault/megan-kanne/}}
+4858:{{hidden}}  {{http://brandonsanderson.com/the-vault/adam-neylan/}}
+4859:{{hidden}}  {{http://brandonsanderson.com/the-vault/sam-hock/}}
+4860:{{hidden}}  {{http://brandonsanderson.com/the-vault/tim/}}
+4861:{{hidden}}  {{http://brandonsanderson.com/the-vault/michael-mackay/}}
+4862:{{hidden}}  {{http://brandonsanderson.com/the-vault/zach-b/}}
+4863:{{hidden}}  {{http://brandonsanderson.com/the-vault/max-chartier/}}
+4864:{{hidden}}  {{http://brandonsanderson.com/the-vault/lupe-gonzalez/}}
+4865:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeff-nikonis-wakefield/}}
+4866:{{hidden}}  {{http://brandonsanderson.com/the-vault/bill-sota-2/}}
+4867:{{hidden}}  {{http://brandonsanderson.com/the-vault/bill-sota/}}
+4868:{{hidden}}  {{http://brandonsanderson.com/the-vault/nica-casillan/}}
+4869:{{hidden}}  {{http://brandonsanderson.com/the-vault/sky-luke/}}
+4870:{{hidden}}  {{http://brandonsanderson.com/the-vault/julie-thatcher/}}
+4873:{{  Writing Excuses, Steelheart tour, Steelhunt, and #NewEpics}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/}}
+4874:{{  BarnesNobleRedwood}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/barnesnobleredwood/}}
+4875:{{  BayBookCompany}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/baybookcompany/}}
+4876:{{  GreatGoodPlace}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/greatgoodplace/}}
+4877:{{  InquisitorFanart}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/inquisitorfanart/}}
+4878:{{  PaloAltoBooksInc}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/paloaltobooksinc/}}
+4879:{{  KeplersBooks}}  {{http://brandonsanderson.com/writing-excuses-steelheart-tour-steelhunt-and-newepics/keplersbooks/}}
+4883:{{hidden}}  {{http://brandonsanderson.com/the-vault/christonjp/}}
+4884:{{hidden}}  {{http://brandonsanderson.com/the-vault/hsin-wang/}}
+4885:{{hidden}}  {{http://brandonsanderson.com/the-vault/nikki-r/}}
+4886:{{hidden}}  {{http://brandonsanderson.com/the-vault/mason-wheeler/}}
+4887:{{hidden}}  {{http://brandonsanderson.com/the-vault/gadget/}}
+4888:{{hidden}}  {{http://brandonsanderson.com/the-vault/mischievous-nil/}}
+4889:{{hidden}}  {{http://brandonsanderson.com/the-vault/allen-kim/}}
+4890:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeff-hitchcock/}}
+4891:{{hidden}}  {{http://brandonsanderson.com/the-vault/duc/}}
+4892:{{hidden}}  {{http://brandonsanderson.com/the-vault/goobergunch/}}
+4893:{{hidden}}  {{http://brandonsanderson.com/the-vault/ludusanimae/}}
+4894:{{  The Wheel of Time Retrospective: The Gathering Storm: Writing Process}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-the-gathering-storm-writing-process/}}
+4901:{{hidden}}  {{http://brandonsanderson.com/the-vault/wetlander/}}
+4902:{{hidden}}  {{http://brandonsanderson.com/the-vault/bascom/}}
+4904:{{hidden}}  {{http://brandonsanderson.com/the-vault/jared-shardlet-wood/}}
+4905:{{hidden}}  {{http://brandonsanderson.com/the-vault/emily/}}
+4906:{{hidden}}  {{http://brandonsanderson.com/the-vault/kristin/}}
+4907:{{hidden}}  {{http://brandonsanderson.com/the-vault/jared/}}
+4908:{{hidden}}  {{http://brandonsanderson.com/the-vault/curtis-and-paul-smith/}}
+4909:{{hidden}}  {{http://brandonsanderson.com/the-vault/spartan117/}}
+4910:{{  Vodník at $1.99 + Steelhunt update}}  {{http://brandonsanderson.com/vodnik-at-1-99-steelhunt-update/}}
+4911:{{  Vodnik}}  {{http://brandonsanderson.com/vodnik-at-1-99-steelhunt-update/vodnik/}}
+4918:{{hidden}}  {{http://brandonsanderson.com/the-vault/fregatius/}}
+4919:{{hidden}}  {{http://brandonsanderson.com/the-vault/mrschriss/}}
+4920:{{hidden}}  {{http://brandonsanderson.com/the-vault/elmo/}}
+4921:{{hidden}}  {{http://brandonsanderson.com/the-vault/megan-eccles/}}
+4922:{{hidden}}  {{http://brandonsanderson.com/the-vault/austin/}}
+4923:{{hidden}}  {{http://brandonsanderson.com/the-vault/anna-hornbostel/}}
+4924:{{hidden}}  {{http://brandonsanderson.com/the-vault/freelancer/}}
+4925:{{hidden}}  {{http://brandonsanderson.com/the-vault/mike-g/}}
+4926:{{hidden}}  {{http://brandonsanderson.com/shallans-sketchbook-santhid/}}
+4927:{{hidden}}  {{http://brandonsanderson.com/shallans-sketchbook-santhid/wor_santhid_wip05a-net/}}
+4934:{{  The Wheel of Time Retrospective: THE GATHERING STORM: What I Learned}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-the-gathering-storm-what-i-learned/}}
+4941:{{hidden}}  {{http://brandonsanderson.com/the-vault/t-sedai/}}
+4942:{{hidden}}  {{http://brandonsanderson.com/the-vault/stonebraker/}}
+4943:{{hidden}}  {{http://brandonsanderson.com/the-vault/rdarwin/}}
+4944:{{hidden}}  {{http://brandonsanderson.com/the-vault/matthew-manners-manley/}}
+4945:{{hidden}}  {{http://brandonsanderson.com/the-vault/colyn-petersen/}}
+4946:{{  The Bieberllama}}  {{http://brandonsanderson.com/the-bieberllama/}}
+4947:{{  bieberllama}}  {{http://brandonsanderson.com/the-bieberllama/bieberllama/}}
+4993:{{  Terry Pratchett’s Discworld Might Be the Highest Form of Literature on the Planet}}  {{http://brandonsanderson.com/terry-pratchetts-discworld-might-be-the-highest-form-of-literature-on-the-planet/}}
+4994:{{  Terry Pratchett}}  {{http://brandonsanderson.com/terry-pratchetts-discworld-might-be-the-highest-form-of-literature-on-the-planet/terry-pratchett/}}
+5001:{{hidden}}  {{http://brandonsanderson.com/the-vault/maya-troy/}}
+5007:{{hidden}}  {{http://brandonsanderson.com/the-vault/bingo-t-monkey/}}
+5008:{{hidden}}  {{http://brandonsanderson.com/the-vault/gorim/}}
+5009:{{hidden}}  {{http://brandonsanderson.com/the-vault/rebecca/}}
+5010:{{hidden}}  {{http://brandonsanderson.com/the-vault/apotheosis/}}
+5012:{{hidden}}  {{http://brandonsanderson.com/the-vault/melistborn/}}
+5014:{{hidden}}  {{http://brandonsanderson.com/the-vault/stephan-van-velzen/}}
+5016:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled/}}
+5017:{{  Libros en Español, Writing Excuses &amp; Steelhunt update}}  {{http://brandonsanderson.com/libros-en-espanol-writing-excuses-steelhunt-update/}}
+5024:{{hidden}}  {{http://brandonsanderson.com/the-vault/jenny/}}
+5025:{{hidden}}  {{http://brandonsanderson.com/the-vault/muffin/}}
+5026:{{hidden}}  {{http://brandonsanderson.com/the-vault/joseph-hawkins/}}
+5027:{{  The Wheel of Time Retrospective: TOWERS OF MIDNIGHT: Writing Process}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-towers-of-midnight-writing-process/}}
+5031:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_1/}}
+5032:{{hidden}}  {{http://brandonsanderson.com/the-vault/kendra-wilson/}}
+5033:{{hidden}}  {{http://brandonsanderson.com/the-vault/brandon-gardner/}}
+5034:{{  2014 Charity Fantasy Author Calendar Now Available}}  {{http://brandonsanderson.com/2014-charity-fantasy-author-calendar-now-available/}}
+5035:{{  fantasy-calendar-sanderson-watermark}}  {{http://brandonsanderson.com/2014-charity-fantasy-author-calendar-now-available/fantasy-calendar-sanderson-watermark/}}
+5041:{{hidden}}  {{http://brandonsanderson.com/the-vault/liermand/}}
+5042:{{hidden}}  {{http://brandonsanderson.com/the-vault/mohameron/}}
+5044:{{  The Wheel of Time Retrospective: TOWERS OF MIDNIGHT: What I Learned}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-towers-of-midnight-what-i-learned/}}
+5054:{{hidden}}  {{http://brandonsanderson.com/the-vault/nicholas-jodie-draper/}}
+5055:{{hidden}}  {{http://brandonsanderson.com/the-vault/brianna-aubin/}}
+5056:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_2/}}
+5057:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_3/}}
+5058:{{hidden}}  {{http://brandonsanderson.com/the-vault/emma/}}
+5059:{{hidden}}  {{http://brandonsanderson.com/the-vault/rupe/}}
+5060:{{hidden}}  {{http://brandonsanderson.com/the-vault/greg/}}
+5061:{{hidden}}  {{http://brandonsanderson.com/the-vault/roger/}}
+5062:{{  Two More Mistborn Novels}}  {{http://brandonsanderson.com/two-more-mistborn-novels/}}
+5064:{{hidden}}  {{http://brandonsanderson.com/the-vault/mystermism/}}
+5065:{{hidden}}  {{http://brandonsanderson.com/the-vault/auraya/}}
+5066:{{hidden}}  {{http://brandonsanderson.com/the-vault/harakeke/}}
+5068:{{hidden}}  {{http://brandonsanderson.com/the-vault/mione-haak/}}
+5069:{{hidden}}  {{http://brandonsanderson.com/the-vault/stephen-megison/}}
+5070:{{hidden}}  {{http://brandonsanderson.com/the-vault/htodd/}}
+5071:{{hidden}}  {{http://brandonsanderson.com/the-vault/marivl/}}
+5073:{{hidden}}  {{http://brandonsanderson.com/the-vault/ayumi-mure/}}
+5074:{{hidden}}  {{http://brandonsanderson.com/the-vault/askthepaperclip/}}
+5075:{{hidden}}  {{http://brandonsanderson.com/the-vault/shawn-reed/}}
+5078:{{  The Wheel of Time Retrospective: A MEMORY OF LIGHT: Perrin and Egwene}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-a-memory-of-light-perrin-and-egwene/}}
+5082:{{hidden}}  {{http://brandonsanderson.com/the-vault/tyler-shaw/}}
+5083:{{hidden}}  {{http://brandonsanderson.com/the-vault/jonathan/}}
+5084:{{  The Wheel of Time Retrospective: A MEMORY OF LIGHT: The Black Tower}}  {{http://brandonsanderson.com/the-wheel-of-time-retrospective-a-memory-of-light-the-black-tower/}}
+5088:{{hidden}}  {{http://brandonsanderson.com/words-of-radiance-chapter-2/}}
+5089:{{hidden}}  {{http://brandonsanderson.com/words-of-radiance-chapter-2/wor_arch-02-preview/}}
+5092:{{hidden}}  {{http://brandonsanderson.com/the-vault/christi-jacobsen/}}
+5094:{{  Tweets October 2013}}  {{http://brandonsanderson.com/tweets-october-2013/}}
+5096:{{hidden}}  {{http://brandonsanderson.com/the-vault/manar/}}
+5102:{{  DefendingElysium_thumb}}  {{http://brandonsanderson.com/defending-elysium/defendingelysium_thumb/}}
+5103:{{  Firstborn_thumb}}  {{http://brandonsanderson.com/defending-elysium/firstborn_thumb/}}
+5105:{{  Play Magic with Brandon, Firstborn/Defending Elysium hardcover, Holiday shipping deadlines, Kindle MatchBook + Updates}}  {{http://brandonsanderson.com/holiday-shipping-deadlines-firstborndefending-elysium-hardcover-kindle-matchbook-updates/}}
+5108:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=5108}}
+5112:{{hidden}}  {{http://brandonsanderson.com/the-vault/tenefuz/}}
+5117:{{  STEELHEART Exclusive Editions + Steelhunt Photos &amp; Updates}}  {{http://brandonsanderson.com/steelheart-exclusive-editions-steelhunt-photos-updates/}}
+5120:{{  Steelheart-annotated-chapter}}  {{http://brandonsanderson.com/steelheart-exclusive-editions-steelhunt-photos-updates/steelheart-annotated-chapter/}}
+5121:{{  Steelheart-Newton-detail}}  {{http://brandonsanderson.com/steelheart-exclusive-editions-steelhunt-photos-updates/steelheart-newton-detail/}}
+5122:{{  Steelheart-Obliteration-detail}}  {{http://brandonsanderson.com/steelheart-exclusive-editions-steelhunt-photos-updates/steelheart-obliteration-detail/}}
+5123:{{  Steelheart-Regalia-detail}}  {{http://brandonsanderson.com/steelheart-exclusive-editions-steelhunt-photos-updates/steelheart-regalia-detail/}}
+5133:{{hidden}}  {{http://brandonsanderson.com/the-vault/random/}}
+5134:{{hidden}}  {{http://brandonsanderson.com/the-vault/tellingdwar/}}
+5135:{{hidden}}  {{http://brandonsanderson.com/the-vault/necrosage2005/}}
+5136:{{hidden}}  {{http://brandonsanderson.com/the-vault/noor/}}
+5137:{{hidden}}  {{http://brandonsanderson.com/the-vault/thekaspa/}}
+5138:{{hidden}}  {{http://brandonsanderson.com/the-vault/tammy-wu/}}
+5139:{{hidden}}  {{http://brandonsanderson.com/the-vault/becca-h/}}
+5142:{{hidden}}  {{http://brandonsanderson.com/the-vault/worthy-goober/}}
+5144:{{hidden}}  {{http://brandonsanderson.com/the-vault/chaosmodifier/}}
+5145:{{hidden}}  {{http://brandonsanderson.com/the-vault/vandy/}}
+5146:{{hidden}}  {{http://brandonsanderson.com/?page_id=5146}}
+5148:{{hidden}}  {{http://brandonsanderson.com/the-vault/linda/}}
+5149:{{hidden}}  {{http://brandonsanderson.com/the-vault/pete/}}
+5150:{{  Ebooks on sale, Writing Excuses, Goodreads &amp; Updates}}  {{http://brandonsanderson.com/ebooks-on-sale-writing-excuses-goodreads-updates/}}
+5158:{{hidden}}  {{http://brandonsanderson.com/the-vault/the-literary-lord/}}
+5159:{{hidden}}  {{http://brandonsanderson.com/the-vault/doogology/}}
+5161:{{  New York City on Saturday!}}  {{http://brandonsanderson.com/new-york-city-on-saturday/}}
+5164:{{hidden}}  {{http://brandonsanderson.com/the-vault/rachael/}}
+5165:{{hidden}}  {{http://brandonsanderson.com/the-vault/fawkes/}}
+5166:{{hidden}}  {{http://brandonsanderson.com/the-vault/lance-hill/}}
+5167:{{hidden}}  {{http://brandonsanderson.com/the-vault/tim-mac-may/}}
+5170:{{hidden}}  {{http://brandonsanderson.com/the-vault/m-spalding/}}
+5171:{{hidden}}  {{http://brandonsanderson.com/the-vault/gideon/}}
+5172:{{hidden}}  {{http://brandonsanderson.com/the-vault/joseph-scott/}}
+5173:{{hidden}}  {{http://brandonsanderson.com/the-vault/dallan-simper/}}
+5175:{{hidden}}  {{http://brandonsanderson.com/the-vault/ick/}}
+5176:{{  New York Event Video + Updates}}  {{http://brandonsanderson.com/new-york-event-video-updates/}}
+5177:{{  AllomanticTablePendant}}  {{http://brandonsanderson.com/new-york-event-video-updates/allomantictablependant/}}
+5185:{{hidden}}  {{http://brandonsanderson.com/the-vault/tollsforthe/}}
+5186:{{  Signing Tonight in Orem &amp; Playing Magic}}  {{http://brandonsanderson.com/signing-tonight-in-orem-playing-magic/}}
+5188:{{hidden}}  {{http://brandonsanderson.com/the-vault/mitchel/}}
+5189:{{hidden}}  {{http://brandonsanderson.com/the-vault/master-archon/}}
+5190:{{hidden}}  {{http://brandonsanderson.com/the-vault/antonia/}}
+5196:{{hidden}}  {{http://brandonsanderson.com/the-vault/benbucha/}}
+5197:{{hidden}}  {{http://brandonsanderson.com/the-vault/chidlen/}}
+5198:{{  2013 Holiday Sales}}  {{http://brandonsanderson.com/2013-holiday-sales/}}
+5201:{{  allmagnets}}  {{http://brandonsanderson.com/2013-holiday-sales/allmagnets/}}
+5214:{{hidden}}  {{http://brandonsanderson.com/the-vault/blair/}}
+5215:{{hidden}}  {{http://brandonsanderson.com/the-vault/ryan-lim/}}
+5216:{{hidden}}  {{http://brandonsanderson.com/the-vault/shac/}}
+5220:{{  Mitosis}}  {{http://brandonsanderson.com/books/steelheart/mitosis/}}
+5221:{{  Mitosis-thumb}}  {{http://brandonsanderson.com/books/steelheart/mitosis/mitosis-thumb/}}
+5224:{{  Mitosis-thumb}}  {{http://brandonsanderson.com/books/steelheart/mitosis-thumb-2/}}
+5236:{{  Dangerous-Women-UK-thumb}}  {{http://brandonsanderson.com/shadows-for-silence-in-the-forests-of-hell/dangerous-women-uk-thumb/}}
+5241:{{  Two shorts released!}}  {{http://brandonsanderson.com/two-shorts-released/}}
+5250:{{  Words-of-Radiance-UK-thumb}}  {{http://brandonsanderson.com/books/the-stormlight-archive/words-of-radiance/words-of-radiance-uk-thumb/}}
+5256:{{  Signing at Hill AFB (Today!), Idaho Falls, Pocatello}}  {{http://brandonsanderson.com/signing-at-hill-afb-today-idaho-falls-pocatello/}}
+5266:{{hidden}}  {{http://brandonsanderson.com/the-vault/vizeo/}}
+5267:{{hidden}}  {{http://brandonsanderson.com/the-vault/kyle-russell/}}
+5270:{{hidden}}  {{http://brandonsanderson.com/the-vault/lauren-braden/}}
+5271:{{hidden}}  {{http://brandonsanderson.com/the-vault/chris/}}
+5280:{{  Words of Radiance is done! + Signing in Orem Saturday}}  {{http://brandonsanderson.com/words-of-radiance-is-done/}}
+5284:{{hidden}}  {{http://brandonsanderson.com/the-vault/jerrykeene/}}
+5285:{{hidden}}  {{http://brandonsanderson.com/the-vault/zaowchen/}}
+5286:{{  Worldbuilders}}  {{http://brandonsanderson.com/worldbuilders/}}
+5291:{{hidden}}  {{http://brandonsanderson.com/the-vault/allen/}}
+5292:{{hidden}}  {{http://brandonsanderson.com/the-vault/dynamo/}}
+5294:{{hidden}}  {{http://brandonsanderson.com/the-vault/micaela/}}
+5301:{{  Application deadline for my BYU creative writing class is Monday}}  {{http://brandonsanderson.com/application-deadline-for-my-byu-creative-writing-class-is-monday/}}
+5303:{{hidden}}  {{http://brandonsanderson.com/the-vault/iakob/}}
+5304:{{hidden}}  {{http://brandonsanderson.com/the-vault/brooke/}}
+5305:{{hidden}}  {{http://brandonsanderson.com/the-vault/gregory-basco/}}
+5306:{{hidden}}  {{http://brandonsanderson.com/the-vault/posaune/}}
+5308:{{  Last-Minute Holiday Items}}  {{http://brandonsanderson.com/last-minute-holiday-items/}}
+5314:{{hidden}}  {{http://brandonsanderson.com/the-vault/tyce/}}
+5319:{{  STEELHEART at $1.99 today in the US}}  {{http://brandonsanderson.com/steelheart-at-1-99-today-in-the-us/}}
+5322:{{hidden}}  {{http://brandonsanderson.com/the-vault/dapper-will/}}
+5325:{{  Words of Radiance preview chapters &amp; Shallan art}}  {{http://brandonsanderson.com/words-of-radiance-preview-chapters-shallan-art/}}
+5328:{{hidden}}  {{http://brandonsanderson.com/the-vault/a-d-r-firstselector/}}
+5330:{{  My Class Starts Today}}  {{http://brandonsanderson.com/my-class-starts-today/}}
+5332:{{hidden}}  {{http://brandonsanderson.com/the-vault/cuenina/}}
+5334:{{  Signing on Saturday at the Sandy Costco!}}  {{http://brandonsanderson.com/signing-on-saturday-at-the-sandy-costco/}}
+5337:{{hidden}}  {{http://brandonsanderson.com/the-vault/mat/}}
+5338:{{hidden}}  {{http://brandonsanderson.com/the-vault/zaci-chan/}}
+5339:{{hidden}}  {{http://brandonsanderson.com/the-vault/crimzonwarlock/}}
+5340:{{hidden}}  {{http://brandonsanderson.com/the-vault/brian-wong/}}
+5341:{{hidden}}  {{http://brandonsanderson.com/the-vault/nick-roberts/}}
+5345:{{  Friday’s the day!}}  {{http://brandonsanderson.com/fridays-the-day/}}
+5347:{{hidden}}  {{http://brandonsanderson.com/the-vault/a-legrand-d/}}
+5349:{{  Tweets November 2013}}  {{http://brandonsanderson.com/tweets-november-2013/}}
+5359:{{  Feruchemical Table Wallpapers}}  {{http://brandonsanderson.com/feruchemical-table-wallpapers/}}
+5371:{{hidden}}  {{http://brandonsanderson.com/the-vault/daniel/}}
+5373:{{  Tweets December 2013}}  {{http://brandonsanderson.com/tweets-december-2013/}}
+5380:{{  Preview Chapters, Writing Video, Writing Excuses &amp; Updates}}  {{http://brandonsanderson.com/preview-chapters-writing-video-writing-excuses-updates/}}
+5386:{{hidden}}  {{http://brandonsanderson.com/the-vault/moredew/}}
+5389:{{  Regarding Awards}}  {{http://brandonsanderson.com/regarding-awards/}}
+5394:{{hidden}}  {{http://brandonsanderson.com/the-vault/owen/}}
+5399:{{  Murder by the Book}}  {{http://brandonsanderson.com/events/murder-by-the-book/}}
+5401:{{  Words of Radiance Midnight Release, BYU Bookstore}}  {{http://brandonsanderson.com/events/words-of-radiance-midnight-release-at-the-byu-bookstore/}}
+5402:{{  Mysterious Galaxy}}  {{http://brandonsanderson.com/events/mysterious-galaxy/}}
+5403:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble/}}
+5404:{{  Copperfield’s Books}}  {{http://brandonsanderson.com/events/copperfields-books/}}
+5405:{{  Minicon 50}}  {{http://brandonsanderson.com/events/minicon-50/}}
+5406:{{  Borderlands Books}}  {{http://brandonsanderson.com/events/borderlands-books/}}
+5408:{{  Powell’s Cedar Hills Crossing}}  {{http://brandonsanderson.com/events/powells-cedar-hills-crossing/}}
+5409:{{  University Books}}  {{http://brandonsanderson.com/events/university-books/}}
+5410:{{  Literacy Promise (educator conference)}}  {{http://brandonsanderson.com/events/literacy-promise-educator-conference/}}
+5411:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-omaha/}}
+5412:{{  The Poisoned Pen}}  {{http://brandonsanderson.com/events/the-poisoned-pen/}}
+5413:{{  Tucson Festival of Books}}  {{http://brandonsanderson.com/events/tucson-festival-of-books/}}
+5414:{{  THE WAY OF KINGS at £1.99 in the UK, sale ends today}}  {{http://brandonsanderson.com/the-way-of-kings-at-1-99-in-the-uk-sale-ends-today/}}
+5419:{{  Joseph-Beth Booksellers}}  {{http://brandonsanderson.com/events/joseph-beth-booksellers/}}
+5420:{{  Books &amp; Co.}}  {{http://brandonsanderson.com/events/books-co/}}
+5421:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-2/}}
+5422:{{  Towne Book Center &amp; Café}}  {{http://brandonsanderson.com/events/towne-book-center-cafe/}}
+5423:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-3/}}
+5424:{{  Boswell Book Company}}  {{http://brandonsanderson.com/events/boswell-book-company/}}
+5426:{{  Tweets January 2014}}  {{http://brandonsanderson.com/tweets-january-2014/}}
+5431:{{  WORDS OF RADIANCE Release Events}}  {{http://brandonsanderson.com/words-of-radiance-release-events/}}
+5446:{{hidden}}  {{http://brandonsanderson.com/the-vault/avoj/}}
+5448:{{hidden}}  {{http://brandonsanderson.com/the-vault/tocath/}}
+5449:{{hidden}}  {{http://brandonsanderson.com/the-vault/meg/}}
+5455:{{hidden}}  {{http://brandonsanderson.com/events/life-the-universe-everything/}}
+5456:{{  I&#8217;m the toastmaster at LTUE this weekend}}  {{http://brandonsanderson.com/im-the-toastmaster-at-ltue-this-weekend/}}
+5459:{{  Writing Advice}}  {{http://brandonsanderson.com/writing-advice/}}
+5461:{{hidden}}  {{http://brandonsanderson.com/the-vault/tim-mcnaron/}}
+5462:{{  Tweets February 2014}}  {{http://brandonsanderson.com/tweets-february-2014/}}
+5464:{{  body_bg.jpg}}  {{http://brandonsanderson.com/?attachment_id=5464}}
+5465:{{  Salt Lake City Comic Con FanXPerience}}  {{http://brandonsanderson.com/events/salt-lake-city-comic-con-fanxperience/}}
+5466:{{  LDStorymakers}}  {{http://brandonsanderson.com/events/ldstorymakers/}}
+5469:{{  Words of Radiance Sample Chapters}}  {{http://brandonsanderson.com/words-of-radiance-sample-chapters/}}
+5485:{{  Mistborn Deleted Scene #3}}  {{http://brandonsanderson.com/mistborn-deleted-scene-3/}}
+5493:{{  Final Empire Prime Vin Scene}}  {{http://brandonsanderson.com/final-empire-prime-vin-scene/}}
+5499:{{  Mistborn Deleted Scene #7}}  {{http://brandonsanderson.com/mistborn-deleted-scene-7/}}
+5506:{{  Writing Class Videos &amp; Updates}}  {{http://brandonsanderson.com/writing-class-videos-updates/}}
+5512:{{  Mistborn Film Rights}}  {{http://brandonsanderson.com/mistborn-film-rights/}}
+5514:{{  New Stormlight merch and A Memory of Light hardcovers in the store}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/}}
+5517:{{  amemoryoflight}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/amemoryoflight/}}
+5518:{{  stormlight_decal}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/stormlight_decal/}}
+5519:{{  patch}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/patch/}}
+5520:{{  beanie}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/beanie/}}
+5521:{{  shirt_stormlight}}  {{http://brandonsanderson.com/new-stormlight-merch-and-a-memory-of-light-hardcovers-in-the-store/shirt_stormlight/}}
+5528:{{  One week left! Spoiler-free reviews of WORDS OF RADIANCE}}  {{http://brandonsanderson.com/one-week-left-spoiler-free-reviews-of-words-of-radiance/}}
+5534:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=5534}}
+5535:{{  UPDATE: Gaming for a Cause this Friday night in SLC}}  {{http://brandonsanderson.com/gaming-for-a-cause-this-friday-night-in-slc/}}
+5536:{{  Gaming for a Cause}}  {{http://brandonsanderson.com/gaming-for-a-cause-this-friday-night-in-slc/gaming-for-a-cause/}}
+
+5546:{{  Shardhunt WoR}}  {{http://brandonsanderson.com/shardhunt-wor/}}
+5554:{{  shardhunt banner}}  {{http://brandonsanderson.com/shardhunt-wor/shardhunt-banner/}}
+5558:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5558}}
+5559:{{  Shardhunt WoR}}  {{http://brandonsanderson.com/shardhunt-wor-message/ :-> http://brandonsanderson.com/shardhunt-wor :-> http://brandonsanderson.com/shardhunt-wor/}}
+5561:{{hidden}}  {{http://brandonsanderson.com/the-vault/testing/}}
+5562:{{  List of Shardhunters WoR}}  {{http://brandonsanderson.com/shardhunters-wor/}}
+5565:{{  Shardhunt WoR Code}}  {{http://brandonsanderson.com/shardhunt-wor-code/}}
+5569:{{  With Thanks to Tage for the Idea&#8230;.}}  {{http://brandonsanderson.com/the-vault/wit/ :-> http://brandonsanderson.com/with-thanks-to-tage-for-the-idea/}}
+5573:{{hidden}}  {{http://brandonsanderson.com/the-vault/karasmatically/}}
