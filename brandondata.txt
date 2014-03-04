@@ -2526,3 +2526,7 @@
 5569:{{  With Thanks to Tage for the Idea&#8230;.}}  {{http://brandonsanderson.com/the-vault/wit/ :-> http://brandonsanderson.com/with-thanks-to-tage-for-the-idea/}}
 5573:{{hidden}}  {{http://brandonsanderson.com/the-vault/karasmatically/}}
 5584:{{  WORDS OF RADIANCE release party tonight + Updates}}  {{http://brandonsanderson.com/words-of-radiance-release-party-tonight-updates/}}
+5599:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5599}}
+5600:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5600}}
+5601:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5601}}
+5602:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5602}}

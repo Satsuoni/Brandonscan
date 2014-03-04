@@ -5,7 +5,7 @@ from math import log10
 f=open("code.txt","r")
 strng=f.read()
 f.close()
-strng=strng[:32]
+#strng=strng[:32]
 fl=open("twok.txt","r")
 twok=fl.read()
 fl.close()
@@ -253,9 +253,17 @@ while True:
  itern=itern+1
  if itern<siter: continue
  print str(len(curclens)) +" ",
- if  len(curclens)>21:#sum(curclens)>len(strng)/1.5 or
+ if  len(curclens)>26:#sum(curclens)>len(strng)/1.5 or
   print "done"
   sys.exit()
+ fixed=['10']
+ strnglist=[]
+ for fx in fixed:
+   ct1=[]
+   for sub in strnglist:
+     ct1=ct1+sub.split(fx)
+   strnglist=ct1
+ prefixlist=[]+fixed
  pref=True
  for i in range(0,len(strng)):
   cs=strng[i]
