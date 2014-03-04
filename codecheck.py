@@ -1,9 +1,344 @@
+import time
+import sys
+import re, string, random, glob, operator, heapq
+from math import log10
 f=open("code.txt","r")
-str=f.read()
+strng=f.read()
 f.close()
+
+fl=open("twok.txt","r")
+twok=fl.read()
+fl.close()
+pat=re.compile(r"\b([a-z]+)\b",re.I)
+twokwords=pat.findall(twok)
+print len(twokwords)
+twokdict={}
+twodict2gram={}
+twodict3gram={}
+for word in twokwords:
+ wl=word.lower()
+ for a in range(len(wl)-1):
+   td=wl[a]+wl[a+1]
+   if td in twodict2gram:
+     twodict2gram[td]+=1
+   else:
+      twodict2gram[td]=1
+ for a in range(len(wl)-2):
+    td=wl[a]+wl[a+1]+wl[a+2]
+    if td in twodict3gram:
+     twodict3gram[td]+=1
+    else:
+     twodict3gram[td]=1
+ if wl in twokdict:
+    twokdict[wl]+=1
+ else:
+  twokdict[wl]=1
+
+fl=open("twokwords.txt","w")
+s = sorted(twokdict.items(), key=lambda(k,v):(v,k),reverse=True)
+for sk in s:
+   fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+fl.close()
+
+
+fl=open("twok_2l.txt","w")
+s = sorted(twodict2gram.items(), key=lambda(k,v):(v,k),reverse=True)
+for sk in s:
+    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+fl.close()
+
+
+fl=open("twok_3l.txt","w")
+s = sorted(twodict3gram.items(), key=lambda(k,v):(v,k),reverse=True)
+for sk in s:
+    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+fl.close()
+#sys.exit()
+
+maxcodelen=2
+
+curclens=[]
+
+dcts=[]
+def segment(text):
+    "Return a list of words that is the best segmentation of text."
+    if not text: return []
+    candidates = ([first]+segment(rem) for first,rem in splits(text))
+    return max(candidates, key=Pwords)
+
+def splits(text, L=20):
+    "Return a list of all possible (first, rem) pairs, len(first)<=L."
+    return [(text[:i+1], text[i+1:])
+            for i in range(min(len(text), L))]
+
+def Pwords(words):
+    "The Naive Bayes probability of a sequence of words."
+    return product(Pw(w) for w in words)
+
+
+def product(nums):
+    "Return the product of a sequence of numbers."
+    return reduce(operator.mul, nums, 1)
+
+class Pdist(dict):
+    "A probability distribution estimated from counts in datafile."
+    def __init__(self, data=[], N=None, missingfn=None):
+        for key,count in data:
+            self[key] = self.get(key, 0) + int(count)
+        self.N = float(N or sum(self.itervalues()))
+        self.missingfn = missingfn or (lambda k, N: 1./N)
+    def __call__(self, key):
+        if key in self: return self[key]/self.N
+        else: return self.missingfn(key, self.N)
+
+def datafile(name, sep='\t'):
+    "Read key,value pairs from file."
+    for line in file(name):
+        yield line.split(sep)
+
+def avoid_long_words(key, N):
+    "Estimate the probability of an unknown word."
+    return 10./(N * 10**len(key))
+
+def encode(msg, key):
+    "Encode a message with a substitution cipher."
+    return msg.translate(string.maketrans(ul(alphabet), ul(key)))
+
+def ul(text): return text.upper() + text.lower()
+
+
+Pw  = Pdist(datafile('twokwords.txt'), None, avoid_long_words)
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+def shift(msg, n=13):
+    "Encode a message with a shift (Caesar) cipher."
+    return encode(msg, alphabet[n:]+alphabet[:n])
+
+def logPwords(words):
+    "The Naive Bayes probability of a string or sequence of words."
+    if isinstance(words, str): words = allwords(words)
+    return sum(log10(Pw(w)) for w in words)
+
+def allwords(text):
+    "Return a list of alphabetic words in text, lowercase."
+    return re.findall('[a-z]+', text.lower())
+
+def decode_shift(msg):
+    "Find the best decoding of a message encoded with a shift cipher."
+    candidates = [shift(msg, n) for n in range(len(alphabet))]
+    return max(candidates, key=logPwords)
+
+def shift2(msg, n=13):
+    "Encode with a shift (Caesar) cipher, yielding only letters [a-z]."
+    return shift(just_letters(msg), n)
+
+def just_letters(text):
+    "Lowercase text and remove all characters except [a-z]."
+    return re.sub('[^a-z]', '', text.lower())
+
+def logP3letters(text):
+    "The log-probability of text using a letter 3-gram model."
+    return sum(log10(P3l(g)) for g in ngrams(text, 3))
+
+def ngrams(seq, n):
+    "List all the (overlapping) ngrams in a sequence."
+    return [seq[i:i+n] for i in range(1+len(seq)-n)]
+
+P3l = Pdist(datafile('twok_3l.txt'))
+P2l = Pdist(datafile('twok_2l.txt')) ## We'll need it later
+
+def hillclimb(x, f, neighbors, steps=10000):
+    "Search for an x that miximizes f(x), considering neighbors(x)."
+    fx = f(x)
+    neighborhood = iter(neighbors(x))
+    for i in range(steps):
+        x2 = neighborhood.next()
+        fx2 = f(x2)
+        if fx2 > fx:
+            x, fx = x2, fx2
+            neighborhood = iter(neighbors(x))
+    if debugging: print 'hillclimb:', x, int(fx)
+    return (x,fx)
+
+debugging = False
+def scoretwok(txt):
+ score=0
+ for str in twokdict:
+  if str in txt:
+    score+=len(str)
+ return (float(score)/float(len(txt)),txt)
+
+def decode_subst(msg, steps=1000, restarts=20):
+    "Decode a substitution cipher with random restart hillclimbing."
+    #msg = cat(allwords(msg))
+    candidates = [hillclimb(encode(msg, key=cat(shuffled(alphabet))),
+                            logP3letters, neighboring_msgs, steps)
+                  for _ in range(restarts)]
+    #print scoretwok(candidates[0][0])
+    p, words = max(scoretwok(c[0]) for c in candidates)
+    #print words
+    #print p
+    return (words,p)
+
+def shuffled(seq):
+    "Return a randomly shuffled copy of the input sequence."
+    seq = list(seq)
+    random.shuffle(seq)
+    return seq
+
+cat = ''.join
+
+def neighboring_msgs(msg):
+    "Generate nearby keys, hopefully better ones."
+    def swap(a,b): return msg.translate(string.maketrans(a+b, b+a))
+    for bigram in heapq.nsmallest(20, set(ngrams(msg, 2)), P2l):
+        b1,b2 = bigram
+        for c in alphabet:
+            if b1==b2:
+                if P2l(c+c) > P2l(bigram): yield swap(c,b1)
+            else:
+                if P2l(c+b2) > P2l(bigram): yield swap(c,b1)
+                if P2l(b1+c) > P2l(bigram): yield swap(c,b2)
+    while True:
+        yield swap(random.choice(alphabet), random.choice(alphabet))
+
+
+def flattendct(dct):
+  try:
+   ret={}
+   for st in dct.keys():
+     flat=flattendct(dct[st])
+     try:
+       for fst in flat.keys():
+         nk=str(st)+str(fst)
+         ret[st+str(fst)]=flat[fst]
+     except Exception as ee:
+       #print ee
+       ret[st]=flat
+   return ret
+  except: #that is no dct
+    return dct
+
+englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N': 6.75, 'S': 6.33, 'H': 6.09, 'R': 5.99, 'D': 4.25, 'L': 4.03, 'C': 2.78, 'U': 2.76, 'M': 2.41, 'W': 2.36, 'F': 2.23, 'G': 2.02, 'Y': 1.97, 'P': 1.93, 'B': 1.29, 'V': 0.98, 'K': 0.77, 'J': 0.15, 'X': 0.15, 'Q': 0.10, 'Z': 0.07}
+ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
+LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+mxscore=0
+while True:
+ curcode=0
+ curmaindct={}
+ cdct=curmaindct
+ dlen=0
+ clen=0
+ if len(curclens)==0:
+  curclens.append(1)
+ else:
+  still=True
+  for ca in range(0, len(curclens)):
+   curclens[ca]=curclens[ca]+1
+   if(curclens[ca]<=maxcodelen):
+     still=False
+     break
+   else:
+    curclens[ca]=1
+  if still: curclens.append(1)
+ if curclens[0]==1: continue
+ #print str(sum(curclens))+" ",
+ if sum(curclens)>len(strng)/1.5:
+  print "done"
+  sys.exit()
+ pref=True
+ for i in range(0,len(strng)):
+  cs=strng[i]
+  if cs in cdct: #go deeper
+    odct=cdct
+    cdct=cdct[cs]
+    try: #is it dictionary?
+     cdct.keys()
+     dlen=dlen+1
+    except: #nope, reached the codeword node. increment it and change scanning
+     odct[cs]=odct[cs]+1
+     cdct=curmaindct
+     dlen=0
+  else:#new codeword start?
+   try:
+    clen=curclens[curcode]
+    if clen>dlen+1: #still a few to go
+      dlen=dlen+1
+      cdct[cs]={}
+      cdct=cdct[cs]
+    elif clen==dlen+1:#the end
+      dlen=0
+      cdct[cs]=1
+      cdct=curmaindct
+      curcode=curcode+1
+    else:
+     #print "couldn't build proper prefix"
+     #print curclens
+     pref=False
+     break
+
+   except: #out of range, shortest
+    cdct[cs]=1
+    curcode=curcode+1
+    #curclens.append(clen)
+ if pref:
+   fl=flattendct(curmaindct)
+   
+   #srt=sorted(fl, key=fl.get)
+   vl=fl.values()
+   #print
+   #print fl[srt[0]]
+   nsum=sum(vl)
+   nl=heapq.nlargest(3,vl)
+   mn=float(min(nl))/float(nsum)
+   sm1=0
+   for v in vl:
+    if v==1:
+     sm1+=1
+   
+   if len(fl)<=26 and len(fl)>10 and mn>0.09 and sm1<7:
+       nd={}
+       cl=0
+       for ky in fl:
+        nd[ky]=alphabet[cl]
+        cl=cl+1
+       cstr=''
+       crez=''
+       for az in range(0, len(strng)):
+         cstr+=strng[az]
+         if cstr in nd:
+           crez=crez+nd[cstr]
+           cstr=''
+       if len(crez)*1.5<len(strng):
+        rs=decode_subst(crez)
+        
+       #rs=getCipher(crez)
+       #if rs[0]>9:
+        if rs[1]>2:
+         if rs[1]>mxscore:
+          mxscore=rs[1]
+          print "new max score"
+          print mxscore
+          print rs[0]
+         print rs
+         #print rs[1]/len(rs[0])
+         fileo=open("rnd.txt","a")
+         fileo.write(str(fl)+"\n")
+         fileo.write(str(rs)+"\n\n")
+         fileo.close()
+       #  print rs[1]
+       #  print
+
+   #sys.exit()
+
+
+
 kd={}
-for a in range(0,len(str)):
- st=str[a:a+1]
+print len(strng)
+for a in range(0,len(str)/7):
+ st=str[a*7:a*7+7]
  if st in kd:
    kd[st]=kd[st]+1
  else:
