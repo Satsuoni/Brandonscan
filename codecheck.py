@@ -5,7 +5,7 @@ from math import log10
 f=open("code.txt","r")
 strng=f.read()
 f.close()
-
+strng=strng[:32]
 fl=open("twok.txt","r")
 twok=fl.read()
 fl.close()
@@ -55,11 +55,7 @@ for sk in s:
 fl.close()
 #sys.exit()
 
-maxcodelen=2
 
-curclens=[]
-
-dcts=[]
 def segment(text):
     "Return a list of words that is the best segmentation of text."
     if not text: return []
@@ -224,9 +220,18 @@ englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N'
 ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
+maxcodelen=3
+
+curclens=[]
+
+dcts=[]
+
 mxscore=0
+itern=0
+siter=0#245338
 while True:
  curcode=0
+ 
  curmaindct={}
  cdct=curmaindct
  dlen=0
@@ -245,7 +250,10 @@ while True:
   if still: curclens.append(1)
  if curclens[0]==1: continue
  #print str(sum(curclens))+" ",
- if sum(curclens)>len(strng)/1.5:
+ itern=itern+1
+ if itern<siter: continue
+ print str(len(curclens)) +" ",
+ if  len(curclens)>21:#sum(curclens)>len(strng)/1.5 or
   print "done"
   sys.exit()
  pref=True
@@ -322,9 +330,10 @@ while True:
           print "new max score"
           print mxscore
           print rs[0]
+         print itern
          print rs
          #print rs[1]/len(rs[0])
-         fileo=open("rnd.txt","a")
+         fileo=open("rnd_cut.txt","a")
          fileo.write(str(fl)+"\n")
          fileo.write(str(rs)+"\n\n")
          fileo.close()
