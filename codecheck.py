@@ -5,7 +5,7 @@ from math import log10
 f=open("code.txt","r")
 strng=f.read()
 f.close()
-#strng=strng[:32]
+strng=strng[:100]
 fl=open("twok.txt","r")
 twok=fl.read()
 fl.close()
@@ -220,10 +220,11 @@ englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N'
 ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-maxcodelen=3
+maxcodelen=4
 
 curclens=[]
-
+for a in range(26):
+ curclens.append(1)
 dcts=[]
 
 mxscore=0
@@ -236,103 +237,109 @@ while True:
  cdct=curmaindct
  dlen=0
  clen=0
- if len(curclens)==0:
-  curclens.append(1)
- else:
-  still=True
-  for ca in range(0, len(curclens)):
+ still=True
+ for ca in range(0, len(curclens)):
    curclens[ca]=curclens[ca]+1
    if(curclens[ca]<=maxcodelen):
      still=False
      break
    else:
     curclens[ca]=1
-  if still: curclens.append(1)
+ if still:
+     print "done"
+     sys.exit()
+
+ itern=itern+1
  if curclens[0]==1: continue
  #print str(sum(curclens))+" ",
- itern=itern+1
  if itern<siter: continue
- print str(len(curclens)) +" ",
+ #print str(len(curclens)) +" ",
  if  len(curclens)>26:#sum(curclens)>len(strng)/1.5 or
   print "done"
   sys.exit()
  fixed=['10']
- strnglist=[]
+ strnglist=[strng]
  for fx in fixed:
    ct1=[]
    for sub in strnglist:
      ct1=ct1+sub.split(fx)
-   strnglist=ct1
+   strnglist=[c for c in ct1 if c!='']
  prefixlist=[]+fixed
  pref=True
- for i in range(0,len(strng)):
-  cs=strng[i]
-  if cs in cdct: #go deeper
-    odct=cdct
-    cdct=cdct[cs]
-    try: #is it dictionary?
-     cdct.keys()
-     dlen=dlen+1
-    except: #nope, reached the codeword node. increment it and change scanning
-     odct[cs]=odct[cs]+1
-     cdct=curmaindct
-     dlen=0
-  else:#new codeword start?
-   try:
-    clen=curclens[curcode]
-    if clen>dlen+1: #still a few to go
-      dlen=dlen+1
-      cdct[cs]={}
-      cdct=cdct[cs]
-    elif clen==dlen+1:#the end
-      dlen=0
-      cdct[cs]=1
-      cdct=curmaindct
+ curcode=0
+ sys.stdout.write("\r%s" % str(curclens))
+ sys.stdout.flush()
+ #print strnglist
+ #print curclens
+ #print
+ for stw in strnglist:
+  accum=''
+  #print stw,
+  for i in range(len(stw)):
+   accum+=stw[i]
+   if accum in prefixlist:#found prefix
+    accum=''
+    continue
+   if(len(accum)==curclens[curcode]):#check if it happens to be prefix first!
+     nopref=True
+     for ap in prefixlist:
+       if len(ap)>=len(accum) and ap[:len(accum)]==accum:
+         nopref=False
+         break
+     if nopref:
+      prefixlist.append(accum)
+      accum=''
       curcode=curcode+1
-    else:
-     #print "couldn't build proper prefix"
-     #print curclens
+     else:
+      pref=False
+      break
+     if curcode>=len(curclens):
+       pref=False
+       break
+  if accum!='':
      pref=False
-     break
-
-   except: #out of range, shortest
-    cdct[cs]=1
-    curcode=curcode+1
-    #curclens.append(clen)
+  if pref==False:
+    break
  if pref:
-   fl=flattendct(curmaindct)
+   #print strnglist
+   #print prefixlist
+   #sys.exit()
+   #fl=flattendct(curmaindct)
    
    #srt=sorted(fl, key=fl.get)
-   vl=fl.values()
+   #vl=fl.values()
    #print
    #print fl[srt[0]]
-   nsum=sum(vl)
-   nl=heapq.nlargest(3,vl)
-   mn=float(min(nl))/float(nsum)
+   #nsum=sum(vl)
+   #nl=heapq.nlargest(3,vl)
+   #mn=float(min(nl))/float(nsum)
    sm1=0
-   for v in vl:
-    if v==1:
-     sm1+=1
+   #for v in vl:
+   # if v==1:
+   #  sm1+=1
    
-   if len(fl)<=26 and len(fl)>10 and mn>0.09 and sm1<7:
-       nd={}
-       cl=0
-       for ky in fl:
+   #if len(fl)<=26 and len(fl)>10 and mn>0.09 and sm1<7:
+   nd={}
+   cl=0
+   for ky in prefixlist:
         nd[ky]=alphabet[cl]
         cl=cl+1
-       cstr=''
-       crez=''
-       for az in range(0, len(strng)):
+   cstr=''
+   crez=''
+   print strng
+   for az in range(0, len(strng)):
          cstr+=strng[az]
+         #print cstr
          if cstr in nd:
            crez=crez+nd[cstr]
            cstr=''
-       if len(crez)*1.5<len(strng):
-        rs=decode_subst(crez)
+   #print crez
+       #if len(crez)*1.5<len(strng):
+   rs=decode_subst(crez)
         
        #rs=getCipher(crez)
        #if rs[0]>9:
-        if rs[1]>2:
+   if rs[1]>1.5:
          if rs[1]>mxscore:
           mxscore=rs[1]
           print "new max score"
@@ -342,7 +349,7 @@ while True:
          print rs
          #print rs[1]/len(rs[0])
          fileo=open("rnd_cut.txt","a")
-         fileo.write(str(fl)+"\n")
+         fileo.write(str(prefixlist)+"\n")
          fileo.write(str(rs)+"\n\n")
          fileo.close()
        #  print rs[1]
