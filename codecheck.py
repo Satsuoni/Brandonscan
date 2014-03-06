@@ -2,57 +2,66 @@ import time
 import sys
 import re, string, random, glob, operator, heapq
 from math import log10
+import copy
 f=open("code.txt","r")
 strng=f.read()
 f.close()
-strng=strng[:100]
-fl=open("twok.txt","r")
-twok=fl.read()
-fl.close()
-pat=re.compile(r"\b([a-z]+)\b",re.I)
-twokwords=pat.findall(twok)
-print len(twokwords)
-twokdict={}
-twodict2gram={}
-twodict3gram={}
-for word in twokwords:
- wl=word.lower()
- for a in range(len(wl)-1):
-   td=wl[a]+wl[a+1]
-   if td in twodict2gram:
-     twodict2gram[td]+=1
-   else:
-      twodict2gram[td]=1
- for a in range(len(wl)-2):
-    td=wl[a]+wl[a+1]+wl[a+2]
-    if td in twodict3gram:
-     twodict3gram[td]+=1
-    else:
-     twodict3gram[td]=1
- if wl in twokdict:
-    twokdict[wl]+=1
- else:
-  twokdict[wl]=1
+#strng=strng[:30]
+#fl=open("twor.txt","r")
+#twok=fl.read()
+#fl.close()
 
-fl=open("twokwords.txt","w")
-s = sorted(twokdict.items(), key=lambda(k,v):(v,k),reverse=True)
-for sk in s:
-   fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-fl.close()
+#pat=re.compile(r"\b([a-z]+)\b",re.I)
+#twokwords=pat.findall(twok)
+#lst=[]
+#for wrd in twokwords:
+# if len(wrd)==1 and wrd!="a":
+#  pass
+# else:
+#  lst.append(wrd)
+#twokwords=lst
+#print len(twokwords)
+#twokdict={}
+#twodict2gram={}
+#twodict3gram={}
+#for word in twokwords:
+# wl=word.lower()
+# for a in range(len(wl)-1):
+#   td=wl[a]+wl[a+1]
+#   if td in twodict2gram:
+#     twodict2gram[td]+=1
+#   else:
+#      twodict2gram[td]=1
+# for a in range(len(wl)-2):
+#    td=wl[a]+wl[a+1]+wl[a+2]
+#    if td in twodict3gram:
+#     twodict3gram[td]+=1
+#    else:
+#     twodict3gram[td]=1
+# if wl in twokdict:
+#    twokdict[wl]+=1
+# else:
+#  twokdict[wl]=1
+
+#fl=open("twokwords.txt","w")
+#s = sorted(twokdict.items(), key=lambda(k,v):(v,k),reverse=True)
+#for sk in s:
+#   fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+#fl.close()
 
 
-fl=open("twok_2l.txt","w")
-s = sorted(twodict2gram.items(), key=lambda(k,v):(v,k),reverse=True)
-for sk in s:
-    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-fl.close()
+#fl=open("twok_2l.txt","w")
+#s = sorted(twodict2gram.items(), key=lambda(k,v):(v,k),reverse=True)
+#for sk in s:
+#    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+#fl.close()
 
 
-fl=open("twok_3l.txt","w")
-s = sorted(twodict3gram.items(), key=lambda(k,v):(v,k),reverse=True)
-for sk in s:
-    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-fl.close()
+#fl=open("twok_3l.txt","w")
+#s = sorted(twodict3gram.items(), key=lambda(k,v):(v,k),reverse=True)
+#for sk in s:
+#    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+#fl.close()
 #sys.exit()
 
 
@@ -62,10 +71,23 @@ def segment(text):
     candidates = ([first]+segment(rem) for first,rem in splits(text))
     return max(candidates, key=Pwords)
 
-def splits(text, L=20):
+def splits(text, L=10):
     "Return a list of all possible (first, rem) pairs, len(first)<=L."
     return [(text[:i+1], text[i+1:])
             for i in range(min(len(text), L))]
+
+def ssegment(text,L=10):
+   if not text: return (0,[])
+   ret=[]
+   rcnt=0
+   for first,rem in splits(text,L):
+     if first in twokdict:
+       segm=ssegment(rem,L)
+       score=len(first)+segm[0]
+       if score>rcnt:
+         ret=[first]+segm[1]
+         rcnt=score
+   return (rcnt,ret)
 
 def Pwords(words):
     "The Naive Bayes probability of a sequence of words."
@@ -102,10 +124,14 @@ def encode(msg, key):
 
 def ul(text): return text.upper() + text.lower()
 
+twokdict=[]
+for wrd, cnt in datafile("twokwords.txt"):
+    twokdict.append(wrd)
 
 Pw  = Pdist(datafile('twokwords.txt'), None, avoid_long_words)
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+#print ssegment('apearlytreeamedalrearconnvelinknmonesumsmsonrrkneerizethearonrfabidgiawnearstrexton')
 
 def shift(msg, n=13):
     "Encode a message with a shift (Caesar) cipher."
@@ -137,6 +163,10 @@ def logP3letters(text):
     "The log-probability of text using a letter 3-gram model."
     return sum(log10(P3l(g)) for g in ngrams(text, 3))
 
+def logP2letters(text):
+    "The log-probability of text using a letter 3-gram model."
+    return sum(log10(P2l(g)) for g in ngrams(text, 2))
+
 def ngrams(seq, n):
     "List all the (overlapping) ngrams in a sequence."
     return [seq[i:i+n] for i in range(1+len(seq)-n)]
@@ -158,18 +188,22 @@ def hillclimb(x, f, neighbors, steps=10000):
     return (x,fx)
 
 debugging = False
-def scoretwok(txt):
+
+def scoretwok(txt,delfen=20):
  score=0
- for str in twokdict:
-  if str in txt:
-    score+=len(str)
- return (float(score)/float(len(txt)),txt)
+ txcut=txt[:min(delfen,len(txt))]
+ ssg=ssegment(txcut)
+ return (ssg[0]/len(txcut),txt)
+ #for str in twokdict:
+ # if str in txt:
+ #   score+=len(str)
+ #return (float(score)/float(len(txt)),txt)
 
 def decode_subst(msg, steps=1000, restarts=20):
     "Decode a substitution cipher with random restart hillclimbing."
     #msg = cat(allwords(msg))
     candidates = [hillclimb(encode(msg, key=cat(shuffled(alphabet))),
-                            logP3letters, neighboring_msgs, steps)
+                            logP2letters, neighboring_msgs, steps)
                   for _ in range(restarts)]
     #print scoretwok(candidates[0][0])
     p, words = max(scoretwok(c[0]) for c in candidates)
@@ -220,7 +254,7 @@ englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N'
 ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-maxcodelen=4
+maxcodelen=3
 
 curclens=[]
 for a in range(26):
@@ -229,7 +263,18 @@ dcts=[]
 
 mxscore=0
 itern=0
+curenf=0
 siter=0#245338
+#fixed=['10','12', '13', '11','14','9','7','18','25']
+fixed=[]
+strnglist=[strng]
+for fx in fixed:
+        ct1=[]
+        for sub in strnglist:
+            ct1=ct1+sub.split(fx)
+        strnglist=[c for c in ct1 if c!='']
+print strnglist
+#strnglist=[strng]
 while True:
  curcode=0
  
@@ -242,28 +287,26 @@ while True:
    curclens[ca]=curclens[ca]+1
    if(curclens[ca]<=maxcodelen):
      still=False
+     #print ca
+     #print
      break
    else:
     curclens[ca]=1
+    if ca==curenf:
+       curenf+=1
  if still:
      print "done"
      sys.exit()
 
  itern=itern+1
- if curclens[0]==1: continue
+ #if curclens[0]==1: continue
  #print str(sum(curclens))+" ",
  if itern<siter: continue
  #print str(len(curclens)) +" ",
  if  len(curclens)>26:#sum(curclens)>len(strng)/1.5 or
   print "done"
   sys.exit()
- fixed=['10']
- strnglist=[strng]
- for fx in fixed:
-   ct1=[]
-   for sub in strnglist:
-     ct1=ct1+sub.split(fx)
-   strnglist=[c for c in ct1 if c!='']
+
  prefixlist=[]+fixed
  pref=True
  curcode=0
@@ -280,7 +323,7 @@ while True:
    if accum in prefixlist:#found prefix
     accum=''
     continue
-   if(len(accum)==curclens[curcode]):#check if it happens to be prefix first!
+   if(len(accum)>=curclens[curcode]):#check if it happens to be prefix first!
      nopref=True
      for ap in prefixlist:
        if len(ap)>=len(accum) and ap[:len(accum)]==accum:
@@ -291,15 +334,30 @@ while True:
       accum=''
       curcode=curcode+1
      else:
-      pref=False
-      break
+      if curcode<=curenf:
+       pref=False
+       break
+      else:
+       continue
+      #pref=False
+      #break
      if curcode>=len(curclens):
        pref=False
        break
   if accum!='':
-     pref=False
+     nopref=True
+     for ap in prefixlist:
+       if len(ap)>=len(accum) and ap[:len(accum)]==accum:
+                  nopref=False
+                  break
+     if nopref:
+       prefixlist.append(accum)
+     else:
+      pref=False
   if pref==False:
     break
+ if len(prefixlist)>len(alphabet):
+   pref=False
  if pref:
    #print strnglist
    #print prefixlist
@@ -326,7 +384,9 @@ while True:
         cl=cl+1
    cstr=''
    crez=''
-   print strng
+   #print
+   #print prefixlist
+   #print
    for az in range(0, len(strng)):
          cstr+=strng[az]
          #print cstr
@@ -339,7 +399,7 @@ while True:
         
        #rs=getCipher(crez)
        #if rs[0]>9:
-   if rs[1]>1.5:
+   if rs[1]>0.7:
          if rs[1]>mxscore:
           mxscore=rs[1]
           print "new max score"
@@ -359,14 +419,5 @@ while True:
 
 
 
-kd={}
-print len(strng)
-for a in range(0,len(str)/7):
- st=str[a*7:a*7+7]
- if st in kd:
-   kd[st]=kd[st]+1
- else:
-   kd[st]=1
-print kd
-print len(kd)   
+
  
