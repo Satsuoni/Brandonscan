@@ -1,4 +1,4 @@
-1:{{  About the annotation system Introduction}}  {{http://brandonsanderson.com/about-the-annotation-system-introduction/}}
+﻿1:{{  About the annotation system Introduction}}  {{http://brandonsanderson.com/about-the-annotation-system-introduction/}}
 2:{{  EUOLogy: EUOL Visits Tor}}  {{http://brandonsanderson.com/euology-euol-visits-tor/}}
 3:{{  EUOLogy #2: The Absent-Minded Manifesto}}  {{http://brandonsanderson.com/euology-2-the-absent-minded-manifesto/}}
 4:{{  My Brother is Cool}}  {{http://brandonsanderson.com/my-brother-is-cool/}}
@@ -2516,17 +2516,23 @@
 5528:{{  One week left! Spoiler-free reviews of WORDS OF RADIANCE}}  {{http://brandonsanderson.com/one-week-left-spoiler-free-reviews-of-words-of-radiance/}}
 5534:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=5534}}
 5535:{{  UPDATE: Gaming for a Cause this Friday night in SLC}}  {{http://brandonsanderson.com/gaming-for-a-cause-this-friday-night-in-slc/}}
-5536:{{  Gaming for a Cause}}  {{http://brandonsanderson.com/gaming-for-a-cause-this-friday-night-in-slc/gaming-for-a-cause/}}
+5536:{{  Gaming for a Cause}}  {{http://brandonsanderson.com/gaming-for-a-cause-this-friday-night-in-slc/gaming-for-a-cause/}}
 5546:{{  Shardhunt WoR}}  {{http://brandonsanderson.com/shardhunt-wor/}}
 5554:{{  shardhunt banner}}  {{http://brandonsanderson.com/shardhunt-wor/shardhunt-banner/}}
-5558:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5558}}5559:{{  Shardhunt WoR}}  {{http://brandonsanderson.com/shardhunt-wor-message/ :-> http://brandonsanderson.com/shardhunt-wor :-> http://brandonsanderson.com/shardhunt-wor/}}
-5561:{{hidden}}  {{http://brandonsanderson.com/the-vault/testing/}}
-5562:{{  List of Shardhunters WoR}}  {{http://brandonsanderson.com/shardhunters-wor/}}
-5565:{{  Shardhunt WoR Code}}  {{http://brandonsanderson.com/shardhunt-wor-code/}}
-5569:{{  With Thanks to Tage for the Idea&#8230;.}}  {{http://brandonsanderson.com/the-vault/wit/ :-> http://brandonsanderson.com/with-thanks-to-tage-for-the-idea/}}
-5573:{{hidden}}  {{http://brandonsanderson.com/the-vault/karasmatically/}}
-5584:{{  WORDS OF RADIANCE release party tonight + Updates}}  {{http://brandonsanderson.com/words-of-radiance-release-party-tonight-updates/}}
-5599:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5599}}
-5600:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5600}}
-5601:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5601}}
-5602:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5602}}
+5558:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5558}}
+5559:{{  Shardhunt WoR}}  {{http://brandonsanderson.com/shardhunt-wor-message/ :-> http://brandonsanderson.com/shardhunt-wor :-> http://brandonsanderson.com/shardhunt-wor/}}
+5561:{{hidden}}  {{http://brandonsanderson.com/the-vault/testing/}}
+5562:{{  List of Shardhunters WoR}}  {{http://brandonsanderson.com/shardhunters-wor/}}
+5565:{{  Shardhunt WoR Code}}  {{http://brandonsanderson.com/shardhunt-wor-code/}}
+5569:{{  With Thanks to Tage for the Idea&#8230;.}}  {{http://brandonsanderson.com/the-vault/wit/ :-> http://brandonsanderson.com/with-thanks-to-tage-for-the-idea/}}
+5573:{{hidden}}  {{http://brandonsanderson.com/the-vault/karasmatically/}}
+5584:{{  WORDS OF RADIANCE release party tonight + Updates}}  {{http://brandonsanderson.com/words-of-radiance-release-party-tonight-updates/}}
+5599:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5599}}
+5600:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5600}}
+5601:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5601}}
+5602:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5602}}
+5603:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5603}}
+5604:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5604}}
+5607:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5607}}
+5612:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5612}}
+5613:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5613}}
