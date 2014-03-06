@@ -2527,12 +2527,22 @@
 5569:{{  With Thanks to Tage for the Idea&#8230;.}}  {{http://brandonsanderson.com/the-vault/wit/ :-> http://brandonsanderson.com/with-thanks-to-tage-for-the-idea/}}
 5573:{{hidden}}  {{http://brandonsanderson.com/the-vault/karasmatically/}}
 5584:{{  WORDS OF RADIANCE release party tonight + Updates}}  {{http://brandonsanderson.com/words-of-radiance-release-party-tonight-updates/}}
-5599:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5599}}
-5600:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5600}}
-5601:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5601}}
-5602:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5602}}
-5603:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5603}}
-5604:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5604}}
-5607:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5607}}
-5612:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5612}}
-5613:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5613}}
+
+5599:{{hidden}}  {{http://brandonsanderson.com/the-vault/dyllbert/}}
+5600:{{hidden}}  {{http://brandonsanderson.com/the-vault/rebeccadawn-2/}}
+5601:{{hidden}}  {{http://brandonsanderson.com/the-vault/lance-hill-2/}}
+5602:{{hidden}}  {{http://brandonsanderson.com/the-vault/tasha/}}
+5603:{{hidden}}  {{http://brandonsanderson.com/the-vault/lincoln-dewey/}}
+5604:{{hidden}}  {{http://brandonsanderson.com/the-vault/xrayjay/}}
+5607:{{hidden}}  {{http://brandonsanderson.com/the-vault/sirgigglz/}}
+5612:{{hidden}}  {{http://brandonsanderson.com/the-vault/terin/}}
+5613:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeff-hampton-2/}}
+5614:{{hidden}}  {{http://brandonsanderson.com/the-vault/emmy/}}
+5615:{{hidden}}  {{http://brandonsanderson.com/the-vault/freelancer-2/}}
+5616:{{hidden}}  {{http://brandonsanderson.com/the-vault/theartfuljellyfish/}}
+5617:{{hidden}}  {{http://brandonsanderson.com/the-vault/fat-patricia/}}
+5620:{{  THE EMPEROR&#8217;S SOUL at Storybundle + WORDS OF RADIANCE tour notes}}  {{http://brandonsanderson.com/the-emperors-soul-at-storybundle-words-of-radiance-tour-notes/}}
+5621:{{  Storybundle Covers}}  {{http://brandonsanderson.com/the-emperors-soul-at-storybundle-words-of-radiance-tour-notes/all-covers-medium/}}
+5627:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5627}}
+5628:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5628}}
+5629:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5629}}
