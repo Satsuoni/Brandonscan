@@ -7,63 +7,8 @@ f=open("code.txt","r")
 strng=f.read()
 f.close()
 #strng=strng[:30]
-#fl=open("twor.txt","r")
-#twok=fl.read()
-#fl.close()
 
-#pat=re.compile(r"\b([a-z]+)\b",re.I)
-#twokwords=pat.findall(twok)
-#lst=[]
-#for wrd in twokwords:
-# if len(wrd)==1 and wrd!="a":
-#  pass
-# else:
-#  lst.append(wrd)
-#twokwords=lst
-#print len(twokwords)
-#twokdict={}
-#twodict2gram={}
-#twodict3gram={}
-#for word in twokwords:
-# wl=word.lower()
-# for a in range(len(wl)-1):
-#   td=wl[a]+wl[a+1]
-#   if td in twodict2gram:
-#     twodict2gram[td]+=1
-#   else:
-#      twodict2gram[td]=1
-# for a in range(len(wl)-2):
-#    td=wl[a]+wl[a+1]+wl[a+2]
-#    if td in twodict3gram:
-#     twodict3gram[td]+=1
-#    else:
-#     twodict3gram[td]=1
-# if wl in twokdict:
-#    twokdict[wl]+=1
-# else:
-#  twokdict[wl]=1
-
-#fl=open("twokwords.txt","w")
-#s = sorted(twokdict.items(), key=lambda(k,v):(v,k),reverse=True)
-#for sk in s:
-#   fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-#fl.close()
-
-
-#fl=open("twok_2l.txt","w")
-#s = sorted(twodict2gram.items(), key=lambda(k,v):(v,k),reverse=True)
-#for sk in s:
-#    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-#fl.close()
-
-
-#fl=open("twok_3l.txt","w")
-#s = sorted(twodict3gram.items(), key=lambda(k,v):(v,k),reverse=True)
-#for sk in s:
-#    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
-#fl.close()
-#sys.exit()
-
+strsplit=[111,8,2,5,101,11,2,7,1,2,4,9,151,2,10101,11,4,1,0,2,151,171,121,0,111,2,171,3,44,8,3,111,0,7,151,4,2,5,414,3,4,1,0,9,161,4,9,1,4,9,3,4,121,22,5,4,10101,2,5,1,2,7,101,5,191,0,111,2,3,4,1,2,55,11,525,121,575,5,111,2,3,4,101,11,2,9,151,2,1,0,6,1,5,3,4]
 
 def segment(text):
     "Return a list of words that is the best segmentation of text."
@@ -144,7 +89,7 @@ def logPwords(words):
 
 def allwords(text):
     "Return a list of alphabetic words in text, lowercase."
-    return re.findall('[a-z]+', text.lower())
+    return re.findall('[a,z]+', text.lower())
 
 def decode_shift(msg):
     "Find the best decoding of a message encoded with a shift cipher."
@@ -152,24 +97,24 @@ def decode_shift(msg):
     return max(candidates, key=logPwords)
 
 def shift2(msg, n=13):
-    "Encode with a shift (Caesar) cipher, yielding only letters [a-z]."
+    "Encode with a shift (Caesar) cipher, yielding only letters [a,z]."
     return shift(just_letters(msg), n)
 
 def just_letters(text):
-    "Lowercase text and remove all characters except [a-z]."
-    return re.sub('[^a-z]', '', text.lower())
+    "Lowercase text and remove all characters except [a,z]."
+    return re.sub('[^a,z]', '', text.lower())
 
 def logP3letters(text):
-    "The log-probability of text using a letter 3-gram model."
+    "The log,probability of text using a letter 3,gram model."
     return sum(log10(P3l(g)) for g in ngrams(text, 3))
 
 def logP2letters(text):
-    "The log-probability of text using a letter 3-gram model."
+    "The log,probability of text using a letter 3,gram model."
     return sum(log10(P2l(g)) for g in ngrams(text, 2))
 
 def ngrams(seq, n):
     "List all the (overlapping) ngrams in a sequence."
-    return [seq[i:i+n] for i in range(1+len(seq)-n)]
+    return [seq[i:i+n] for i in range(1+len(seq),n)]
 
 P3l = Pdist(datafile('twok_3l.txt'))
 P2l = Pdist(datafile('twok_2l.txt')) ## We'll need it later
@@ -192,12 +137,12 @@ debugging = False
 def scoretwok(txt,delfen=40):
  score=0
  txcut=txt[:min(delfen,len(txt))]
- ssg=ssegment(txcut)
- return (ssg[0]/len(txcut),txt)
- #for str in twokdict:
- # if str in txt:
- #   score+=len(str)
- #return (float(score)/float(len(txt)),txt)
+ #ssg=ssegment(txcut)
+ #return (ssg[0]/len(txcut),txt)
+ for str in twokdict:
+  if str in txt:
+    score+=len(str)
+ return (float(score)/float(len(txt)),txt)
 
 def decode_subst(msg, steps=1000, restarts=20):
     "Decode a substitution cipher with random restart hillclimbing."
@@ -234,25 +179,26 @@ def neighboring_msgs(msg):
         yield swap(random.choice(alphabet), random.choice(alphabet))
 
 
-def flattendct(dct):
-  try:
-   ret={}
-   for st in dct.keys():
-     flat=flattendct(dct[st])
-     try:
-       for fst in flat.keys():
-         nk=str(st)+str(fst)
-         ret[st+str(fst)]=flat[fst]
-     except Exception as ee:
-       #print ee
-       ret[st]=flat
-   return ret
-  except: #that is no dct
-    return dct
 
 englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N': 6.75, 'S': 6.33, 'H': 6.09, 'R': 5.99, 'D': 4.25, 'L': 4.03, 'C': 2.78, 'U': 2.76, 'M': 2.41, 'W': 2.36, 'F': 2.23, 'G': 2.02, 'Y': 1.97, 'P': 1.93, 'B': 1.29, 'V': 0.98, 'K': 0.77, 'J': 0.15, 'X': 0.15, 'Q': 0.10, 'Z': 0.07}
 ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+cl=0
+dict={}
+resz=''
+for n in strsplit:
+ if n in dict:
+   resz=resz+dict[n]
+ else:
+   dict[n]=alphabet[cl]
+   cl=cl+1
+   resz=resz+dict[n]
+print resz
+resz="LIVITCSWPIYVEWHEVSRIQMXLEYVEOIEWHRXEXIPFEMVEWHKVSTYLX".lower()
+rs=decode_subst(resz,4000,7000)
+print rs
+sys.exit()
 
 maxcodelen=5
 

@@ -2536,3 +2536,38 @@
 5607:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5607}}
 5612:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5612}}
 5613:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5613}}
+5614:{{hidden}}  {{http://brandonsanderson.com/the-vault/emmy/}}
+5615:{{hidden}}  {{http://brandonsanderson.com/the-vault/freelancer-2/}}
+5616:{{hidden}}  {{http://brandonsanderson.com/the-vault/theartfuljellyfish/}}
+5617:{{hidden}}  {{http://brandonsanderson.com/the-vault/fat-patricia/}}
+5620:{{  THE EMPEROR&#8217;S SOUL at Storybundle + WORDS OF RADIANCE tour notes}}  {{http://brandonsanderson.com/the-emperors-soul-at-storybundle-words-of-radiance-tour-notes/}}
+5621:{{  Storybundle Covers}}  {{http://brandonsanderson.com/the-emperors-soul-at-storybundle-words-of-radiance-tour-notes/all-covers-medium/}}
+5627:{{hidden}}  {{http://brandonsanderson.com/the-vault/jumpinjax/}}
+5628:{{hidden}}  {{http://brandonsanderson.com/the-vault/brandon-sommers/}}
+5629:{{hidden}}  {{http://brandonsanderson.com/the-vault/brian-coultrup/}}
+5630:{{hidden}}  {{http://brandonsanderson.com/the-vault/fletcher-christensen/}}
+5631:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_4/}}
+5632:{{hidden}}  {{http://brandonsanderson.com/the-vault/kyle-the-memory-keeper/}}
+5633:{{hidden}}  {{http://brandonsanderson.com/the-vault/defiantburrito/}}
+5634:{{hidden}}  {{http://brandonsanderson.com/the-vault/ben-of-the-many-hats/}}
+5635:{{hidden}}  {{http://brandonsanderson.com/the-vault/awa/}}
+5636:{{hidden}}  {{http://brandonsanderson.com/the-vault/bert-sanchez/}}
+5637:{{hidden}}  {{http://brandonsanderson.com/the-vault/marc-fisher/}}
+5638:{{hidden}}  {{http://brandonsanderson.com/the-vault/morteza/}}
+5639:{{hidden}}  {{http://brandonsanderson.com/the-vault/gavin-wadsworth/}}
+5684:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5684}}
+5685:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5685}}
+5686:{{  Mistborn: THE FINAL EMPIRE a £1.49 Daily Deal in the UK Friday only + tour updates}}  {{http://brandonsanderson.com/mistborn-the-final-empire-a-1-49-daily-deal-in-the-uk-friday-only-tour-updates/}}
+5688:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5688}}
+5689:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5689}}
+5690:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5690}}
+5691:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5691}}
+5692:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5692}}
+5693:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5693}}
+5694:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5694}}
+5695:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5695}}
+5696:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5696}}
+5697:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5697}}
+5698:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5698}}
+5699:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5699}}
+5700:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5700}}
