@@ -5108,3 +5108,16 @@
 5698:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5698}}
 5699:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5699}}
 5700:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5700}}
+5701:{{hidden}}  {{http://brandonsanderson.com/the-vault/xxgoddess/}}
+5702:{{hidden}}  {{http://brandonsanderson.com/the-vault/chris-2/}}
+5720:{{  Stormlight 2 Maps and Illustrations}}  {{http://brandonsanderson.com/books/the-stormlight-archive/words-of-radiance/stormlight-2-maps-and-illustrations/}}
+5724:{{hidden}}  {{http://brandonsanderson.com/the-vault/jacalyn/}}
+5725:{{hidden}}  {{http://brandonsanderson.com/the-vault/naranth/}}
+5726:{{  Steelheart}}  {{http://brandonsanderson.com/the-vault/steelheart/ :-> http://brandonsanderson.com/books/steelheart/}}
+5727:{{hidden}}  {{http://brandonsanderson.com/the-vault/will/}}
+5728:{{hidden}}  {{http://brandonsanderson.com/the-vault/andyrea/}}
+5729:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5729}}
+5730:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5730}}
+5731:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5731}}
+5732:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5732}}
+5733:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5733}}

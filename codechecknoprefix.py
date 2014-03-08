@@ -2,13 +2,28 @@ import time
 import sys
 import re, string, random, glob, operator, heapq
 from math import log10
+import math
 import copy
+import pickle
 f=open("code.txt","r")
 strng=f.read()
 f.close()
 #strng=strng[:30]
 
 strsplit=[111,8,2,5,101,11,2,7,1,2,4,9,151,2,10101,11,4,1,0,2,151,171,121,0,111,2,171,3,44,8,3,111,0,7,151,4,2,5,414,3,4,1,0,9,161,4,9,1,4,9,3,4,121,22,5,4,10101,2,5,1,2,7,101,5,191,0,111,2,3,4,1,2,55,11,525,121,575,5,111,2,3,4,101,11,2,9,151,2,1,0,6,1,5,3,4]
+
+def splitbylist(str,lst):
+ kn=''
+ ret=[]
+ cnt=0
+ for i in lst:
+  kn+=str[cnt]
+  cnt+=1
+  if i==1:
+   ret.append(kn)
+   kn=''
+ return ret
+#print splitbylist('abcde',[0,1,1,1])
 
 def segment(text):
     "Return a list of words that is the best segmentation of text."
@@ -70,12 +85,67 @@ def encode(msg, key):
 def ul(text): return text.upper() + text.lower()
 
 twokdict=[]
+NN=0
 for wrd, cnt in datafile("twokwords.txt"):
     twokdict.append(wrd)
+    NN+=int(cnt)
+#for w in twokdict:
+# twokdict[w]=float(twokdict[w])/float(N)
+bgrams={}
+NN=0
+for bg, cnt in datafile("twok_2l.txt"):
+    bgrams[bg]=cnt
+    NN+=int(cnt)
+for bg in bgrams:
+   bgrams[bg]=float(bgrams[bg])/float(NN)
+
+trigrams={}
+NN=0
+for bg, cnt in datafile("twok_3l.txt"):
+    trigrams[bg]=cnt
+    NN+=int(cnt)
+for bg in trigrams:
+    trigrams[bg]=float(trigrams[bg])/float(NN)
+
+ngramz=[]
+for a in [1,2,3,4,5,6]:
+    igrams={}
+    NN=0
+    for bg, cnt in datafile("twok_%dl.txt" % (a)):
+      igrams[bg]=cnt
+      NN+=int(cnt)
+    for bg in igrams:
+     igrams[bg]=float(igrams[bg])/float(NN)
+    ngramz.append(igrams)
 
 Pw  = Pdist(datafile('twokwords.txt'), None, avoid_long_words)
 
+def id_generator(size=6, chars=string.ascii_lowercase+string.ascii_uppercase):
+    return ''.join(random.choice(chars) for x in range(size))
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+def mapFromCode(code,prevmap=None):
+  ret={}
+  lst=list(alphabet)
+  if prevmap:
+      ret={a:prevmap[a] for a in prevmap if a in code}
+      for k in ret:
+       if ret[k] in lst:
+         lst.remove(ret[k])
+
+  for k in code:
+   if len(lst)==0:
+     lst=list(alphabet)
+   if not k in ret:
+     ret[k]=random.choice(lst)
+     lst.remove(ret[k])
+  if len(code)<26:
+   for rem in lst:
+     ret[id_generator(5)]=rem
+  return ret
+
+
+
 #print ssegment('apearlytreeamedalrearconnvelinknmonesumsmsonrrkneerizethearonrfabidgiawnearstrexton')
 
 def shift(msg, n=13):
@@ -114,7 +184,7 @@ def logP2letters(text):
 
 def ngrams(seq, n):
     "List all the (overlapping) ngrams in a sequence."
-    return [seq[i:i+n] for i in range(1+len(seq),n)]
+    return [seq[i:i+n] for i in range(0,1+len(seq),n)]
 
 P3l = Pdist(datafile('twok_3l.txt'))
 P2l = Pdist(datafile('twok_2l.txt')) ## We'll need it later
@@ -163,6 +233,123 @@ def shuffled(seq):
     return seq
 
 cat = ''.join
+
+
+minnealscore=0.6
+
+class annealpoint:
+    strng='1'
+    csplit=[]
+    cset=set([])
+    ls=0
+    ccode={}
+    cscore=0
+    spl=['1']
+    annealevel=0
+    def __init__(self,strn):
+        self.strng=strn
+        self.csplit=[1]*(len(self.strng)-1)
+        self.ls=len(self.csplit)
+        for k in range(10): self.csplit[random.randrange(len(self.csplit))]=0
+        self.spl=splitbylist(self.strng,self.csplit)
+        self.cset=set(self.spl)
+        self.ccode=mapFromCode(self.cset)
+        self.cscore=self.score()
+    def string(self):
+        return ''.join(self.ccode[k] for k in self.spl)
+    
+    def resplit(self):
+        self.spl=splitbylist(self.strng,self.csplit)
+        self.cset=set(self.spl)
+        self.ccode=mapFromCode(self.cset,self.ccode)
+    
+    def mutate(self, perc,rprobdecay,deprecator=1):
+        r1=random.random()
+        if r1>perc: #do a split mutation
+            r2=random.randint(0,self.ls-1)
+            self.csplit[r2]=1-self.csplit[r2]
+            ocode=copy.copy(self.ccode)
+            self.resplit()
+            nscr=self.score()
+            r3=random.random()
+            if nscr>self.cscore or math.exp(rprobdecay*(nscr-self.cscore))*deprecator>r3:
+                self.cscore=nscr
+            else: #revert
+                self.csplit[r2]=1-self.csplit[r2]
+                self.resplit()
+                self.ccode=ocode
+        else: #do a code swap mutation
+            c1=random.sample(self.ccode.keys(),2)
+            inq=self.ccode[c1[0]]
+            self.ccode[c1[0]]=self.ccode[c1[1]]
+            self.ccode[c1[1]]=inq
+            nscr=self.score()
+            r3=random.random()
+            #print r3
+            if nscr>self.cscore or math.exp(rprobdecay*(nscr-self.cscore))*deprecator>r3:
+                self.cscore=nscr
+            else: #revert
+                inq=self.ccode[c1[0]]
+                self.ccode[c1[0]]=self.ccode[c1[1]]
+                self.ccode[c1[1]]=inq
+    
+    
+    def score(self,pun=0.01):
+        scr=0
+        txt=self.string()
+        #print ngrams(txt,2)
+        #print ngramz[0]
+        for a in range(1,7):
+         for ng in ngrams(txt,a):
+            try:
+             scr+=ngramz[a-1][ng]*(a*a*a)
+            except:
+             scr-=pun
+#        if scr > minnealscore:
+      #    for wrd in twokdict:
+        #     if wrd in txt:
+      #         scr+=len(wrd)*0.1
+        return scr
+
+
+annealist=[]
+for q in range(40): annealist.append(annealpoint(strng))
+
+anneaincr=0.04
+loops=70
+maxscore=0
+print "Start looping"
+while True:
+ for num in range(loops):
+   for nap in range(len(annealist)):
+     annealist[nap].mutate(0.95,anneaincr*num+annealist[nap].annealevel)
+ annealist=heapq.nlargest(39,annealist,key = lambda p: p.cscore)
+ for apn in heapq.nlargest(30,annealist,key = lambda p: p.cscore):
+    apn.annealevel+=anneaincr
+ mx=max(annealist,key = lambda p: p.cscore)
+ mxa=max(annealist,key = lambda p: p.annealevel)
+ sys.stdout.write("\r%05.3f" % mx.annealevel)
+ sys.stdout.flush()
+ if maxscore<mx.cscore:
+  maxscore=mx.cscore
+  print
+  print mx.annealevel
+ #sys.stdout.write("\r%s" % str(mx.cscore))
+  print "Maxscore: "+str(mx.cscore)
+  print mx.string()
+  sys.stdout.flush()
+  
+  sp=pickle.dumps(mx)
+  flo=open("rndpickle.txt","a")
+  flo.write(sp)
+  flo.write("\n")
+  flo.close()
+ for q in range(1): annealist.append(annealpoint(strng))
+
+
+
+sys.exit()
+
 
 def neighboring_msgs(msg):
     "Generate nearby keys, hopefully better ones."
@@ -221,149 +408,3 @@ for fx in fixed:
         strnglist=[c for c in ct1 if c!='']
 print strnglist
 #strnglist=[strng]
-while True:
- curcode=0
- 
- curmaindct={}
- cdct=curmaindct
- dlen=0
- clen=0
- still=True
- for ca in range(0, len(curclens)):
-   curclens[ca]=curclens[ca]+1
-   if(curclens[ca]<=maxcodelen):
-     still=False
-     #print ca
-     #print
-     break
-   else:
-    curclens[ca]=1
-    if ca==curenf:
-       curenf+=1
- if still:
-     print "done"
-     sys.exit()
-
- itern=itern+1
- #if curclens[0]==1: continue
- #print str(sum(curclens))+" ",
- if itern<siter: continue
- #print str(len(curclens)) +" ",
- if  len(curclens)>26:#sum(curclens)>len(strng)/1.5 or
-  print "done"
-  sys.exit()
-
- prefixlist=[]+fixed
- pref=True
- curcode=0
- sys.stdout.write("\r%s" % str(curclens))
- sys.stdout.flush()
- #print strnglist
- #print curclens
- #print
- for stw in strnglist:
-  accum=''
-  #print stw,
-  for i in range(len(stw)):
-   accum+=stw[i]
-   if accum in prefixlist:#found prefix
-    accum=''
-    continue
-   if(len(accum)>=curclens[curcode]):#check if it happens to be prefix first!
-     nopref=True
-     for ap in prefixlist:
-       if len(ap)>=len(accum) and ap[:len(accum)]==accum:
-         nopref=False
-         break
-     if nopref:
-      prefixlist.append(accum)
-      accum=''
-      curcode=curcode+1
-     else:
-      if curcode<=curenf:
-       pref=False
-       break
-      else:
-       continue
-      #pref=False
-      #break
-     if curcode>=len(curclens):
-       pref=False
-       break
-  if accum!='':
-     nopref=True
-     for ap in prefixlist:
-       if len(ap)>=len(accum) and ap[:len(accum)]==accum:
-                  nopref=False
-                  break
-     if nopref:
-       prefixlist.append(accum)
-     else:
-      pref=False
-  if pref==False:
-    break
- if len(prefixlist)>len(alphabet):
-   pref=False
- if pref:
-   #print strnglist
-   #print prefixlist
-   #sys.exit()
-   #fl=flattendct(curmaindct)
-   
-   #srt=sorted(fl, key=fl.get)
-   #vl=fl.values()
-   #print
-   #print fl[srt[0]]
-   #nsum=sum(vl)
-   #nl=heapq.nlargest(3,vl)
-   #mn=float(min(nl))/float(nsum)
-   sm1=0
-   #for v in vl:
-   # if v==1:
-   #  sm1+=1
-   
-   #if len(fl)<=26 and len(fl)>10 and mn>0.09 and sm1<7:
-   nd={}
-   cl=0
-   for ky in prefixlist:
-        nd[ky]=alphabet[cl]
-        cl=cl+1
-   cstr=''
-   crez=''
-   #print
-   #print prefixlist
-   #print
-   for az in range(0, len(strng)):
-         cstr+=strng[az]
-         #print cstr
-         if cstr in nd:
-           crez=crez+nd[cstr]
-           cstr=''
-   #print crez
-       #if len(crez)*1.5<len(strng):
-   rs=decode_subst(crez)
-        
-       #rs=getCipher(crez)
-       #if rs[0]>9:
-   if rs[1]>0.4:
-         if rs[1]>mxscore:
-          mxscore=rs[1]
-          print "new max score"
-          print mxscore
-          print rs[0]
-         print itern
-         print rs
-         #print rs[1]/len(rs[0])
-         fileo=open("rnd_cut.txt","a")
-         fileo.write(str(prefixlist)+"\n")
-         fileo.write(str(rs)+"\n\n")
-         fileo.close()
-       #  print rs[1]
-       #  print
-
-   #sys.exit()
-
-
-
-
- 

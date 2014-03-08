@@ -3,25 +3,76 @@ import sys
 import re, string, random, glob, operator, heapq
 from math import log10
 import copy
+
 f=open("code.txt","r")
 strng=f.read()
 f.close()
 #strng=strng[:30]
-#fl=open("twor.txt","r")
-#twok=fl.read()
-#fl.close()
+fl=open("twor.txt","r")
+twok=fl.read()
+fl.close()
 
-#pat=re.compile(r"\b([a-z]+)\b",re.I)
-#twokwords=pat.findall(twok)
-#lst=[]
-#for wrd in twokwords:
-# if len(wrd)==1 and wrd!="a":
-#  pass
-# else:
-#  lst.append(wrd)
-#twokwords=lst
-#print len(twokwords)
-#twokdict={}
+pat=re.compile(r"\b([a-z]+)\b",re.I)
+twokwords=pat.findall(twok)
+lst=[]
+for wrd in twokwords:
+ if len(wrd)==1 and wrd!="a":
+  pass
+ else:
+  lst.append(wrd)
+twokwords=lst
+print len(twokwords)
+twokdict={}
+def just_letterss(text):
+    "Lowercase text and remove all characters except [a-z]."
+    return re.sub('[^a-z]', '', text.lower())
+
+def writengram(n):
+ ngrms={}
+ for word in twokwords:
+  wl=word.lower()
+  for a in range(len(wl)-n+1):
+   ng=''
+   for k in range(n):
+     ng+=wl[a+k]
+   if ng in ngrms:
+     ngrms[ng]+=1
+   else:
+     ngrms[ng]=1
+ strq="twok_%dl.txt" % (n)
+ print strq
+ fl=open(strq,"w")
+ s = sorted(ngrms.items(), key=lambda(k,v):(v,k),reverse=True)
+ for sk in s:
+    fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+ fl.close()
+def writemgram(n):
+    ngrms={}
+
+    wl=just_letterss(twok)
+    for a in range(len(wl)-n+1):
+            ng=''
+            for k in range(n):
+                ng+=wl[a+k]
+            if ng in ngrms:
+                ngrms[ng]+=1
+            else:
+                ngrms[ng]=1
+    strq="twok_%dl.txt" % (n)
+    print strq
+    fl=open(strq,"w")
+    s = sorted(ngrms.items(), key=lambda(k,v):(v,k),reverse=True)
+    for sk in s:
+        fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+    fl.close()
+writengram(1)
+writengram(2)
+writengram(3)
+writemgram(4)
+writemgram(5)
+writemgram(6)
+sys.exit()
+
 #twodict2gram={}
 #twodict3gram={}
 #for word in twokwords:
