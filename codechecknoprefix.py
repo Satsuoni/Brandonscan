@@ -12,6 +12,9 @@ f.close()
 
 strsplit=[111,8,2,5,101,11,2,7,1,2,4,9,151,2,10101,11,4,1,0,2,151,171,121,0,111,2,171,3,44,8,3,111,0,7,151,4,2,5,414,3,4,1,0,9,161,4,9,1,4,9,3,4,121,22,5,4,10101,2,5,1,2,7,101,5,191,0,111,2,3,4,1,2,55,11,525,121,575,5,111,2,3,4,101,11,2,9,151,2,1,0,6,1,5,3,4]
 
+strng=[strng[k*2] for k in range(len(strng)/2)]
+#strng=strng[:50]
+
 def splitbylist(str,lst):
  kn=''
  ret=[]
@@ -108,14 +111,14 @@ for bg in trigrams:
     trigrams[bg]=float(trigrams[bg])/float(NN)
 
 ngramz=[]
-for a in [1,2,3,4,5,6]:
+for a in [1,2,3,4,5,6,7,8]:
     igrams={}
     NN=0
     for bg, cnt in datafile("twok_%dl.txt" % (a)):
       igrams[bg]=cnt
       NN+=int(cnt)
     for bg in igrams:
-     igrams[bg]=float(igrams[bg])/float(NN)
+     igrams[bg]=log10(1+float(igrams[bg])/float(NN))
     ngramz.append(igrams)
 
 Pw  = Pdist(datafile('twokwords.txt'), None, avoid_long_words)
@@ -184,7 +187,7 @@ def logP2letters(text):
 
 def ngrams(seq, n):
     "List all the (overlapping) ngrams in a sequence."
-    return [seq[i:i+n] for i in range(0,1+len(seq),n)]
+    return [seq[i:i+n] for i in range(0,1+len(seq),n) if i+n<len(seq)]
 
 P3l = Pdist(datafile('twok_3l.txt'))
 P2l = Pdist(datafile('twok_2l.txt')) ## We'll need it later
@@ -246,11 +249,16 @@ class annealpoint:
     cscore=0
     spl=['1']
     annealevel=0
+    maxcr=4
     def __init__(self,strn):
         self.strng=strn
         self.csplit=[1]*(len(self.strng)-1)
         self.ls=len(self.csplit)
-        for k in range(10): self.csplit[random.randrange(len(self.csplit))]=0
+        for k in range(10):
+          rrr=random.randrange(len(self.csplit))
+          self.csplit[rrr]=0
+          if self.cmz()>self.maxcr:
+             self.csplit[rrr]=1
         self.spl=splitbylist(self.strng,self.csplit)
         self.cset=set(self.spl)
         self.ccode=mapFromCode(self.cset)
@@ -263,11 +271,26 @@ class annealpoint:
         self.cset=set(self.spl)
         self.ccode=mapFromCode(self.cset,self.ccode)
     
+    def cmz(self):
+      mx=0
+      cr=0
+      for l in self.csplit:
+       if l==0:
+        cr+=1
+       else:
+        if cr>mx: mx=cr
+        cr=0
+      if cr>mx: mx=cr
+      return mx
+    
     def mutate(self, perc,rprobdecay,deprecator=1):
         r1=random.random()
         if r1>perc: #do a split mutation
             r2=random.randint(0,self.ls-1)
             self.csplit[r2]=1-self.csplit[r2]
+            if self.cmz>self.maxcr:
+              self.csplit[r2]=1-self.csplit[r2]
+              return
             ocode=copy.copy(self.ccode)
             self.resplit()
             nscr=self.score()
@@ -294,49 +317,99 @@ class annealpoint:
                 self.ccode[c1[1]]=inq
     
     
-    def score(self,pun=0.01):
-        scr=0
+    def score(self,pun=0.1):
+        
         txt=self.string()
-        #print ngrams(txt,2)
-        #print ngramz[0]
-        for a in range(1,7):
-         for ng in ngrams(txt,a):
-            try:
-             scr+=ngramz[a-1][ng]*(a*a*a)
-            except:
-             scr-=pun
-#        if scr > minnealscore:
-      #    for wrd in twokdict:
-        #     if wrd in txt:
-      #         scr+=len(wrd)*0.1
-        return scr
+        return self.scoreat(txt,pun)
+
+    def scoreat(self,txt,pun=0.01):
+            scr=0
+            sm=0
+            trat=0
+            rep=0
+            tc='rareday'
+            for cheat in range(len(tc)):
+             if txt[cheat]==tc[cheat]:
+              rep+=0.03
+             else :
+               break
+            for a in range(2,8):
+              totgram=0
+              propgram=0
+              sm+=a
+              for ng in ngrams(txt,a):
+                 if len(ng)!=a:
+                   print len(ng)
+                   continue
+                 totgram+=1
+                 if ng in ngramz[a-1]:
+                  propgram+=1
+                 else:
+                  propgram-=pun*(6-a)
+              if(totgram==0): continue
+              rat=float(propgram)/float(totgram)
+              trat+=a*rat
+            return rep+(trat/sm)
+        #    for a in range(1,7):
+        #        for ng in ngrams(txt,a):
+        #            try:
+        #                scr+=ngramz[a-1][ng]*(a*a*a)+(a-1)*0.1
+                    #if a>4:
+                    # print ng
+        #            except:
+        #                scr-=pun
+            #        if scr > minnealscore:
+            #    for wrd in twokdict:
+            #     if wrd in txt:
+            #         scr+=len(wrd)*0.1
+            #return scr
 
 
 annealist=[]
-for q in range(40): annealist.append(annealpoint(strng))
+for q in range(50):
+   annealist.append(annealpoint(strng))
+   annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
 
-anneaincr=0.04
-loops=70
-maxscore=0
+fl=open("twor.txt","r")
+twok=fl.read()
+fl.close()
+def just_letterss(text):
+    "Lowercase text and remove all characters except [a-z]."
+    return re.sub('[^a-z]', '', text.lower())
+
+wl="AhbuttheywereleftbehindItisobviousfromthenatureofthebondButwherewherewherewhereSetoffObviousRealizationlikeapricityTheyarewiththeShinWemustfindoneCanwemaketouseaTruthlessCanwecraftaweapon"
+wl=wl.lower()
+#wl=wl[2000:2155]
+
+
+print ngrams(wl,3)
+print wl
+k=annealpoint('hjghjhhjjgfujhfuuuvyt')
+print k.scoreat(wl)
+#sys.exit()
+anneaincr=0.1
+loops=20
+maxscore=-900
 print "Start looping"
 while True:
  for num in range(loops):
    for nap in range(len(annealist)):
      annealist[nap].mutate(0.95,anneaincr*num+annealist[nap].annealevel)
- annealist=heapq.nlargest(39,annealist,key = lambda p: p.cscore)
+ annealist=heapq.nlargest(49,annealist,key = lambda p: p.cscore)
  for apn in heapq.nlargest(30,annealist,key = lambda p: p.cscore):
     apn.annealevel+=anneaincr
  mx=max(annealist,key = lambda p: p.cscore)
  mxa=max(annealist,key = lambda p: p.annealevel)
- sys.stdout.write("\r%05.3f" % mx.annealevel)
+ sys.stdout.write("\r%05.3f" % mxa.annealevel)
  sys.stdout.flush()
- if maxscore<mx.cscore:
+ if maxscore<mx.cscore :#or mx.cscore>1:
   maxscore=mx.cscore
   print
   print mx.annealevel
  #sys.stdout.write("\r%s" % str(mx.cscore))
   print "Maxscore: "+str(mx.cscore)
   print mx.string()
+  print mx.csplit
   sys.stdout.flush()
   
   sp=pickle.dumps(mx)
@@ -344,8 +417,9 @@ while True:
   flo.write(sp)
   flo.write("\n")
   flo.close()
- for q in range(1): annealist.append(annealpoint(strng))
-
+ for q in range(1):
+   annealist.append(annealpoint(strng))
+   annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
 
 
 sys.exit()

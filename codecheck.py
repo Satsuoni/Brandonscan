@@ -65,12 +65,14 @@ def writemgram(n):
     for sk in s:
         fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
     fl.close()
-writengram(1)
-writengram(2)
-writengram(3)
+writemgram(1)
+writemgram(2)
+writemgram(3)
 writemgram(4)
 writemgram(5)
 writemgram(6)
+writemgram(7)
+writemgram(8)
 sys.exit()
 
 #twodict2gram={}
