@@ -181,7 +181,6 @@ nodded	556
 find	555
 which	544
 moash	543
-ll	542
 take	534
 syl	528
 look	525
@@ -3910,12 +3909,10 @@ placing	14
 pitched	14
 passions	14
 pained	14
-pai	14
 overly	14
 occasion	14
 numerous	14
 nudged	14
-nu	14
 nimbleform	14
 nights	14
 muscle	14
@@ -5467,7 +5464,6 @@ neared	8
 natan	8
 nalan	8
 nails	8
-na	8
 muscular	8
 mundane	8
 mud	8
@@ -8670,7 +8666,6 @@ versions	3
 verse	3
 vendors	3
 vendor	3
-ven	3
 vein	3
 vaulters	3
 vaporous	3
@@ -11467,7 +11462,6 @@ imbecile	2
 imaginings	2
 imagines	2
 imaginative	2
-im	2
 illness	2
 illiterate	2
 iku	2
@@ -13227,7 +13221,6 @@ therehastobeananswerwhatistheanswerstoptheparshendioneofthemyestheyarethemissing
 theological	1
 theologians	1
 theme	1
-th	1
 tezim	1
 textured	1
 textile	1
@@ -16520,7 +16513,6 @@ facade	1
 fabricate	1
 fables	1
 fable	1
-fa	1
 eyesight	1
 eyeholes	1
 eyeblinks	1

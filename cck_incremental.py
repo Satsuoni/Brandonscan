@@ -11,13 +11,14 @@ f.close()
 #strng=strng[:30]
 
 strng=[strng[k*2] for k in range(len(strng)/2)]
-#strng=strng[:50]
+#strng=strng[:40]
 
 def splitbylist(str,lst):
  kn=''
  ret=[]
  cnt=0
- for i in lst:
+ for ii in range(len(lst)):
+  i=lst[ii]
   kn+=str[cnt]
   cnt+=1
   if i==1:
@@ -38,17 +39,19 @@ def splits(text, L=10):
             for i in range(min(len(text), L))]
 
 def ssegment(text,L=12, lam= lambda x:x):
-   if not text: return (0,[])
+   if not text: return (0,0,[])
    ret=[]
    rcnt=0
+   clen=0
    for first,rem in splits(text,L):
      if first in twokdict:
        segm=ssegment(rem,L)
        score=lam(len(first))+segm[0]
        if score>rcnt:
-         ret=[first]+segm[1]
+         ret=[first]+segm[2]
+         clen=segm[1]+len(first)
          rcnt=score
-   return (rcnt,ret)
+   return (rcnt,clen,ret)
 
 def Pwords(words):
     "The Naive Bayes probability of a sequence of words."
@@ -90,23 +93,8 @@ NN=0
 for wrd, cnt in datafile("twokwords.txt"):
     twokdict.append(wrd)
     NN+=int(cnt)
-#for w in twokdict:
-# twokdict[w]=float(twokdict[w])/float(N)
-bgrams={}
-NN=0
-for bg, cnt in datafile("twok_2l.txt"):
-    bgrams[bg]=cnt
-    NN+=int(cnt)
-for bg in bgrams:
-   bgrams[bg]=float(bgrams[bg])/float(NN)
 
-trigrams={}
-NN=0
-for bg, cnt in datafile("twok_3l.txt"):
-    trigrams[bg]=cnt
-    NN+=int(cnt)
-for bg in trigrams:
-    trigrams[bg]=float(trigrams[bg])/float(NN)
+
 
 ngramz=[]
 for a in [1,2,3,4,5,6,7,8]:
@@ -125,9 +113,10 @@ def id_generator(size=6, chars=string.ascii_lowercase+string.ascii_uppercase):
     return ''.join(random.choice(chars) for x in range(size))
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabetlist=list(alphabet)#+['th','ch','sh']
 def mapFromCode(code,prevmap=None):
   ret={}
-  lst=list(alphabet)
+  lst=copy.copy(alphabetlist)
   if prevmap:
       ret={a:prevmap[a] for a in prevmap if a in code}
       for k in ret:
@@ -136,7 +125,7 @@ def mapFromCode(code,prevmap=None):
 
   for k in code:
    if len(lst)==0:
-     lst=list(alphabet)
+     lst=copy.copy(alphabetlist)
    if not k in ret:
      ret[k]=random.choice(lst)
      lst.remove(ret[k])
@@ -145,13 +134,6 @@ def mapFromCode(code,prevmap=None):
      ret[id_generator(5)]=rem
   return ret
 
-
-
-#print ssegment('apearlytreeamedalrearconnvelinknmonesumsmsonrrkneerizethearonrfabidgiawnearstrexton')
-
-def shift(msg, n=13):
-    "Encode a message with a shift (Caesar) cipher."
-    return encode(msg, alphabet[n:]+alphabet[:n])
 
 def logPwords(words):
     "The Naive Bayes probability of a string or sequence of words."
@@ -166,10 +148,6 @@ def decode_shift(msg):
     "Find the best decoding of a message encoded with a shift cipher."
     candidates = [shift(msg, n) for n in range(len(alphabet))]
     return max(candidates, key=logPwords)
-
-def shift2(msg, n=13):
-    "Encode with a shift (Caesar) cipher, yielding only letters [a,z]."
-    return shift(just_letters(msg), n)
 
 def just_letters(text):
     "Lowercase text and remove all characters except [a,z]."
@@ -240,6 +218,8 @@ minnealscore=0.6
 
 class annealpoint:
     strng='1'
+    fullstring='1'
+    strpos=0
     csplit=[]
     cset=set([])
     ls=0
@@ -247,11 +227,24 @@ class annealpoint:
     cscore=0
     spl=['1']
     annealevel=0
-    maxcr=4
-    def __init__(self,strn):
-        self.strng=strn
+    maxcr=5
+    window=[0,0]
+    newwordsplit=0
+    wordsplit=0
+    tc=''
+    nextincr=1
+    naught=0
+    def __init__(self,strn,strlen=None):
+        if strlen:
+         self.strng=strn[:strlen]
+         self.fullstring=strn
+         self.strpos=strlen
+        else:
+         self.strng=strn
+         self.strpos=len(strn)
         self.csplit=[1]*(len(self.strng)-1)
         self.ls=len(self.csplit)
+        self.window[1]=self.ls-1
         for k in range(10):
           rrr=random.randrange(len(self.csplit))
           self.csplit[rrr]=0
@@ -261,9 +254,38 @@ class annealpoint:
         self.cset=set(self.spl)
         self.ccode=mapFromCode(self.cset)
         self.cscore=self.score()
+    def inc_move(self,num):
+      if len(self.fullstring)==self.strpos: return
+      pn=min(self.strpos+num,len(self.fullstring))
+      sub=self.fullstring[self.strpos:pn]
+      self.increment(sub) 
+      self.shiftwindow(pn-self.strpos)
+      self.nextincr=self.wordsplit+1
+      self.strpos=pn      
+      
     def string(self):
         return ''.join(self.ccode[k] for k in self.spl)
-    
+    def shiftwindow(self,len):
+       self.window[0]+=len
+       self.window[1]+=len
+       self.window=[min(k,self.ls-1) for k in self.window]
+    def expandwindow(self,len):
+       self.window[1]+=len
+       self.window=[min(k,self.ls-1) for k in self.window]
+       
+    def increment(self,str):
+       ln=len(str)
+       self.strng=self.strng+str
+       for a in range(ln):
+        if random.random()>0.5:
+         self.csplit.append(1)
+        else:
+         self.csplit.append(0)
+         if self.cmz()>self.maxcr:
+             self.csplit[-1]=1        
+       self.ls=len(self.csplit)
+       self.resplit()
+       self.cscore=self.score()
     def resplit(self):
         self.spl=splitbylist(self.strng,self.csplit)
         self.cset=set(self.spl)
@@ -283,8 +305,12 @@ class annealpoint:
     
     def mutate(self, perc,rprobdecay,deprecator=1):
         r1=random.random()
-        if r1>perc: #do a split mutation
-            r2=random.randint(0,self.ls-1)
+        if r1>perc+1: #do a split mutation
+            self.window=[min(k,self.ls-1) for k in self.window]
+            r2=random.randint(self.window[0],self.window[1])
+            #print r2
+            #print len(self.ls)
+            #print self.window[1]
             self.csplit[r2]=1-self.csplit[r2]
             if self.cmz>self.maxcr:
               self.csplit[r2]=1-self.csplit[r2]
@@ -295,10 +321,13 @@ class annealpoint:
             r3=random.random()
             if nscr>self.cscore or math.exp(rprobdecay*(nscr-self.cscore))*deprecator>r3:
                 self.cscore=nscr
+                self.wordsplit=self.newwordsplit
             else: #revert
                 self.csplit[r2]=1-self.csplit[r2]
+                self.ccode=ocode
                 self.resplit()
                 self.ccode=ocode
+
         else: #do a code swap mutation
             c1=random.sample(self.ccode.keys(),2)
             inq=self.ccode[c1[0]]
@@ -309,13 +338,13 @@ class annealpoint:
             #print r3
             if nscr>self.cscore or math.exp(rprobdecay*(nscr-self.cscore))*deprecator>r3:
                 self.cscore=nscr
-            else: #revert
+                self.wordsplit=self.newwordsplit
+            else: #revert 
                 inq=self.ccode[c1[0]]
                 self.ccode[c1[0]]=self.ccode[c1[1]]
-                self.ccode[c1[1]]=inq
+                self.ccode[c1[1]]=inq 
     
-    
-    def score(self,pun=0.1):
+    def score(self,pun=0.0):
         
         txt=self.string()
         return self.scoreat(txt,pun)
@@ -325,9 +354,9 @@ class annealpoint:
             sm=0
             trat=0
             rep=0
-            tc='rareday'
-            for cheat in range(len(tc)):
-             if txt[cheat]==tc[cheat]:
+            #tc='raredaywant'
+            for cheat in range(len(self.tc)):
+             if txt[cheat]==self.tc[cheat]:
               rep+=0.07
              else :
                break
@@ -348,9 +377,14 @@ class annealpoint:
               rat=float(propgram)/float(totgram)
               trat+=a*rat
             scr=rep+(trat/sm)
-            if scr>0.8:
-             sg=ssegment(txt,10,lambda x: x*x)
+            if scr>0.7:
+             sg=ssegment(txt,10,lambda x: (x-1)*(x-1))
              scr+=sg[0]*0.1
+             #if sg[1]>2:
+             #  print sg[2]
+             self.newwordsplit=sg[1]
+            else:
+              self.newwordsplit=0
             return scr
         #    for a in range(1,7):
         #        for ng in ngrams(txt,a):
@@ -368,10 +402,17 @@ class annealpoint:
 
 
 annealist=[]
-for q in range(80):
-   annealist.append(annealpoint(strng))
+rlogfile="rlog_even.txt"
+def rlogn(strn):
+   fl=open(rlogfile,"a")
+   fl.write(str(strn))
+   fl.write("\n")
+   fl.close()   
+for q in range(50):
+   annealist.append(annealpoint(strng,20))
    annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
-
+   annealist[-1].resplit()
+increlist=[]
 fl=open("twor.txt","r")
 twok=fl.read()
 fl.close()
@@ -390,18 +431,47 @@ k=annealpoint('hjghjhhjjgfujhfuuuvyt')
 print k.scoreat(wl)
 #sys.exit()
 anneaincr=0.1
-loops=40
+loops=50
+cloops=20
 maxscore=-900
 print "Start looping"
+rem=5
+mv=5
 while True:
  for num in range(loops):
    for nap in range(len(annealist)):
      annealist[nap].mutate(0.95,anneaincr*num+annealist[nap].annealevel)
- annealist=heapq.nlargest(78,annealist,key = lambda p: p.cscore)
- for apn in heapq.nlargest(40,annealist,key = lambda p: p.cscore):
+ movel=[]    
+ for ap in annealist:    
+   if ap.nextincr<=ap.wordsplit:
+     movel.append(ap)
+ for ap in movel:
+   rlogn( "Moving: " +str(ap.csplit)+ "   "+ap.string() )
+   annealist.remove(ap)
+   ap.inc_move(mv)
+   increlist.append(ap)
+ annealist=heapq.nlargest(max(len(annealist)-rem,1),annealist,key = lambda p: p.cscore)
+ for apn in annealist:
     apn.annealevel+=anneaincr
- mx=max(annealist,key = lambda p: p.cscore)
- mxa=max(annealist,key = lambda p: p.annealevel)
+ reml=[]   
+ for ap in increlist:
+   if ap.nextincr<=ap.wordsplit:
+     ap.inc_move(mv)
+   osc=ap.cscore
+   for a in range(cloops):
+    ap.mutate(0.94,anneaincr*a+ap.annealevel)
+   if osc!=ap.cscore:
+    ap.annealevel+=anneaincr
+   else:
+    ap.naught+=1
+    if ap.naught>10:
+      reml.append(ap)
+ for r in reml:
+   rlogn(  "Removing: " +str(r.csplit)+ "   "+r.string() )
+   increlist.remove(r)
+ del reml  
+ mx=max(annealist+increlist,key = lambda p: p.cscore)
+ mxa=max(annealist+increlist,key = lambda p: p.annealevel)
  sys.stdout.write("\r%05.3f" % mxa.annealevel)
  sys.stdout.flush()
  if maxscore<mx.cscore :#or mx.cscore>1:
@@ -410,77 +480,27 @@ while True:
   print mx.annealevel
  #sys.stdout.write("\r%s" % str(mx.cscore))
   print "Maxscore: "+str(mx.cscore)
+  rlogn("Maxscore: "+str(mx.cscore))
+  rlogn( mx.string())
+  rlogn(mx.csplit)
   print mx.string()
+  print ssegment(mx.string())
+  print mx.scoreat(mx.string())
+  print mx.score()
   print mx.csplit
   sys.stdout.flush()
   
   sp=pickle.dumps(mx)
-  flo=open("rndeven.txt","a")
+  flo=open("rndeven_mini.txt","a")
   flo.write(sp)
   flo.write("\n")
   flo.close()
- for q in range(2):
-   annealist.append(annealpoint(strng))
+ ll=50-len(annealist) 
+ for q in range(ll):
+   annealist.append(annealpoint(strng,20))
    annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
+   annealist[-1].resplit()
 
 
 sys.exit()
 
-
-def neighboring_msgs(msg):
-    "Generate nearby keys, hopefully better ones."
-    def swap(a,b): return msg.translate(string.maketrans(a+b, b+a))
-    for bigram in heapq.nsmallest(20, set(ngrams(msg, 2)), P2l):
-        b1,b2 = bigram
-        for c in alphabet:
-            if b1==b2:
-                if P2l(c+c) > P2l(bigram): yield swap(c,b1)
-            else:
-                if P2l(c+b2) > P2l(bigram): yield swap(c,b1)
-                if P2l(b1+c) > P2l(bigram): yield swap(c,b2)
-    while True:
-        yield swap(random.choice(alphabet), random.choice(alphabet))
-
-
-
-englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N': 6.75, 'S': 6.33, 'H': 6.09, 'R': 5.99, 'D': 4.25, 'L': 4.03, 'C': 2.78, 'U': 2.76, 'M': 2.41, 'W': 2.36, 'F': 2.23, 'G': 2.02, 'Y': 1.97, 'P': 1.93, 'B': 1.29, 'V': 0.98, 'K': 0.77, 'J': 0.15, 'X': 0.15, 'Q': 0.10, 'Z': 0.07}
-ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
-LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-cl=0
-dict={}
-resz=''
-for n in strsplit:
- if n in dict:
-   resz=resz+dict[n]
- else:
-   dict[n]=alphabet[cl]
-   cl=cl+1
-   resz=resz+dict[n]
-print resz
-resz="LIVITCSWPIYVEWHEVSRIQMXLEYVEOIEWHRXEXIPFEMVEWHKVSTYLX".lower()
-rs=decode_subst(resz,4000,7000)
-print rs
-sys.exit()
-
-maxcodelen=5
-
-curclens=[]
-for a in range(26):
- curclens.append(1)
-dcts=[]
-
-mxscore=0
-itern=0
-curenf=0
-siter=0#245338
-#fixed=['10','12', '13', '11','14','9','7','18','25']
-fixed=[]
-strnglist=[strng]
-for fx in fixed:
-        ct1=[]
-        for sub in strnglist:
-            ct1=ct1+sub.split(fx)
-        strnglist=[c for c in ct1 if c!='']
-print strnglist
-#strnglist=[strng]

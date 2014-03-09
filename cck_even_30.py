@@ -11,7 +11,7 @@ f.close()
 #strng=strng[:30]
 
 strng=[strng[k*2] for k in range(len(strng)/2)]
-#strng=strng[:50]
+strng=strng[:20]
 
 def splitbylist(str,lst):
  kn=''
@@ -325,7 +325,7 @@ class annealpoint:
             sm=0
             trat=0
             rep=0
-            tc='rareday'
+            tc=''#'raredaywant'
             for cheat in range(len(tc)):
              if txt[cheat]==tc[cheat]:
               rep+=0.07
@@ -348,7 +348,7 @@ class annealpoint:
               rat=float(propgram)/float(totgram)
               trat+=a*rat
             scr=rep+(trat/sm)
-            if scr>0.8:
+            if scr>=1.0:
              sg=ssegment(txt,10,lambda x: x*x)
              scr+=sg[0]*0.1
             return scr
@@ -368,7 +368,7 @@ class annealpoint:
 
 
 annealist=[]
-for q in range(80):
+for q in range(50):
    annealist.append(annealpoint(strng))
    annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
 
@@ -390,15 +390,16 @@ k=annealpoint('hjghjhhjjgfujhfuuuvyt')
 print k.scoreat(wl)
 #sys.exit()
 anneaincr=0.1
-loops=40
+loops=50
 maxscore=-900
 print "Start looping"
+rem=5
 while True:
  for num in range(loops):
    for nap in range(len(annealist)):
      annealist[nap].mutate(0.95,anneaincr*num+annealist[nap].annealevel)
- annealist=heapq.nlargest(78,annealist,key = lambda p: p.cscore)
- for apn in heapq.nlargest(40,annealist,key = lambda p: p.cscore):
+ annealist=heapq.nlargest(50-rem,annealist,key = lambda p: p.cscore)
+ for apn in heapq.nlargest(30,annealist,key = lambda p: p.cscore):
     apn.annealevel+=anneaincr
  mx=max(annealist,key = lambda p: p.cscore)
  mxa=max(annealist,key = lambda p: p.annealevel)
@@ -415,72 +416,14 @@ while True:
   sys.stdout.flush()
   
   sp=pickle.dumps(mx)
-  flo=open("rndeven.txt","a")
+  flo=open("rndeven_mini.txt","a")
   flo.write(sp)
   flo.write("\n")
   flo.close()
- for q in range(2):
+ for q in range(rem):
    annealist.append(annealpoint(strng))
    annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
 
 
 sys.exit()
 
-
-def neighboring_msgs(msg):
-    "Generate nearby keys, hopefully better ones."
-    def swap(a,b): return msg.translate(string.maketrans(a+b, b+a))
-    for bigram in heapq.nsmallest(20, set(ngrams(msg, 2)), P2l):
-        b1,b2 = bigram
-        for c in alphabet:
-            if b1==b2:
-                if P2l(c+c) > P2l(bigram): yield swap(c,b1)
-            else:
-                if P2l(c+b2) > P2l(bigram): yield swap(c,b1)
-                if P2l(b1+c) > P2l(bigram): yield swap(c,b2)
-    while True:
-        yield swap(random.choice(alphabet), random.choice(alphabet))
-
-
-
-englishLetterFreq = {'E': 12.70, 'T': 9.06, 'A': 8.17, 'O': 7.51, 'I': 6.97, 'N': 6.75, 'S': 6.33, 'H': 6.09, 'R': 5.99, 'D': 4.25, 'L': 4.03, 'C': 2.78, 'U': 2.76, 'M': 2.41, 'W': 2.36, 'F': 2.23, 'G': 2.02, 'Y': 1.97, 'P': 1.93, 'B': 1.29, 'V': 0.98, 'K': 0.77, 'J': 0.15, 'X': 0.15, 'Q': 0.10, 'Z': 0.07}
-ETAOIN = 'ETAOINSHRDLCUMWFGYPBVKJXQZ'
-LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-cl=0
-dict={}
-resz=''
-for n in strsplit:
- if n in dict:
-   resz=resz+dict[n]
- else:
-   dict[n]=alphabet[cl]
-   cl=cl+1
-   resz=resz+dict[n]
-print resz
-resz="LIVITCSWPIYVEWHEVSRIQMXLEYVEOIEWHRXEXIPFEMVEWHKVSTYLX".lower()
-rs=decode_subst(resz,4000,7000)
-print rs
-sys.exit()
-
-maxcodelen=5
-
-curclens=[]
-for a in range(26):
- curclens.append(1)
-dcts=[]
-
-mxscore=0
-itern=0
-curenf=0
-siter=0#245338
-#fixed=['10','12', '13', '11','14','9','7','18','25']
-fixed=[]
-strnglist=[strng]
-for fx in fixed:
-        ct1=[]
-        for sub in strnglist:
-            ct1=ct1+sub.split(fx)
-        strnglist=[c for c in ct1 if c!='']
-print strnglist
-#strnglist=[strng]
