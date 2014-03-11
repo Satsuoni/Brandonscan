@@ -378,7 +378,7 @@ class annealpoint:
               trat+=a*rat
             scr=rep+(trat/sm)
             if scr>0.7:
-             sg=ssegment(txt,10,lambda x: (x-1)*(x-1))
+             sg=ssegment(txt,10,lambda x: (x-1)*(x-1)*x)
              scr+=sg[0]*0.1
              #if sg[1]>2:
              #  print sg[2]
@@ -455,21 +455,34 @@ while True:
     apn.annealevel+=anneaincr
  reml=[]   
  for ap in increlist:
+   if ap.wordsplit>=len(strng)-4:
+    strq="Nice split: " +str(ap.csplit)+"  "+ap.string()
+    print strq
+    rlogn( strq )
+    sg=str(ssegment(ap.string()))
+    rlogn( sg )
+    print sg
+    reml.append(ap)
    if ap.nextincr<=ap.wordsplit:
      ap.inc_move(mv)
+     rlogn(  "Incrementing: " +ap.string()+" to "+str(ap.strpos) )
+     
    osc=ap.cscore
    for a in range(cloops):
     ap.mutate(0.94,anneaincr*a+ap.annealevel)
    if osc!=ap.cscore:
+    ap.naught=0
     ap.annealevel+=anneaincr
    else:
     ap.naught+=1
-    if ap.naught>10:
+    if ap.naught>30:
       reml.append(ap)
  for r in reml:
    rlogn(  "Removing: " +str(r.csplit)+ "   "+r.string() )
    increlist.remove(r)
- del reml  
+ del reml
+ if len(increlist)>200:
+   increlist=heapq.nlargest(180,increlist,key = lambda p: p.cscore) 
  mx=max(annealist+increlist,key = lambda p: p.cscore)
  mxa=max(annealist+increlist,key = lambda p: p.annealevel)
  sys.stdout.write("\r%05.3f" % mxa.annealevel)
@@ -498,6 +511,8 @@ while True:
  ll=50-len(annealist) 
  for q in range(ll):
    annealist.append(annealpoint(strng,20))
+   if random.random()>0.7:
+    annealist[-1].tc="rareday"
    annealist[-1].csplit[0:16]=[0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]
    annealist[-1].resplit()
 

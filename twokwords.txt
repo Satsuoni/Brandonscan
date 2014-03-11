@@ -3274,7 +3274,6 @@ blocks	19
 beggar	19
 battalion	19
 bashin	19
-av	19
 assaults	19
 asleep	19
 armorers	19
@@ -10237,7 +10236,6 @@ tunics	2
 tumult	2
 tumul	2
 tuber	2
-tu	2
 truthwatcher	2
 truthfulness	2
 trunklike	2
@@ -17562,8 +17560,6 @@ chagrin	1
 chafed	1
 chachanan	1
 chach	1
-cha	1
-ch	1
 ceremonial	1
 cerebral	1
 cements	1

@@ -48,7 +48,6 @@ def writengram(n):
  fl.close()
 def writemgram(n):
     ngrms={}
-
     wl=just_letterss(twok)
     for a in range(len(wl)-n+1):
             ng=''
@@ -65,14 +64,67 @@ def writemgram(n):
     for sk in s:
         fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
     fl.close()
-writemgram(1)
-writemgram(2)
-writemgram(3)
-writemgram(4)
-writemgram(5)
-writemgram(6)
-writemgram(7)
-writemgram(8)
+def writeagram(n):
+    ngrms={}
+    wl=twok.lower()
+    wl=string.replace(wl,'th','z')
+    wl=string.replace(wl,'ch','qq')
+    wl=string.replace(wl,'x','ks')
+    wl=string.replace(wl,'th','z')
+    wl=string.replace(wl,'w','u')
+    wl=string.replace(wl,'sh','w')
+    wl=string.replace(wl,'qu','kv')
+    wl=string.replace(wl,'q','k')
+    wls=string.replace(wl,'c','s')
+    wls=string.replace(wls,'qq','c')
+    wlk=string.replace(wl,'c','k')
+    wlk=string.replace(wlk,'qq','c')
+    td={}
+    awords=pat.findall(wls+wlk)
+    for wrd in awords:
+      wrl=wrd.lower()
+      if wrl in td:
+       td[wrl]+=1
+      else:
+       td[wrl]=1
+    fl=open("al_twokwords.txt","w")
+    s = sorted(td.items(), key=lambda(k,v):(v,k),reverse=True)
+    for sk in s:
+      fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+    fl.close()   
+    
+    wl=just_letterss(wls+wlk)
+    for a in range(len(wl)-n+1):
+            ng=''
+            for k in range(n):
+                ng+=wl[a+k]
+            if ng in ngrms:
+                ngrms[ng]+=1
+            else:
+                ngrms[ng]=1
+    strq="al_twok_%dl.txt" % (n)
+    print strq
+    fl=open(strq,"w")
+    s = sorted(ngrms.items(), key=lambda(k,v):(v,k),reverse=True)
+    for sk in s:
+        fl.write(str(sk[0])+"\t"+str(sk[1])+"\n")
+    fl.close()    
+#writemgram(1)
+#writemgram(2)
+#writemgram(3)
+#writemgram(4)
+#writemgram(5)
+#writemgram(6)
+#writemgram(7)
+#writemgram(8)
+writeagram(1)
+writeagram(2)
+writeagram(3)
+writeagram(4)
+writeagram(5)
+writeagram(6)
+writeagram(7)
+writeagram(8)
 sys.exit()
 
 #twodict2gram={}
