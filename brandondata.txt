@@ -2829,3 +2829,64 @@
 6046:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6046}}
 6047:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6047}}
 6048:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6048}}
+6049:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6049}}
+6050:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6050}}
+6051:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6051}}
+6052:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6052}}
+6053:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6053}}
+6054:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6054}}
+6055:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6055}}
+6056:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6056}}
+6057:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6057}}
+6058:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6058}}
+6059:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6059}}
+6060:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6060}}
+6061:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6061}}
+6063:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6063}}
+6064:{{  Whitespine Process}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/}}
+6065:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6065}}
+6068:{{  whitespine_sketch_01}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_01/}}
+6069:{{  whitespine_sketch_02}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_02/}}
+6070:{{  whitespine_sketch_03}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_03/}}
+6071:{{  whitespine_sketch_04}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_04/}}
+6072:{{  whitespine_sketch_05}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_05/}}
+6073:{{  whitespine_sketch_06}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_06/}}
+6074:{{  whitespine_sketch_07}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_07/}}
+6075:{{  whitespine_sketch_08}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_08/}}
+6076:{{  whitespine_sketch_09}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_09/}}
+6088:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6088}}
+6089:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6089}}
+6090:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6090}}
+6091:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6091}}
+6092:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6092}}
+6093:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6093}}
+6094:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6094}}
+6095:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6095}}
+6100:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6100}}
+6101:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6101}}
+6102:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6102}}
+6103:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6103}}
+6104:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6104}}
+6105:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6105}}
+6106:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6106}}
+6107:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6107}}
+6108:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6108}}
+6109:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6109}}
+6110:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6110}}
+6111:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6111}}
+6112:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6112}}
+6113:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6113}}
+6114:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6114}}
+6115:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6115}}
+6116:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6116}}
+6117:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6117}}
+6118:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6118}}
+6119:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6119}}
+6120:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6120}}
+6121:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6121}}
+6122:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6122}}
+6123:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6123}}
+6124:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6124}}
+6125:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6125}}
+6126:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6126}}
+6127:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6127}}
