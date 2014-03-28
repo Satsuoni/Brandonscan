@@ -2890,3 +2890,36 @@
 6125:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6125}}
 6126:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6126}}
 6127:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6127}}
+6128:{{hidden}}  {{http://brandonsanderson.com/the-vault/caitlin-aka-roshar-mistborn/}}
+6129:{{hidden}}  {{http://brandonsanderson.com/the-vault/fleruette/}}
+6130:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_9/}}
+6134:{{hidden}}  {{http://brandonsanderson.com/the-vault/grandduchess/}}
+6135:{{hidden}}  {{http://brandonsanderson.com/the-vault/t-bone/}}
+6136:{{hidden}}  {{http://brandonsanderson.com/the-vault/shadefang/}}
+6137:{{hidden}}  {{http://brandonsanderson.com/the-vault/kc9uph/}}
+6138:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-applewhite/}}
+6140:{{  Brandon Sanderson Newsletter for March 2014}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-march-2014/}}
+6144:{{hidden}}  {{http://brandonsanderson.com/the-vault/wanderingwitch/}}
+6147:{{  Brandon Sanderson Newsletter for December 2012}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-december-2012/}}
+6149:{{  Storybundle Contest, Signed WoR, Writing Excuses}}  {{http://brandonsanderson.com/storybundle-contest-signed-wor-writing-excuses/}}
+6151:{{hidden}}  {{http://brandonsanderson.com/the-vault/annaka/}}
+6154:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6154}}
+6157:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6157}}
+6158:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6158}}
+6159:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6159}}
+6160:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6160}}
+6161:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6161}}
+6163:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-4/}}
+6164:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6164}}
+6165:{{  StoryBundle last chance, Sugarhouse signing, Shardhunt, Lego Shattered Plains}}  {{http://brandonsanderson.com/storybundle-last-chance-sugarhouse-signing-shardhunt-lego-shattered-plains/}}
+6168:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6168}}
+6169:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6169}}
+6170:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6170}}
+6171:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6171}}
+6172:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=6172}}
+6173:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6173}}
+6174:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6174}}
+6175:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6175}}
+6176:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6176}}
+6177:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6177}}
+6179:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6179}}
