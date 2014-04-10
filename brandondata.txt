@@ -2633,6 +2633,7 @@
 5806:{{hidden}}  {{http://brandonsanderson.com/the-vault/abby-daniel/}}
 5807:{{hidden}}  {{http://brandonsanderson.com/the-vault/chris-wright/}}
 5808:{{hidden}}  {{http://brandonsanderson.com/the-vault/coolcurry/}}
+<<<<<<< HEAD
 5809:{{hidden}}  {{http://brandonsanderson.com/the-vault/inquisitorkamina/}}
 5810:{{hidden}}  {{http://brandonsanderson.com/the-vault/jacob-cord/}}
 5811:{{hidden}}  {{http://brandonsanderson.com/the-vault/a-e-marling/}}
@@ -2968,3 +2969,324 @@
 6294:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6294}}
 6295:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6295}}
 6296:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6296}}
+=======
+5809:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5809}}
+5810:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5810}}
+5811:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5811}}
+5812:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5812}}
+5813:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5813}}
+5814:{{hidden}}  {{http://brandonsanderson.com/the-vault/phillip-southard/}}
+5815:{{hidden}}  {{http://brandonsanderson.com/the-vault/michael-sorensen/}}
+5816:{{hidden}}  {{http://brandonsanderson.com/the-vault/mimimoraine/}}
+5817:{{hidden}}  {{http://brandonsanderson.com/the-vault/elena/}}
+5818:{{hidden}}  {{http://brandonsanderson.com/the-vault/nathan-domino/}}
+5819:{{hidden}}  {{http://brandonsanderson.com/the-vault/thetateman/}}
+5820:{{hidden}}  {{http://brandonsanderson.com/the-vault/becca-2/}}
+5821:{{hidden}}  {{http://brandonsanderson.com/the-vault/becca/}}
+5822:{{hidden}}  {{http://brandonsanderson.com/the-vault/caren/}}
+5823:{{hidden}}  {{http://brandonsanderson.com/the-vault/jim-e/}}
+5824:{{hidden}}  {{http://brandonsanderson.com/the-vault/dan-hunt/}}
+5825:{{hidden}}  {{http://brandonsanderson.com/the-vault/rowan/}}
+5826:{{hidden}}  {{http://brandonsanderson.com/?attachment_id=5826}}
+5828:{{  Pemberly, Limeboy, and Meatloaf}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_01/}}
+5829:{{  thanks_03}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_03/}}
+5830:{{  thanks_04}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_04/}}
+5831:{{  thanks_05}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_05/}}
+5832:{{  thanks_06}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_06/}}
+5833:{{  thanks_07}}  {{http://brandonsanderson.com/?attachment_id=5833}}
+5834:{{  thanks_09}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_09/}}
+5835:{{  thanks_11}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_11/}}
+5836:{{  thanks_12}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_12/}}
+5838:{{  thanks_14}}  {{http://brandonsanderson.com/tour-goodies-from-readers/thanks_14/}}
+5839:{{  Tour Goodies from Readers}}  {{http://brandonsanderson.com/tour-goodies-from-readers/}}
+5842:{{hidden}}  {{http://brandonsanderson.com/the-vault/marty-mcfly/}}
+5843:{{  thanks_08}}  {{http://brandonsanderson.com/?attachment_id=5843}}
+5844:{{hidden}}  {{http://brandonsanderson.com/the-vault/rachel-h/}}
+5846:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5846}}
+5847:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5847}}
+5848:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5848}}
+5849:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5849}}
+5850:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5850}}
+5851:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5851}}
+5852:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5852}}
+5853:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5853}}
+5854:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5854}}
+5855:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5855}}
+5856:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5856}}
+5857:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5857}}
+5858:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5858}}
+5859:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5859}}
+5860:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5860}}
+5861:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5861}}
+5862:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5862}}
+5863:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5863}}
+5864:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5864}}
+5865:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5865}}
+5866:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5866}}
+5867:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5867}}
+5868:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5868}}
+5869:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5869}}
+5870:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5870}}
+5871:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5871}}
+5876:{{  Annotation The Alloy of Law Chapter Two}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-two/}}
+5878:{{  Annotation The Alloy of Law Chapter Three}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-three/}}
+5880:{{  Annotation The Alloy of Law Chapter Four}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-four/}}
+5882:{{  Annotation The Alloy of Law Chapter Five}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-five/}}
+5884:{{  Annotation The Alloy of Law Chapter Six}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-six/}}
+5886:{{  Annotation The Alloy of Law Chapter Seven}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-seven/}}
+5888:{{  Annotation The Alloy of Law Chapter Eight}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-eight/}}
+5890:{{  Annotation The Alloy of Law Chapter Nine}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-nine/}}
+5892:{{  Annotation The Alloy of Law Chapter Ten}}  {{http://brandonsanderson.com/annotation-the-alloy-of-law-chapter-ten/}}
+5908:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5908}}
+5912:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5912}}
+5913:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5913}}
+5914:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5914}}
+5915:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5915}}
+5916:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5916}}
+5917:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5917}}
+5918:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5918}}
+5919:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5919}}
+5920:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5920}}
+5921:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5921}}
+5922:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5922}}
+5923:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5923}}
+5924:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5924}}
+5925:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5925}}
+5926:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5926}}
+5927:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5927}}
+5928:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=5928}}
+5929:{{hidden}}  {{http://brandonsanderson.com/the-vault/amanda/}}
+5930:{{hidden}}  {{http://brandonsanderson.com/the-vault/kappi/}}
+5933:{{  Signed books, Shardhunt, midnight release video, Writing Excuses &amp; updates}}  {{http://brandonsanderson.com/signed-books-shardhunt-midnight-release-video-writing-excuses-updates/}}
+5937:{{hidden}}  {{http://brandonsanderson.com/the-vault/traveler-2/}}
+5938:{{hidden}}  {{http://brandonsanderson.com/the-vault/traveler/}}
+5939:{{hidden}}  {{http://brandonsanderson.com/the-vault/silvermonarch/}}
+5940:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeremy-lepper/}}
+5941:{{hidden}}  {{http://brandonsanderson.com/the-vault/max-leviton/}}
+5942:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeaffer/}}
+5944:{{hidden}}  {{http://brandonsanderson.com/the-vault/technomagus/}}
+
+5945:{{hidden}}  {{http://brandonsanderson.com/the-vault/barnes-noble-bookstore-at-the-college-of-charleston/}}
+5946:{{hidden}}  {{http://brandonsanderson.com/the-vault/unikarenz/}}
+5947:{{hidden}}  {{http://brandonsanderson.com/the-vault/branon/}}
+5948:{{hidden}}  {{http://brandonsanderson.com/the-vault/ddunn/}}
+5949:{{hidden}}  {{http://brandonsanderson.com/the-vault/terry-rodino-jr/}}
+5950:{{hidden}}  {{http://brandonsanderson.com/the-vault/matt-larsen/}}
+5951:{{hidden}}  {{http://brandonsanderson.com/the-vault/treana-kay-chartier/}}
+5952:{{hidden}}  {{http://brandonsanderson.com/the-vault/faux-faux/}}
+5953:{{hidden}}  {{http://brandonsanderson.com/the-vault/patrick/}}
+5954:{{hidden}}  {{http://brandonsanderson.com/the-vault/andrew-2/}}
+5955:{{hidden}}  {{http://brandonsanderson.com/the-vault/catalyst21/}}
+5956:{{hidden}}  {{http://brandonsanderson.com/the-vault/socialglass/}}
+5957:{{hidden}}  {{http://brandonsanderson.com/the-vault/natob_0/}}
+5958:{{hidden}}  {{http://brandonsanderson.com/the-vault/jeremiah-whitmore/}}
+5959:{{hidden}}  {{http://brandonsanderson.com/the-vault/amanda-york/}}
+5960:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_6/}}
+5961:{{hidden}}  {{http://brandonsanderson.com/the-vault/sagubaguy/}}
+5962:{{hidden}}  {{http://brandonsanderson.com/the-vault/barb-johnson/}}
+5963:{{hidden}}  {{http://brandonsanderson.com/the-vault/zehra/}}
+5964:{{hidden}}  {{http://brandonsanderson.com/the-vault/tristan-and-christy-ganchero/}}
+5965:{{hidden}}  {{http://brandonsanderson.com/the-vault/schwartz-the-younger/}}
+5966:{{hidden}}  {{http://brandonsanderson.com/the-vault/gman99/}}
+5967:{{hidden}}  {{http://brandonsanderson.com/the-vault/jaspersl/}}
+5968:{{hidden}}  {{http://brandonsanderson.com/the-vault/justin-meshew-gpmushu/}}
+5969:{{hidden}}  {{http://brandonsanderson.com/the-vault/clayton/}}
+5970:{{hidden}}  {{http://brandonsanderson.com/the-vault/drew-preston/}}
+5971:{{hidden}}  {{http://brandonsanderson.com/the-vault/justin/}}
+5972:{{hidden}}  {{http://brandonsanderson.com/the-vault/rhondam/}}
+5973:{{hidden}}  {{http://brandonsanderson.com/the-vault/saphy/}}
+5974:{{hidden}}  {{http://brandonsanderson.com/the-vault/mr12/}}
+5975:{{hidden}}  {{http://brandonsanderson.com/?page_id=5975}}
+5976:{{  Ringtones &amp; Voice Mail Messages}}  {{http://brandonsanderson.com/shardhunt-wor/ringtones/}}
+5977:{{hidden}}  {{http://brandonsanderson.com/the-vault/lomeon/}}
+5981:{{hidden}}  {{http://brandonsanderson.com/the-vault/trenton-gibbs/}}
+5982:{{hidden}}  {{http://brandonsanderson.com/the-vault/paul-johnson/}}
+5983:{{hidden}}  {{http://brandonsanderson.com/the-vault/raatz-2/}}
+5984:{{hidden}}  {{http://brandonsanderson.com/the-vault/john-barnes/}}
+5985:{{hidden}}  {{http://brandonsanderson.com/the-vault/rzigggg4/}}
+5986:{{hidden}}  {{http://brandonsanderson.com/the-vault/subx/}}
+5987:{{hidden}}  {{http://brandonsanderson.com/the-vault/cassia/}}
+5988:{{hidden}}  {{http://brandonsanderson.com/the-vault/vondy/}}
+5989:{{hidden}}  {{http://brandonsanderson.com/the-vault/ian/}}
+5990:{{hidden}}  {{http://brandonsanderson.com/the-vault/steve-deardorff/}}
+5991:{{hidden}}  {{http://brandonsanderson.com/the-vault/hokal/}}
+5992:{{hidden}}  {{http://brandonsanderson.com/the-vault/lani/}}
+5998:{{hidden}}  {{http://brandonsanderson.com/the-vault/kbolton5/}}
+6001:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6001}}
+6002:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6002}}
+6003:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6003}}
+6004:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6004}}
+6005:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6005}}
+6006:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6006}}
+6007:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6007}}
+6008:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6008}}
+6009:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6009}}
+6010:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6010}}
+6011:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6011}}
+6012:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6012}}
+6013:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6013}}
+6014:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6014}}
+6015:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6015}}
+6016:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6016}}
+6017:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6017}}
+6018:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6018}}
+6019:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6019}}
+6020:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6020}}
+6021:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6021}}
+6022:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6022}}
+6023:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6023}}
+6024:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6024}}
+6025:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6025}}
+6026:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6026}}
+6027:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6027}}
+6028:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6028}}
+6030:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6030}}
+6031:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6031}}
+6032:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6032}}
+6033:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6033}}
+6034:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6034}}
+6035:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6035}}
+6036:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6036}}
+6037:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6037}}
+6038:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6038}}
+6039:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6039}}
+6040:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6040}}
+6041:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6041}}
+6042:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6042}}
+6043:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6043}}
+6044:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6044}}
+6045:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6045}}
+6046:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6046}}
+6047:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6047}}
+6048:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6048}}
+6049:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6049}}
+6050:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6050}}
+6051:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6051}}
+6052:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6052}}
+6053:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6053}}
+6054:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6054}}
+6055:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6055}}
+6056:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6056}}
+6057:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6057}}
+6058:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6058}}
+6059:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6059}}
+6060:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6060}}
+6061:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6061}}
+6063:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6063}}
+6064:{{  Whitespine Process}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/}}
+6065:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6065}}
+6068:{{  whitespine_sketch_01}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_01/}}
+6069:{{  whitespine_sketch_02}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_02/}}
+6070:{{  whitespine_sketch_03}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_03/}}
+6071:{{  whitespine_sketch_04}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_04/}}
+6072:{{  whitespine_sketch_05}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_05/}}
+6073:{{  whitespine_sketch_06}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_06/}}
+6074:{{  whitespine_sketch_07}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_07/}}
+6075:{{  whitespine_sketch_08}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_08/}}
+6076:{{  whitespine_sketch_09}}  {{http://brandonsanderson.com/shardhunt-wor/whitespine-process/whitespine_sketch_09/}}
+6088:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6088}}
+6089:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6089}}
+6090:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6090}}
+6091:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6091}}
+6092:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6092}}
+6093:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6093}}
+6094:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6094}}
+6095:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6095}}
+6100:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6100}}
+6101:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6101}}
+6102:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6102}}
+6103:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6103}}
+6104:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6104}}
+6105:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6105}}
+6106:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6106}}
+6107:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6107}}
+6108:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6108}}
+6109:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6109}}
+6110:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6110}}
+6111:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6111}}
+6112:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6112}}
+6113:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6113}}
+6114:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6114}}
+6115:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6115}}
+6116:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6116}}
+6117:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6117}}
+6118:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6118}}
+6119:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6119}}
+6120:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6120}}
+6121:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6121}}
+6122:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6122}}
+6123:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6123}}
+6124:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6124}}
+6125:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6125}}
+6126:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6126}}
+6127:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6127}}
+6128:{{hidden}}  {{http://brandonsanderson.com/the-vault/caitlin-aka-roshar-mistborn/}}
+6129:{{hidden}}  {{http://brandonsanderson.com/the-vault/fleruette/}}
+6130:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_9/}}
+6134:{{hidden}}  {{http://brandonsanderson.com/the-vault/grandduchess/}}
+6135:{{hidden}}  {{http://brandonsanderson.com/the-vault/t-bone/}}
+6136:{{hidden}}  {{http://brandonsanderson.com/the-vault/shadefang/}}
+6137:{{hidden}}  {{http://brandonsanderson.com/the-vault/kc9uph/}}
+6138:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-applewhite/}}
+6140:{{  Brandon Sanderson Newsletter for March 2014}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-march-2014/}}
+6144:{{hidden}}  {{http://brandonsanderson.com/the-vault/wanderingwitch/}}
+6147:{{  Brandon Sanderson Newsletter for December 2012}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-december-2012/}}
+6149:{{  Storybundle Contest, Signed WoR, Writing Excuses}}  {{http://brandonsanderson.com/storybundle-contest-signed-wor-writing-excuses/}}
+6151:{{hidden}}  {{http://brandonsanderson.com/the-vault/annaka/}}
+6154:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6154}}
+6157:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6157}}
+6158:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6158}}
+6159:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6159}}
+6160:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6160}}
+6161:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6161}}
+6163:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-4/}}
+6164:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6164}}
+6165:{{  StoryBundle last chance, Sugarhouse signing, Shardhunt, Lego Shattered Plains}}  {{http://brandonsanderson.com/storybundle-last-chance-sugarhouse-signing-shardhunt-lego-shattered-plains/}}
+6168:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6168}}
+6169:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6169}}
+6170:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6170}}
+6171:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6171}}
+6172:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=6172}}
+6173:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6173}}
+6174:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6174}}
+6175:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6175}}
+6176:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6176}}
+6177:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6177}}
+6179:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6179}}
+6180:{{hidden}}  {{http://brandonsanderson.com/the-vault/taylor-levesque/}}
+6181:{{hidden}}  {{http://brandonsanderson.com/the-vault/vine34/}}
+6182:{{hidden}}  {{http://brandonsanderson.com/?post_type=slide&p=6182}}
+6183:{{  wor_on-sale}}  {{http://brandonsanderson.com/?attachment_id=6183}}
+6186:{{  Kaladin&#8217;s Brands Beanie Now On Sale}}  {{http://brandonsanderson.com/?attachment_id=6186}}
+6189:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-wilson-2/}}
+6190:{{hidden}}  {{http://brandonsanderson.com/the-vault/bradley/}}
+6191:{{hidden}}  {{http://brandonsanderson.com/the-vault/don-a-vh/}}
+6192:{{hidden}}  {{http://brandonsanderson.com/the-vault/silaqui/}}
+6193:{{hidden}}  {{http://brandonsanderson.com/the-vault/stodtmeister/}}
+6194:{{hidden}}  {{http://brandonsanderson.com/the-vault/phyreburn/}}
+6195:{{hidden}}  {{http://brandonsanderson.com/the-vault/zach/}}
+6196:{{hidden}}  {{http://brandonsanderson.com/the-vault/ashleelois/}}
+6197:{{hidden}}  {{http://brandonsanderson.com/the-vault/john-donovan/}}
+6198:{{hidden}}  {{http://brandonsanderson.com/the-vault/josh-3/}}
+6199:{{hidden}}  {{http://brandonsanderson.com/the-vault/bowen-jacobs-herowannabe/}}
+6200:{{hidden}}  {{http://brandonsanderson.com/the-vault/kaily-jacobs/}}
+6201:{{hidden}}  {{http://brandonsanderson.com/the-vault/justin-2/}}
+6202:{{hidden}}  {{http://brandonsanderson.com/the-vault/jose-l-castro/}}
+6203:{{hidden}}  {{http://brandonsanderson.com/the-vault/murphspren/}}
+6204:{{hidden}}  {{http://brandonsanderson.com/the-vault/kaladin/}}
+6205:{{hidden}}  {{http://brandonsanderson.com/the-vault/joshua/}}
+6206:{{hidden}}  {{http://brandonsanderson.com/the-vault/smgorden/}}
+6207:{{hidden}}  {{http://brandonsanderson.com/the-vault/aaradel/}}
+6208:{{hidden}}  {{http://brandonsanderson.com/the-vault/jason-febery/}}
+6209:{{hidden}}  {{http://brandonsanderson.com/the-vault/kate-grant/}}
+6210:{{  Hugo Nominations Deadline Tonight}}  {{http://brandonsanderson.com/hugo-nominations-deadline-tonight/}}
+6213:{{hidden}}  {{http://brandonsanderson.com/the-vault/allibweav/}}
+6215:{{  The Emperor’s Soul Deleted Prologue: Imperial Fool}}  {{http://brandonsanderson.com/the-emperors-soul-deleted-prologue-imperial-fool/}}
+6220:{{  body_bg.jpg}}  {{http://brandonsanderson.com/?attachment_id=6220}}
+6221:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6221}}
+6222:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6222}}
+6223:{{  Words of Radiance Deleted Interlude: Stick}}  {{http://brandonsanderson.com/words-of-radiance-deleted-interlude-stick/}}
+6225:{{  Deleted Interlude from Words of Radiance}}  {{http://brandonsanderson.com/deleted-interlude-from-words-of-radiance/}}
+6227:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6227}}
+6228:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6228}}
+>>>>>>> a21f75b8057304b504e247fe11032c08da05ee79
