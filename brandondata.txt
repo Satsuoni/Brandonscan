@@ -2979,3 +2979,67 @@
 6310:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6310}}
 6311:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6311}}
 6312:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6312}}
+6317:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=6317}}
+6319:{{hidden}}  {{http://brandonsanderson.com/the-vault/roger-2/}}
+6320:{{hidden}}  {{http://brandonsanderson.com/the-vault/untitled_11/}}
+6321:{{hidden}}  {{http://brandonsanderson.com/the-vault/robert-pierce/}}
+6322:{{  Salt Lake FanXperience This Weekend + Jewelry &amp; Updates}}  {{http://brandonsanderson.com/salt-lake-fanxperience-this-weekend-jewelry-updates/}}
+6326:{{hidden}}  {{http://brandonsanderson.com/the-vault/samuel-cook/}}
+6330:{{hidden}}  {{http://brandonsanderson.com/the-vault/wuffles/}}
+6333:{{hidden}}  {{http://brandonsanderson.com/the-vault/aaron-carlucci/}}
+6334:{{hidden}}  {{http://brandonsanderson.com/the-vault/jasonioan/}}
+6335:{{hidden}}  {{http://brandonsanderson.com/the-vault/the-planeswalker-guy/}}
+6336:{{hidden}}  {{http://brandonsanderson.com/the-vault/holden/}}
+6337:{{hidden}}  {{http://brandonsanderson.com/the-vault/andrew-4/}}
+6338:{{hidden}}  {{http://brandonsanderson.com/the-vault/john-3/}}
+6339:{{hidden}}  {{http://brandonsanderson.com/the-vault/agetoki/}}
+6340:{{hidden}}  {{http://brandonsanderson.com/the-vault/aziraphale60/}}
+6342:{{  Firefight}}  {{http://brandonsanderson.com/books/steelheart/firefight/}}
+6343:{{  firefight-temp-cover}}  {{http://brandonsanderson.com/?attachment_id=6343}}
+6344:{{  firefight-temp-cover}}  {{http://brandonsanderson.com/books/steelheart/firefight/firefight-temp-cover-2/}}
+6353:{{  firefight-temp-cover}}  {{http://brandonsanderson.com/books/steelheart/firefight-temp-cover-3/}}
+6356:{{  The Wheel of Time Nominated for a Hugo Award}}  {{http://brandonsanderson.com/the-wheel-of-time-nominated-for-a-hugo-award/}}
+6366:{{hidden}}  {{http://brandonsanderson.com/the-vault/james-liang/}}
+6370:{{  firefight-thumb}}  {{http://brandonsanderson.com/?attachment_id=6370}}
+6372:{{  mitosis-thumb}}  {{http://brandonsanderson.com/books/mitosis-thumb-3/}}
+6378:{{  FIREFIGHT Cover Reveal and Giveaway Contest}}  {{http://brandonsanderson.com/firefight-cover-reveal-and-giveaway-contest/}}
+6382:{{  firefight-thumb}}  {{http://brandonsanderson.com/books/steelheart/firefight-thumb-2/}}
+6383:{{  mitosis-thumb}}  {{http://brandonsanderson.com/books/steelheart/mitosis-thumb-4/}}
+6385:{{hidden}}  {{http://brandonsanderson.com/?slide=firefight-pre-order}}
+6386:{{  Firefight Pre-Order}}  {{http://brandonsanderson.com/?attachment_id=6386}}
+6389:{{hidden}}  {{http://brandonsanderson.com/the-vault/darth-touma/}}
+6390:{{hidden}}  {{http://brandonsanderson.com/the-vault/wayne-griffith/}}
+6391:{{hidden}}  {{http://brandonsanderson.com/the-vault/michael-p/}}
+6393:{{  Chapters from the original draft of THE WAY OF KINGS available in anthology to benefit Robison Wells}}  {{http://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/}}
+6396:{{hidden}}  {{http://brandonsanderson.com/the-vault/bryan-bjax/}}
+6397:{{hidden}}  {{http://brandonsanderson.com/the-vault/shawn-miller/}}
+6398:{{hidden}}  {{http://brandonsanderson.com/the-vault/eric-h/}}
+6399:{{hidden}}  {{http://brandonsanderson.com/the-vault/werewolfalthor/}}
+6403:{{  Video Chat Today, Paste Magazine Article + Updates}}  {{http://brandonsanderson.com/video-chat-today-paste-magazine-article-updates/}}
+6404:{{  Paste-Mazazine-Issue138Cover-original}}  {{http://brandonsanderson.com/video-chat-today-paste-magazine-article-updates/paste-mazazine-issue138cover-original/}}
+6407:{{hidden}}  {{http://brandonsanderson.com/the-vault/churchitup/}}
+6409:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6409}}
+6410:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6410}}
+6411:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6411}}
+6412:{{  Mistborn Adventure Game Terris Supplement &amp; Giveaway Contest}}  {{http://brandonsanderson.com/mistborn-adventure-game-terris-supplement-giveaway-contest/}}
+6413:{{  Terris_Wrought_of_Copper}}  {{http://brandonsanderson.com/mistborn-adventure-game-terris-supplement-giveaway-contest/terris_wrought_of_copper/}}
+6417:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6417}}
+6418:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6418}}
+6419:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6419}}
+6420:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6420}}
+6421:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6421}}
+6423:{{  Want to join Bridge Four? The Altered Perceptions anthology final week drive}}  {{http://brandonsanderson.com/want-to-join-bridge-four-the-altered-perceptions-anthology-final-week-drive/}}
+6428:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6428}}
+6436:{{  Mistborn_trade_thumb}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire/mistborn_trade_thumb/}}
+6437:{{  Mistborn_trade}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire/mistborn_trade/}}
+6439:{{  Balticon Schedule + Play Magic with Brandon + New Mistborn YA Trade Paperback}}  {{http://brandonsanderson.com/balticon-schedule-play-magic-with-brandon-new-mistborn-ya-trade-paperback/}}
+6451:{{  Rithmatist_Tor_UK_thumb}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist/rithmatist_tor_uk_thumb/}}
+6452:{{  Rithmatist_Tor_UK}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist/rithmatist_tor_uk/}}
+6457:{{  Signed The Rithmatist hardcovers, new paperbacks, new UK artwork + ebooks}}  {{http://brandonsanderson.com/signed-the-rithmatist-hardcovers-new-paperbacks-new-uk-artwork-ebooks/}}
+6465:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6465}}
+6469:{{  Legend Award Voting, Writing Excuses, Defending Elysium Audio, Shallan&#8217;s Lullaby}}  {{http://brandonsanderson.com/legend-award-voting-writing-excuses-defending-elysium-audio-shallans-lullaby/}}
+6474:{{  Hugo Voter Packet with The Wheel of Time, Convention Deadlines, White Sand Graphic Novels}}  {{http://brandonsanderson.com/hugo-voter-packet-with-the-wheel-of-time-convention-deadlines-white-sand-graphic-novels/}}
+6478:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6478}}
+6493:{{  Tweets May 2014}}  {{http://brandonsanderson.com/tweets-may-2014/}}
+6498:{{  Writing Excuses, Signed Books &amp; Updates}}  {{http://brandonsanderson.com/writing-excuses-signed-books-updates/}}
+6500:{{  Introducing Augmented Draft}}  {{http://brandonsanderson.com/introducing-augmented-draft/}}
