@@ -3067,3 +3067,4 @@
 6607:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6607}}
 6608:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6608}}
 6609:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6609}}
+6611:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6611}}
