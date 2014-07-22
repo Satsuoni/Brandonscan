@@ -1,0 +1,60 @@
+0x7EA00000
+0x000: writable, set bit 16 at L_00170C96 or so. Readable - waits for bit to self-clear
+       set bit 20 at L_00170DA8
+       set bit 3
+       set bit 1 (same)
+       chacks for bit 0 before doing operation L_00170E26
+0x004: loaded at L_00170D94, bittested (0) , tested for bits 0,3,
+0x008: Magic register? Should return "IS" in last 2 bytes (read)
+0x018: loaded at L_00170D06
+0x030: stored to at L_00171498
+0x034: stored to at L_00171498
+0x038: stored to at L_00171498
+0x03c: stored to at L_00171498
+0x050: stored to at L_00171498
+
+0x080:
+0x098: r/W? L_00171594
+0x09c:
+0x100:
+0x104:
+0x108:
+
+
+0x280:
+0x290: loaded at L_00170CA0
+0x294: loaded at L_00170CA0
+0x298:loaded at L_00170CA0
+
+0x440: smth?
+0x444: readable
+0x44c-0x46c: -writable, repeated 8 writes from memory at L_00170C80(rawtext)
+0x540:
+0x550: (+10) stored to L_0017151A
+0x554: (+14) stored to L_0017151A
+0x558: (+18) stored to L_0017151A
+0x55c: (+1c) stored to L_0017151A
+0x560: (+20) stored to L_0017151A
+0x564: (+24) stored to L_0017151A
+0x568: (+28) stored to L_0017151A
+0x56c: (+2c) stored to L_0017151A
+0x680:
+0x69C: loadable
+0x6A0: loadable (byte?)
+0x800: DATA
+0x840: DATA
+0x880: DATA
+
+0xa00:
+0xa20: ld/st L_00171680
+
+0xf80:
+0xfb8: (+38) loaded from at L_00170CB6, tested bit 0
+0xfd4: (+54)loaded from at L_00170CB6
+0x3300: DATA
+0x3380: DATA
+0x3400: DATA
+0x3A00: DATA
+0x3A40: DATA
+0x3A80: DATA
+
