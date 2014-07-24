@@ -1,0 +1,137 @@
+r24 points to sdata: 0x0ef0af40
+Program Header:
+    LOAD off    0x000004a0 vaddr 0xcec00100 paddr 0xcec00100 align 2**5
+         filesz 0x00000100 memsz 0x00000100 flags rw-
+    LOAD off    0x000005a0 vaddr 0xcec01e00 paddr 0xcec01e00 align 2**5
+         filesz 0x00000200 memsz 0x00000200 flags rw-
+    LOAD off    0x000007a0 vaddr 0xcec00200 paddr 0xcec00200 align 2**5
+         filesz 0x000018e0 memsz 0x000018e0 flags r-x
+    LOAD off    0x00002080 vaddr 0x0ec02800 paddr 0x0ec02800 align 2**6
+         filesz 0x002ae07a memsz 0x002ae07a flags r-x
+    LOAD off    0x002b0100 vaddr 0x0eeb0880 paddr 0x0eeb0880 align 2**5
+         filesz 0x00000058 memsz 0x00000058 flags r-x
+    LOAD off    0x002b0160 vaddr 0x0eeb08e0 paddr 0x0eeb08e0 align 2**5
+         filesz 0x00000024 memsz 0x00000024 flags r--
+    LOAD off    0x002b01a0 vaddr 0x0eeb0940 paddr 0x0eeb0940 align 2**6
+         filesz 0x000587bc memsz 0x000587bc flags r--
+    LOAD off    0x00308960 vaddr 0x0ef09100 paddr 0x0ef09100 align 2**5
+         filesz 0x00000cd8 memsz 0x00000cd8 flags r--
+    LOAD off    0x00309640 vaddr 0x0ef09de0 paddr 0x0ef09de0 align 2**5
+         filesz 0x00000018 memsz 0x00000018 flags r--
+    LOAD off    0x00309660 vaddr 0x0ef09e00 paddr 0x0ef09e00 align 2**5
+         filesz 0x00000004 memsz 0x00000004 flags r--
+    LOAD off    0x00309680 vaddr 0x0ef09e20 paddr 0x0ef09e20 align 2**5
+         filesz 0x00000038 memsz 0x00000038 flags r--
+    LOAD off    0x003096c0 vaddr 0x0ef09e60 paddr 0x0ef09e60 align 2**5
+         filesz 0x00000018 memsz 0x00000018 flags r--
+    LOAD off    0x003096e0 vaddr 0x0ef09e80 paddr 0x0ef09e80 align 2**5
+         filesz 0x0000001c memsz 0x0000001c flags r--
+    LOAD off    0x00309700 vaddr 0x0ef09ea0 paddr 0x0ef09ea0 align 2**5
+         filesz 0x000000d4 memsz 0x000000d4 flags r--
+    LOAD off    0x003097e0 vaddr 0x0ef09f80 paddr 0x0ef09f80 align 2**5
+         filesz 0x00000fb4 memsz 0x00000fb4 flags r--
+    LOAD off    0x0030a7a0 vaddr 0x0ef0af40 paddr 0x0ef0af40 align 2**5
+         filesz 0x00001a40 memsz 0x000024d0 flags rw-
+    LOAD off    0x0030c1e0 vaddr 0x0ef0d420 paddr 0x0ef0d420 align 2**5
+         filesz 0x0005099c memsz 0x0005099c flags rw-
+    LOAD off    0x0035cb80 vaddr 0x0ef5ddc0 paddr 0x0ef5ddc0 align 2**5
+         filesz 0x000000e8 memsz 0x000000e8 flags rw-
+    LOAD off    0x0035cc80 vaddr 0x0ef5dec0 paddr 0x0ef5dec0 align 2**5
+         filesz 0x00000100 memsz 0x00000900 flags rw-
+    LOAD off    0x0035cd80 vaddr 0x0ef5e7c0 paddr 0x0ef5e7c0 align 2**5
+         filesz 0x00000000 memsz 0x00000800 flags rw-
+    LOAD off    0x0035cd80 vaddr 0x0ef5efc0 paddr 0x0ef5efc0 align 2**6
+         filesz 0x00000000 memsz 0x00459d20 flags rw-
+    LOAD off    0x0035cd80 vaddr 0xcec02000 paddr 0xcec02000 align 2**5
+         filesz 0x00000010 memsz 0x00000010 flags rw-
+    LOAD off    0x0035cda0 vaddr 0xcec02020 paddr 0xcec02020 align 2**5
+         filesz 0x000000cc memsz 0x000000cc flags rw-
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         002ae07a  0ec02800  0ec02800  00002080  2**6
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .init         00000044  0eeb0880  0eeb0880  002b0100  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .fini         00000008  0eeb08d0  0eeb08d0  002b0150  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .initdat      00000024  0eeb08e0  0eeb08e0  002b0160  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .rdata        000587bc  0eeb0940  0eeb0940  002b01a0  2**6
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .rsdata       00000cd8  0ef09100  0ef09100  00308960  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .rsdata       00000008  0ef09de0  0ef09de0  00309640  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .rsdata       00000008  0ef09df0  0ef09df0  00309650  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .rsdata       00000004  0ef09e00  0ef09e00  00309660  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .rsdata       00000008  0ef09e20  0ef09e20  00309680  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .rsdata       00000000  0ef09e30  0ef09e30  00309690  2**4
+                  ALLOC
+ 11 .rsdata       00000010  0ef09e30  0ef09e30  00309690  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .rsdata       00000010  0ef09e40  0ef09e40  003096a0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .rsdata       00000000  0ef09e50  0ef09e50  003096b0  2**4
+                  ALLOC
+ 14 .rsdata       00000000  0ef09e50  0ef09e50  003096b0  2**4
+                  ALLOC
+ 15 .rsdata       00000008  0ef09e50  0ef09e50  003096b0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .rsdata       00000008  0ef09e60  0ef09e60  003096c0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .rsdata       00000008  0ef09e70  0ef09e70  003096d0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .rsdata       00000008  0ef09e80  0ef09e80  003096e0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .drivers_base 0000000c  0ef09e90  0ef09e90  003096f0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .drivers      000000b0  0ef09ea0  0ef09ea0  00309700  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .modules      00000000  0ef09f50  0ef09f50  003097b0  2**4
+                  ALLOC
+ 22 .init.vchiq_services 00000024  0ef09f50  0ef09f50  003097b0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .init_mmal_ril_parameter_table 00000b40  0ef09f80  0ef09f80  003097e0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .init.vc_debug_sym 00000474  0ef0aac0  0ef0aac0  0030a320  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .sdata        00001a40  0ef0af40  0ef0af40  0030a7a0  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 26 .sbss         00000a90  0ef0c980  0ef0c980  0030c1e0  2**5
+                  ALLOC
+ 27 .data         0005099c  0ef0d420  0ef0d420  0030c1e0  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 28 .tls          000000e8  0ef5ddc0  0ef5ddc0  0035cb80  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 29 .guard1       00000100  0ef5dec0  0ef5dec0  0035cc80  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 30 .stack        00000800  0ef5dfc0  0ef5dfc0  0035cd80  2**5
+                  ALLOC
+ 31 .stack2       00000800  0ef5e7c0  0ef5e7c0  0035cd80  2**5
+                  ALLOC
+ 32 .bss          00459d20  0ef5efc0  0ef5efc0  0035cd80  2**6
+                  ALLOC
+ 33 .heap         00000000  0f3b8ce0  0f3b8ce0  0035cd80  2**5
+                  ALLOC
+ 34 .nuheap       00000000  0f3b8ce0  0f3b8ce0  0035cd80  2**5
+                  ALLOC
+ 35 .guard0       00000100  cec00100  cec00100  000004a0  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 36 .crypto       00001840  cec00200  cec00200  000007a0  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 37 .secfns       000000a0  cec01a40  cec01a40  00001fe0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .isr_vectors  00000200  cec01e00  cec01e00  000005a0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 39 .init.ucdata  00000010  cec02000  cec02000  0035cd80  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 40 .ucdata       000000cc  cec02020  cec02020  0035cda0  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+ 41 .comment      00000018  00000000  00000000  0035ce6c  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+no symbols
