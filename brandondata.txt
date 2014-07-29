@@ -3068,3 +3068,14 @@
 6608:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6608}}
 6609:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6609}}
 6611:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6611}}
+6614:{{  Awesome Prizes from Wizards of the Coast + Magic in Spain &amp; UK}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/}}
+6615:{{  IMG_5705}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5705/}}
+6616:{{  IMG_5706}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5706/}}
+6617:{{  IMG_5708}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5708/}}
+6618:{{  IMG_5709}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5709/}}
+6619:{{  IMG_5710}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5710/}}
+6620:{{  IMG_5711}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5711/}}
+6621:{{  IMG_5712}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5712/}}
+6622:{{  IMG_5714}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5714/}}
+6629:{{  San Diego Comic-Con Freebies}}  {{http://brandonsanderson.com/san-diego-comic-con-freebies/}}
+6630:{{  IMG_1376}}  {{http://brandonsanderson.com/san-diego-comic-con-freebies/img_1376/}}
