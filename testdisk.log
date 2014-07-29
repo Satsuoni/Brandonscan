@@ -1,0 +1,119 @@
+
+
+Fri Jul 25 21:39:53 2014
+Command line: TestDisk
+
+TestDisk 6.14, Data Recovery Utility, July 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Darwin, kernel 13.3.0 (Darwin Kernel Version 13.3.0: Tue Jun  3 21:27:35 PDT 2014; root:xnu-2422.1
+Compiler: GCC 4.2
+Compilation date: 2014-07-25T21:36:08
+ext2fs lib: none, ntfs lib: none, reiserfs lib: none, ewf lib: none
+Hard disk list
+Disk /dev/disk0 - 121 GB / 113 GiB - 236978176 sectors (RO), sector size=512
+Disk /dev/disk1 - 250 GB / 232 GiB - 488397168 sectors, sector size=512
+Disk /dev/disk2 - 500 GB / 465 GiB - 976769024 sectors (RO), sector size=512
+Disk /dev/rdisk0 - 121 GB / 113 GiB - 236978176 sectors (RO), sector size=512
+Disk /dev/rdisk1 - 250 GB / 232 GiB - 488397168 sectors, sector size=512
+Disk /dev/rdisk2 - 500 GB / 465 GiB - 976769024 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/disk1 - 250 GB / 232 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=488397167 (expected 488397167)
+hdr_lba_start=34
+hdr_lba_end=488397134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                    40     409639     409600 [EFI System Partition]
+ 2 P Mac HFS                   409640  488134983  487725344 [Storage]
+     HFSX blocksize=4096, 249 GB / 232 GiB
+
+HFS_HFSP_boot_sector
+ 2 P Mac HFS                   409640  488134983  487725344 [Storage]
+     HFSX blocksize=4096, 249 GB / 232 GiB
+
+HFSX magic value at 409640/0/1
+
+HFSX magic value at 409640/0/1
+Volume header
+HFS+ OK
+
+Backup volume header
+HFS+ OK
+
+Sectors are not identical.
+copy backup superblock over main superblock
+
+HFS_HFSP_boot_sector
+ 2 P Mac HFS                   409640  488134983  487725344 [Storage]
+     HFSX blocksize=4096, 249 GB / 232 GiB
+
+HFSX magic value at 409640/0/1
+
+HFSX magic value at 409640/0/1
+Volume header
+HFS+ OK
+
+Backup volume header
+HFS+ OK
+
+Sectors are identical.
+
+Analyse Disk /dev/disk1 - 250 GB / 232 GiB - 488397168 sectors
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=488397167 (expected 488397167)
+hdr_lba_start=34
+hdr_lba_end=488397134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+Current partition structure:
+ 1 P EFI System                    40     409639     409600 [EFI System Partition]
+ 2 P Mac HFS                   409640  488134983  487725344 [Storage]
+
+search_part()
+Disk /dev/disk1 - 250 GB / 232 GiB - 488397168 sectors
+check_FAT: Unusual media descriptor (0xf0!=0xf8)
+FAT32 at 40/0/1
+FAT1 : 32-3182
+FAT2 : 3183-6333
+start_rootdir : 6334 root cluster : 2
+Data : 6334-409599
+sectors : 409600
+cluster_size : 1
+no_of_cluster : 403266 (2 - 403267)
+fat_length 3151 calculated 3151
+heads/cylinder 16 (FAT) != 1 (HD)
+sect/track 32 (FAT) != 1 (HD)
+
+FAT32 at 40/0/1
+     EFI System                    40     409639     409600 [EFI]
+     FAT32, blocksize=512, 209 MB / 200 MiB
+
+HFSX magic value at 409640/0/1
+part_size 487725344
+     Mac HFS                   409640  488134983  487725344
+     HFSX blocksize=4096, 249 GB / 232 GiB
+
+Results
+   P EFI System                    40     409639     409600 [EFI]
+     FAT32, blocksize=512, 209 MB / 200 MiB
+   P Mac HFS                   409640  488134983  487725344
+     HFSX blocksize=4096, 249 GB / 232 GiB
+
+interface_write()
+ 1 P EFI System                    40     409639     409600 [EFI]
+ 2 P Mac HFS                   409640  488134983  487725344
+write!
+No extended partition
+You will have to reboot for the change to take effect.
+
+TestDisk exited normally.
