@@ -3079,3 +3079,116 @@
 6622:{{  IMG_5714}}  {{http://brandonsanderson.com/awesome-prizes-from-wizards-of-the-coast-magic-in-spain-uk/img_5714/}}
 6629:{{  San Diego Comic-Con Freebies}}  {{http://brandonsanderson.com/san-diego-comic-con-freebies/}}
 6630:{{  IMG_1376}}  {{http://brandonsanderson.com/san-diego-comic-con-freebies/img_1376/}}
+6636:{{  Hugo voting deadline this week + GraphicAudio Well of Ascension &amp; Updates}}  {{http://brandonsanderson.com/hugo-voting-deadline-this-week-graphicaudio-well-of-ascension-updates/}}
+6641:{{  My Celsius 232 schedule in Spain}}  {{http://brandonsanderson.com/my-celsius-232-schedule-in-spain/}}
+6646:{{  My UK schedule today through Wednesday}}  {{http://brandonsanderson.com/my-uk-schedule-today-through-wednesday/}}
+6651:{{hidden}}  {{http://brandonsanderson.com/the-vault/fiachrah/}}
+6652:{{  My Calgary schedule starting today—Three events open to the public}}  {{http://brandonsanderson.com/my-calgary-schedule-starting-today-three-events-open-to-the-public/}}
+6655:{{hidden}}  {{http://brandonsanderson.com/the-vault/orrin/}}
+6656:{{  ConQuest 46}}  {{http://brandonsanderson.com/events/conquest-46/}}
+6658:{{  Tweets July 2014}}  {{http://brandonsanderson.com/tweets-july-2014/}}
+6660:{{  Tweets August 2014}}  {{http://brandonsanderson.com/tweets-august-2014/}}
+6662:{{  Tweets and Writing Excuses episodes}}  {{http://brandonsanderson.com/tweets-and-writing-excuses-episodes/}}
+6667:{{hidden}}  {{http://brandonsanderson.com/?slide=legion-skin-deep-pre-order}}
+6668:{{  legion2_sidebar}}  {{http://brandonsanderson.com/?attachment_id=6668}}
+6669:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6669}}
+6671:{{  The Wheel of Time Did Not Win a Hugo. (And that’s okay.)}}  {{http://brandonsanderson.com/the-wheel-of-time-did-not-win-a-hugo-and-thats-okay/}}
+6677:{{  Sasquan, the 73rd World Science Fiction Convention}}  {{http://brandonsanderson.com/events/sasquan-the-73rd-world-science-fiction-convention/}}
+6678:{{  Ice Bucket Challenge}}  {{http://brandonsanderson.com/ice-bucket-challenge/}}
+6680:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6680}}
+6682:{{hidden}}  {{http://brandonsanderson.com/?attachment_id=6682}}
+6683:{{hidden}}  {{http://brandonsanderson.com/?attachment_id=6683}}
+6684:{{hidden}}  {{http://brandonsanderson.com/?attachment_id=6684}}
+6689:{{  Tour Report: Europe and Canada}}  {{http://brandonsanderson.com/tour-report-europe-and-canada/}}
+6694:{{  Assistant Peter Recommends: The Broken Eye by Brent Weeks}}  {{http://brandonsanderson.com/assistant-peter-recommends-the-broken-eye-by-brent-weeks/}}
+6696:{{  BrentWeeksBrokenEye}}  {{http://brandonsanderson.com/assistant-peter-recommends-the-broken-eye-by-brent-weeks/brentweeksbrokeneye/}}
+6710:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6710}}
+6711:{{  Shadows Beneath on sale this week for Salt Lake Comic Con}}  {{http://brandonsanderson.com/shadows-beneath-on-sale-this-week-for-salt-lake-comic-con/}}
+6713:{{  Salt Lake Comic Con schedule &amp; Magic draft}}  {{http://brandonsanderson.com/salt-lake-comic-con-schedule-magic-draft/}}
+6723:{{  Infinity Blade fan film kickstarter}}  {{http://brandonsanderson.com/infinity-blade-fan-film-kickstarter/}}
+6730:{{  Assistant Peter Recommends: City of Stairs by Robert Jackson Bennett}}  {{http://brandonsanderson.com/assistant-peter-recommends-city-of-stairs-by-robert-jackson-bennett/}}
+6731:{{  City-of-Stairs-UK-thumb}}  {{http://brandonsanderson.com/assistant-peter-recommends-city-of-stairs-by-robert-jackson-bennett/city-of-stairs-uk-thumb/}}
+6732:{{  City-of-Stairs-thumb}}  {{http://brandonsanderson.com/assistant-peter-recommends-city-of-stairs-by-robert-jackson-bennett/city-of-stairs-thumb/}}
+6744:{{  Tweets September 2014}}  {{http://brandonsanderson.com/tweets-september-2014/}}
+6757:{{  Fantasy: Elves and dragons — still fun or time for something new?}}  {{http://brandonsanderson.com/fantasy-elves-and-dragons-still-fun-or-time-for-something-new/}}
+6760:{{  Blending the Familiar and the Strange}}  {{http://brandonsanderson.com/blending-the-familiar-and-the-strange/}}
+6762:{{  The Mystique of Dragons}}  {{http://brandonsanderson.com/the-mystique-of-dragons/}}
+6764:{{  Letting Magic be Magical}}  {{http://brandonsanderson.com/letting-magic-be-magical/}}
+6766:{{  The Fantasy Series}}  {{http://brandonsanderson.com/the-fantasy-series/}}
+6768:{{  The Journey in Fantasy}}  {{http://brandonsanderson.com/the-journey-in-fantasy/}}
+6771:{{  Guns and Words}}  {{http://brandonsanderson.com/guns-and-words/}}
+6773:{{  Steampunk/Gearpunk}}  {{http://brandonsanderson.com/steampunkgearpunk/}}
+6775:{{  The YA Invasion}}  {{http://brandonsanderson.com/the-ya-invasion/}}
+6777:{{  Warbreaker}}  {{http://brandonsanderson.com/warbreaker-5/}}
+6783:{{  Types of Series}}  {{http://brandonsanderson.com/types-of-series/}}
+6788:{{  The Way of Kings Free on iTunes! (Update: And Kindle in the US)}}  {{http://brandonsanderson.com/the-way-of-kings-free-on-itunes/}}
+6801:{{  Steelheart_mm_UK_thumb}}  {{http://brandonsanderson.com/books/steelheart/steelheart/steelheart_mm_uk_thumb/}}
+6802:{{  Steelheart_trade_thumb}}  {{http://brandonsanderson.com/books/steelheart/steelheart/steelheart_trade_thumb/}}
+6812:{{  Steelheart paperback release!}}  {{http://brandonsanderson.com/steelheart-paperback-release/}}
+6813:{{  Steelheart_books_rocks}}  {{http://brandonsanderson.com/steelheart-paperback-release/steelheart_books_rocks/}}
+6818:{{  Mistborn ebook on sale}}  {{http://brandonsanderson.com/mistborn-ebook-on-sale/}}
+6823:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=6823}}
+6826:{{  Writing Excuses episodes, Interview with Buzzy Mag &amp; Updates}}  {{http://brandonsanderson.com/writing-excuses-episodes-interview-with-buzzy-mag-updates/}}
+6830:{{  Shadows Beneath available in the NaNoWriMo tools StoryBundle}}  {{http://brandonsanderson.com/shadows-beneath-available-in-the-nanowrimo-tools-storybundle/}}
+6831:{{  NaNoStoryBundle}}  {{http://brandonsanderson.com/shadows-beneath-available-in-the-nanowrimo-tools-storybundle/nanostorybundle/}}
+6835:{{  FirefightUKthumb}}  {{http://brandonsanderson.com/books/steelheart/firefight/firefightukthumb/}}
+6848:{{  Well-of-Ascension-YA-thumb}}  {{http://brandonsanderson.com/books/mistborn/the-well-of-ascension/well-of-ascension-ya-thumb/}}
+6855:{{hidden}}  {{http://brandonsanderson.com/the-vault/hearmonicaroar/}}
+6856:{{  Hero-of-Ages-YA-thumb}}  {{http://brandonsanderson.com/books/mistborn/the-hero-of-ages/hero-of-ages-ya-thumb/}}
+6862:{{  Mistborn Trade Paperbacks + New York Comic Con Schedule}}  {{http://brandonsanderson.com/mistborn-trade-paperbacks-new-york-comic-con-schedule/}}
+6864:{{  Mistborn_trade_paperbacks}}  {{http://brandonsanderson.com/mistborn-trade-paperbacks-new-york-comic-con-schedule/mistborn_trade_paperbacks/}}
+6875:{{  MitosisUKthumb}}  {{http://brandonsanderson.com/books/steelheart/mitosis/mitosisukthumb/}}
+6880:{{  Mitosis audiobook free on Audible}}  {{http://brandonsanderson.com/mitosis-audiobook-free-on-audible/}}
+6897:{{  The Accidental Highwayman}}  {{http://brandonsanderson.com/the-accidental-highwayman/}}
+6898:{{  Accidental_Highwayman_thumb}}  {{http://brandonsanderson.com/the-accidental-highwayman/accidental_highwayman_thumb/}}
+6904:{{  Writing Excuses Episodes &amp; Caribbean Retreat}}  {{http://brandonsanderson.com/writing-excuses-episodes-caribbean-retreat/}}
+6907:{{  Sixth of the Dusk}}  {{http://brandonsanderson.com/sixth-of-the-dusk-ebook/}}
+6908:{{  cover_thumb}}  {{http://brandonsanderson.com/sixth-of-the-dusk-ebook/cover_thumb/}}
+6919:{{  Sixth of the Dusk solo ebook out now!}}  {{http://brandonsanderson.com/sixth-of-the-dusk-solo-ebook-out-now/}}
+6929:{{  Allomancer Jak and the Pits of Eltania}}  {{http://brandonsanderson.com/allomancer-jak-and-the-pits-of-eltania/}}
+6934:{{  Mistborn Adventure Game Alloy of Law supplement, New Allomancer Jak story + Giveaway}}  {{http://brandonsanderson.com/mistborn-adventure-game-alloy-of-law-supplement-new-allomancer-jak-story-giveaway/}}
+6935:{{  AoL supplement cover thumb}}  {{http://brandonsanderson.com/mistborn-adventure-game-alloy-of-law-supplement-new-allomancer-jak-story-giveaway/aol-supplement-cover-thumb/}}
+6936:{{  AoL supplement cover}}  {{http://brandonsanderson.com/mistborn-adventure-game-alloy-of-law-supplement-new-allomancer-jak-story-giveaway/aol-supplement-cover/}}
+6984:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6984}}
+6986:{{  Grammy Awards Nominations: Mistborn}}  {{http://brandonsanderson.com/grammy-awards-nominations-mistborn/}}
+6994:{{  The Rithmatist ebook on sale today}}  {{http://brandonsanderson.com/the-rithmatist-ebook-on-sale-today/}}
+6997:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=6997}}
+6998:{{  Holiday Shipping Deadlines + Updates}}  {{http://brandonsanderson.com/holiday-shipping-deadlines-updates/}}
+7003:{{  Barnes &amp; Noble}}  {{http://brandonsanderson.com/events/barnes-noble-5/}}
+7004:{{  Holiday Book Sale &amp; Author Extravaganza}}  {{http://brandonsanderson.com/events/holiday-book-sale-author-extravaganza/}}
+7005:{{  Firefight Release}}  {{http://brandonsanderson.com/events/firefight-release/}}
+7014:{{  New in the Brandon Sanderson Store + Updates}}  {{http://brandonsanderson.com/new-in-the-brandon-sanderson-store-updates/}}
+7018:{{  Feruchemical_table}}  {{http://brandonsanderson.com/new-in-the-brandon-sanderson-store-updates/feruchemical_table/}}
+7019:{{  First_Ideal}}  {{http://brandonsanderson.com/new-in-the-brandon-sanderson-store-updates/first_ideal/}}
+7020:{{  VinShirt_600}}  {{http://brandonsanderson.com/new-in-the-brandon-sanderson-store-updates/vinshirt_600/}}
+7030:{{  Mitosis released in the UK/Australia/New Zealand/Ireland}}  {{http://brandonsanderson.com/mitosis-released-in-the-ukaustralianew-zealandireland/}}
+7031:{{  Mitosis_comparison}}  {{http://brandonsanderson.com/mitosis-released-in-the-ukaustralianew-zealandireland/mitosis_comparison/}}
+7041:{{  Isaac Stewart on the artwork for Sixth of the Dusk}}  {{http://brandonsanderson.com/isaac-stewart-on-the-artwork-for-sixth-of-the-dusk/}}
+7043:{{  beneath_the_surface_by_julie_dillon_thumb}}  {{http://brandonsanderson.com/isaac-stewart-on-the-artwork-for-sixth-of-the-dusk/beneath_the_surface_by_julie_dillon_thumb/}}
+7044:{{  DuskEbookCover_beveled}}  {{http://brandonsanderson.com/isaac-stewart-on-the-artwork-for-sixth-of-the-dusk/duskebookcover_beveled/}}
+7045:{{  forgotten_lands_i_by_blinck_thumb}}  {{http://brandonsanderson.com/isaac-stewart-on-the-artwork-for-sixth-of-the-dusk/forgotten_lands_i_by_blinck_thumb/}}
+7046:{{  Kekai_Kotaki_thumb}}  {{http://brandonsanderson.com/isaac-stewart-on-the-artwork-for-sixth-of-the-dusk/kekai_kotaki_thumb/}}
+7056:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=7056}}
+7060:{{  Introducing Legion: Skin Deep}}  {{http://brandonsanderson.com/introducing-legion-skin-deep/}}
+7065:{{  Legion-Skin-Deep-Jon-Foster-thumb}}  {{http://brandonsanderson.com/books/legion/legion-skin-deep-jon-foster-thumb-2/}}
+7067:{{  Black Friday + Signing in Idaho Falls on Saturday}}  {{http://brandonsanderson.com/black-friday-signing-in-idaho-falls-on-saturday/}}
+7072:{{  Low-priced ebooks including The Alloy of Law}}  {{http://brandonsanderson.com/low-priced-ebooks-including-the-alloy-of-law/}}
+7079:{{  Tweets October 2014}}  {{http://brandonsanderson.com/tweets-october-2014/}}
+7082:{{  Tweets November 2014}}  {{http://brandonsanderson.com/tweets-november-2014/}}
+7090:{{  Cory Doctorow on Writing Excuses + Updates}}  {{http://brandonsanderson.com/cory-doctorow-on-writing-excuses-updates/}}
+7128:{{  Altered Perceptions}}  {{http://brandonsanderson.com/altered-perceptions/}}
+7129:{{  Altered_Perceptions_thumb}}  {{http://brandonsanderson.com/altered-perceptions/altered_perceptions_thumb/}}
+7161:{{  Chapters from the original draft of The Way of Kings in the Altered Perceptions anthology}}  {{http://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-in-the-altered-perceptions-anthology/}}
+7167:{{  Saturday signing at the Orem Library}}  {{http://brandonsanderson.com/saturday-signing-at-the-orem-library/}}
+7170:{{  Tweets December 2014}}  {{http://brandonsanderson.com/tweets-december-2014/}}
+7177:{{  Words of Radiance among Audible&#8217;s Best of 2014 + Updates}}  {{http://brandonsanderson.com/words-of-radiance-among-audibles-best-of-2014/}}
+7191:{{  New Writing Excuses Episode + Updates}}  {{http://brandonsanderson.com/new-writing-excuses-episode-updates/}}
+7199:{{  Steelheart ebook sale + Mistborn dice Kickstarter}}  {{http://brandonsanderson.com/steelheart-ebook-sale-mistborn-dice-kickstarter/}}
+7206:{{hidden}}  {{http://brandonsanderson.com/?post_type=events&p=7206}}
+7207:{{  Taipei International Book Exhibition}}  {{http://brandonsanderson.com/events/taipei-international-book-exhibition/}}
+7208:{{  Brandon Sanderson Newsletter for September 2014}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-september-2014/}}
+7212:{{  Brandon Sanderson Newsletter for May 2014}}  {{http://brandonsanderson.com/brandon-sanderson-newsletter-for-may-2014/}}
+7222:{{hidden}}  {{http://brandonsanderson.com/?post_type=the-vault&p=7222}}
+7223:{{  State of the Sanderson: December 2014}}  {{http://brandonsanderson.com/state-of-the-sanderson-december-2014/}}
+7226:{{hidden}}  {{http://brandonsanderson.com/?page_id=7226}}
+7227:{{hidden}}  {{http://brandonsanderson.com/?attachment_id=7227}}
