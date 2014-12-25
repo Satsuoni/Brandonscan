@@ -1,0 +1,18 @@
+div.mine
+{
+border: 1px solid;
+border-radius: 25px;
+display: inline-block;
+padding:0.2em;
+margin:0.2em;
+}
+
+div.answer
+{
+border: 1px solid;
+border-radius: 25px;
+display: inline-block;
+padding:0.2em;
+margin:0.2em;
+background:#0F6;
+}
