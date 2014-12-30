@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contact_ui.show_addressbook</key>
+	<string>N</string>
+	<key>function.client.effect</key>
+	<string></string>
+	<key>function.hiddenchat</key>
+	<string>N</string>
+	<key>function.line_at.local_info</key>
+	<string>Y</string>
+	<key>function.line_at.local_info.url</key>
+	<string>line://ch/1360731415</string>
+	<key>function.line_at.near_search</key>
+	<string>Y</string>
+	<key>function.line_at.near_search.url</key>
+	<string>line://ch/1360731415/location/</string>
+	<key>function.linecall</key>
+	<string>Y</string>
+	<key>function.linecall.coin_version</key>
+	<string>v1</string>
+	<key>function.linecall.mobile_network_expire_period</key>
+	<string>604800</string>
+	<key>function.linecall.spot</key>
+	<string>Y</string>
+	<key>function.linecall.store</key>
+	<string>Y</string>
+	<key>function.linecall.validate_caller_id</key>
+	<string>Y</string>
+	<key>function.linepay</key>
+	<string>Y</string>
+	<key>function.linepay.chatroom.menu</key>
+	<string>TRANSFER,TRANSFER_REQUEST,DUTCH_TRANSFER_REQUEST</string>
+	<key>function.linepay.enable_notification</key>
+	<string>Y</string>
+	<key>function.music</key>
+	<string>N</string>
+	<key>function.official_account.rich_ui</key>
+	<string>JP</string>
+	<key>function.timeline.friend_request</key>
+	<string>N</string>
+	<key>function.voip.aggressive_setup</key>
+	<string>0xFFFF</string>
+	<key>group.max_size</key>
+	<string>200</string>
+	<key>main_tab.show_timeline</key>
+	<string>Y</string>
+	<key>revision</key>
+	<integer>7</integer>
+	<key>room.max_size</key>
+	<string>100</string>
+</dict>
+</plist>
