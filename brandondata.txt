@@ -1,0 +1,661 @@
+1:{{  About the annotation system Introduction}}  {{http://brandonsanderson.com/about-the-annotation-system-introduction/}}
+2:{{  EUOLogy: EUOL Visits Tor}}  {{http://brandonsanderson.com/euology-euol-visits-tor/}}
+3:{{  EUOLogy #2: The Absent-Minded Manifesto}}  {{http://brandonsanderson.com/euology-2-the-absent-minded-manifesto/}}
+4:{{  My Brother is Cool}}  {{http://brandonsanderson.com/my-brother-is-cool/}}
+5:{{  Suppose I&#8217;d better use this thing. . . .}}  {{http://brandonsanderson.com/suppose-id-better-use-this-thing/}}
+6:{{  EUOLogy #4: I Give Up}}  {{http://brandonsanderson.com/euology-4-i-give-up/}}
+7:{{  WELLSPRING OF CHAOS}}  {{http://brandonsanderson.com/wellspring-of-chaos/}}
+8:{{Brandon Sanderson}}  {{http://brandonsanderson.com/}}
+9:{{  Books}}  {{http://brandonsanderson.com/books/}}
+10:{{  FAQ}}  {{http://brandonsanderson.com/faq/}}
+11:{{  About Brandon}}  {{http://brandonsanderson.com/about-brandon/}}
+12:{{  Upcoming Events}}  {{http://brandonsanderson.com/upcoming-events/}}
+13:{{  Contact}}  {{http://brandonsanderson.com/contact/}}
+14:{{  EUOLogy #9: Bunnies for Everyone}}  {{http://brandonsanderson.com/euology-9-bunnies-for-everyone/}}
+15:{{  EUOLogy #10: Why NaNo?}}  {{http://brandonsanderson.com/euology-10-why-nano/}}
+16:{{  Tor Proposal, Part One}}  {{http://brandonsanderson.com/tor-proposal-part-one/}}
+17:{{  EUOLogy #16: Christmas Humbugs}}  {{http://brandonsanderson.com/euology-16-christmas-humbugs/}}
+18:{{  EUOLogy #11: Psychological Anatomy of a Writer (Part One of Three)}}  {{http://brandonsanderson.com/euology-11-psychological-anatomy-of-a-writer-part-one-of-three/}}
+19:{{  EUOLogy #12: Psychological Anatomy of a Writer (Part Two of Threeish)}}  {{http://brandonsanderson.com/euology-12-psychological-anatomy-of-a-writer-part-two-of-threeish/}}
+20:{{  Library}}  {{http://brandonsanderson.com/library/}}
+27:{{  Tor Proposal, Part Three}}  {{http://brandonsanderson.com/tor-proposal-part-three/}}
+29:{{  Tor Proposal, Part Four}}  {{http://brandonsanderson.com/tor-proposal-part-four/}}
+30:{{  Progress Bars}}  {{http://brandonsanderson.com/progress-bars/}}
+34:{{  Steelheart}}  {{http://brandonsanderson.com/books/steelheart/}}
+36:{{  The Stormlight Archive}}  {{http://brandonsanderson.com/books/the-stormlight-archive/}}
+38:{{  The Rithmatist}}  {{http://brandonsanderson.com/books/the-rithmatist/}}
+40:{{  Alcatraz}}  {{http://brandonsanderson.com/books/alcatraz/}}
+42:{{  Legion}}  {{http://brandonsanderson.com/books/legion/}}
+44:{{  The Wheel of Time}}  {{http://brandonsanderson.com/books/the-wheel-of-time/}}
+46:{{  Infinity Blade}}  {{http://brandonsanderson.com/books/infinity-blade/}}
+55:{{  Copy Edit Done}}  {{http://brandonsanderson.com/copy-edit-done/}}
+56:{{  EUOLogy #7 Annotation}}  {{http://brandonsanderson.com/euology-7-annotation/}}
+57:{{  Nachos=Cheese}}  {{http://brandonsanderson.com/nachoscheese/}}
+58:{{  Where to Buy Signed Hardcovers}}  {{http://brandonsanderson.com/where-to-buy-signed-hardcovers/}}
+59:{{  Orson Scott Card}}  {{http://brandonsanderson.com/orson-scott-card/}}
+62:{{  EUOlogy #8 Annotation}}  {{http://brandonsanderson.com/euology-8-annotation/}}
+63:{{  Orson Scott Card Review Up}}  {{http://brandonsanderson.com/orson-scott-card-review-up/}}
+65:{{  The Way of Kings}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings/}}
+67:{{  Words of Radiance}}  {{http://brandonsanderson.com/books/the-stormlight-archive/words-of-radiance/}}
+69:{{  Home (?) For the Holidays}}  {{http://brandonsanderson.com/home-for-the-holidays/}}
+70:{{  Elantris}}  {{http://brandonsanderson.com/books/elantris/}}
+72:{{  Warbreaker}}  {{http://brandonsanderson.com/books/warbreaker/}}
+74:{{  Steelheart}}  {{http://brandonsanderson.com/books/steelheart/steelheart/}}
+77:{{  The Rithmatist}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist/}}
+80:{{  Alcatraz Versus the Evil Librarians}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians/}}
+82:{{  Alcatraz Versus the Scrivener&#8217;s Bones}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-scriveners-bones/}}
+84:{{  Alcatraz Versus the Knights of Crystallia}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-knights-of-crystallia/}}
+86:{{  Alcatraz Versus the Shattered Lens}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-shattered-lens/}}
+88:{{  Legion}}  {{http://brandonsanderson.com/books/legion/legion/}}
+90:{{  The Gathering Storm}}  {{http://brandonsanderson.com/books/the-wheel-of-time/the-gathering-storm/}}
+92:{{  Towers of Midnight}}  {{http://brandonsanderson.com/books/the-wheel-of-time/towers-of-midnight/}}
+94:{{  A Memory of Light}}  {{http://brandonsanderson.com/books/the-wheel-of-time/a-memory-of-light/}}
+96:{{  Infinity Blade: Awakening}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-awakening/}}
+113:{{  Various Appearances}}  {{http://brandonsanderson.com/various-appearances/}}
+114:{{  Howl&#8217;s Moving Castle}}  {{http://brandonsanderson.com/howls-moving-castle/}}
+115:{{  Mistborn}}  {{http://brandonsanderson.com/books/mistborn/}}
+117:{{  The Final Empire}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire/}}
+119:{{  The Hero of Ages}}  {{http://brandonsanderson.com/books/mistborn/the-hero-of-ages/}}
+121:{{  The Well of Ascension}}  {{http://brandonsanderson.com/books/mistborn/the-well-of-ascension/}}
+123:{{  The Alloy of Law}}  {{http://brandonsanderson.com/books/mistborn/the-alloy-of-law/}}
+125:{{  Elantris}}  {{http://brandonsanderson.com/books/elantris/elantris/}}
+127:{{  The Emperor&#8217;s Soul}}  {{http://brandonsanderson.com/books/elantris/the-emperors-soul/}}
+138:{{  ELANTRIS Printing News}}  {{http://brandonsanderson.com/elantris-printing-news/}}
+141:{{  New Blogging Style}}  {{http://brandonsanderson.com/new-blogging-style/}}
+142:{{  Alcatraz-series}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-series/}}
+143:{{  Alcatraz versus the evil librarians}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-evil-librarians-2/}}
+144:{{  Alcatraz Versus the Scrivener&#8217;s Bones}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-scriveners-bones-2/}}
+145:{{  Alcatraz Versus the Shattered Lens}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-shattered-lens-2/}}
+146:{{  Alcatraz Versus the Knights of Crystallia}}  {{http://brandonsanderson.com/books/alcatraz/alcatraz-versus-the-knights-of-crystallia-2/}}
+155:{{  the-stormlight-archive}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-stormlight-archive/}}
+156:{{  The Way of Kings}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings-2/}}
+157:{{  Words of Radiance}}  {{http://brandonsanderson.com/books/the-stormlight-archive/words-of-radiance-2/}}
+161:{{  mistborn}}  {{http://brandonsanderson.com/books/mistborn/mistborn-2/}}
+162:{{  The Final Empire}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire-2/}}
+163:{{  The Well of Ascension}}  {{http://brandonsanderson.com/books/mistborn/the-well-of-ascension-2/}}
+164:{{  The Hero of Ages}}  {{http://brandonsanderson.com/books/mistborn/the-hero-of-ages-2/}}
+165:{{  The Alloy of Law}}  {{http://brandonsanderson.com/books/mistborn/the-alloy-of-law-2/}}
+179:{{  elantris}}  {{http://brandonsanderson.com/books/elantris/elantris-2/}}
+180:{{  Elantris}}  {{http://brandonsanderson.com/books/elantris/elantris-book/}}
+181:{{  The Emperor&#8217;s Soul}}  {{http://brandonsanderson.com/books/elantris/the-emperors-soul-2/}}
+186:{{  Warbreaker}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker/}}
+188:{{  warbreaker}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker-2/}}
+189:{{  Warbreaker}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker-book/}}
+192:{{  steelheart}}  {{http://brandonsanderson.com/books/steelheart/steelheart-3/}}
+193:{{  Steelheart}}  {{http://brandonsanderson.com/books/steelheart/steelheart-book/}}
+197:{{  the-rithmatist}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist-2/}}
+198:{{  The Rithmatist}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist-book/}}
+201:{{  Legion}}  {{http://brandonsanderson.com/books/legion/legion-book/}}
+205:{{  the-wheel-of-time}}  {{http://brandonsanderson.com/books/the-wheel-of-time/the-wheel-of-time/}}
+206:{{  The Gathering Storm}}  {{http://brandonsanderson.com/books/the-wheel-of-time/the-gathering-storm-2/}}
+207:{{  Towers of Midnight}}  {{http://brandonsanderson.com/books/the-wheel-of-time/tower-of-midnight/}}
+208:{{  A Memory of Light}}  {{http://brandonsanderson.com/books/the-wheel-of-time/a-memory-of-light-2/}}
+215:{{  infinity-blade}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-2/}}
+216:{{  Infinity Blade: Awakening}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-awakening-2/}}
+219:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-4/}}
+220:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-5/}}
+221:{{  Heroes}}  {{http://brandonsanderson.com/heroes/}}
+222:{{  Winds}}  {{http://brandonsanderson.com/winds/}}
+223:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-16/}}
+224:{{  Viewpoint}}  {{http://brandonsanderson.com/viewpoint/}}
+225:{{  Crystal Rain}}  {{http://brandonsanderson.com/crystal-rain/}}
+226:{{  New Mistborn Chapter}}  {{http://brandonsanderson.com/new-mistborn-chapter-3/}}
+227:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-6/}}
+228:{{  Ninja Training Camp}}  {{http://brandonsanderson.com/ninja-training-camp/}}
+229:{{  New Mistborn Chapter}}  {{http://brandonsanderson.com/new-mistborn-chapter/}}
+230:{{  Comic of the Day}}  {{http://brandonsanderson.com/comic-of-the-day/}}
+232:{{  Radio Interview}}  {{http://brandonsanderson.com/radio-interview/}}
+233:{{  Music}}  {{http://brandonsanderson.com/music/}}
+234:{{  Brandon}}  {{http://brandonsanderson.com/about-brandon/brandongray/}}
+235:{{  New Annotation + Idea!}}  {{http://brandonsanderson.com/new-annotation-idea/}}
+237:{{  Idaho, Annotation}}  {{http://brandonsanderson.com/idaho-annotation/}}
+238:{{  Various Notes, Annotation}}  {{http://brandonsanderson.com/various-notes-annotation/}}
+240:{{  Hudsucking}}  {{http://brandonsanderson.com/hudsucking/}}
+241:{{  Philosophy}}  {{http://brandonsanderson.com/philosophy/}}
+242:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-9/}}
+246:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-10/}}
+247:{{  Old People}}  {{http://brandonsanderson.com/old-people/}}
+248:{{  New York + New Annotation}}  {{http://brandonsanderson.com/new-york-new-annotation/}}
+249:{{  Big Apple}}  {{http://brandonsanderson.com/big-apple/}}
+250:{{  Radio + Annotation}}  {{http://brandonsanderson.com/radio-annotation/}}
+252:{{  Everything}}  {{http://brandonsanderson.com/everything/}}
+253:{{  Robin Hobb Cover Quote}}  {{http://brandonsanderson.com/robin-hobb-cover-quote/}}
+254:{{  New Annotation}}  {{http://brandonsanderson.com/new-annotation-11/}}
+255:{{  Another New Annotation}}  {{http://brandonsanderson.com/another-new-annotation/}}
+256:{{  Korean Ramen}}  {{http://brandonsanderson.com/korean-ramen/}}
+259:{{  Annotation + Grading}}  {{http://brandonsanderson.com/annotation-grading/}}
+260:{{  Annotation Mistborn 3 Maps}}  {{http://brandonsanderson.com/annotation-mistborn-3-maps/}}
+261:{{  Cool Stuff For You}}  {{http://brandonsanderson.com/cool-stuff-for-you/}}
+262:{{  MISTBORN 3 Done}}  {{http://brandonsanderson.com/mistborn-3-done/}}
+263:{{  Annotation Mistborn 3 Chapter Two}}  {{http://brandonsanderson.com/annotation-mistborn-3-chapter-two/}}
+264:{{  Annotation + AAAGH!}}  {{http://brandonsanderson.com/annotation-aaagh/}}
+265:{{  News + Annotation + Link}}  {{http://brandonsanderson.com/news-annotation-link/}}
+266:{{  Annotation Mistborn 3 Chapter Five}}  {{http://brandonsanderson.com/annotation-mistborn-3-chapter-five/}}
+267:{{  Annotation Mistborn 3 Chapter Six}}  {{http://brandonsanderson.com/annotation-mistborn-3-chapter-six/}}
+268:{{  Annotation Mistborn 3 Chapter Seven}}  {{http://brandonsanderson.com/annotation-mistborn-3-chapter-seven/}}
+269:{{  Annotation Mistborn 3 Chapter Eight}}  {{http://brandonsanderson.com/annotation-mistborn-3-chapter-eight/}}
+270:{{  Da Vinci + Annotation}}  {{http://brandonsanderson.com/da-vinci-annotation/}}
+271:{{  Warbreaker Introduction}}  {{http://brandonsanderson.com/warbreaker-introduction/}}
+275:{{  Warbreaker Rights Explanation}}  {{http://brandonsanderson.com/warbreaker-rights-explanation/}}
+277:{{  Centrifugal}}  {{http://brandonsanderson.com/centrifugal/}}
+281:{{  New Review}}  {{http://brandonsanderson.com/new-review/}}
+282:{{  The Hope of Elantris}}  {{http://brandonsanderson.com/elantris-the-hope-of-elantris/}}
+285:{{  Mistborn &#8211; The Eleventh Metal}}  {{http://brandonsanderson.com/mistborn-the-eleventh-metal/}}
+287:{{  Alcatraz Author&#8217;s Foreword}}  {{http://brandonsanderson.com/alcatraz-authors-foreword/}}
+289:{{  Alcatraz Chapter One}}  {{http://brandonsanderson.com/alcatraz-chapter-one/}}
+291:{{  Alcatraz Chapter Two}}  {{http://brandonsanderson.com/alcatraz-chapter-two/}}
+293:{{  Alcatraz Third Person Chapter One}}  {{http://brandonsanderson.com/alcatraz-third-person-chapter-one/}}
+295:{{  Reception Tonight!}}  {{http://brandonsanderson.com/reception-tonight/}}
+296:{{  Alcatraz Third Person Chapter Two}}  {{http://brandonsanderson.com/alcatraz-third-person-chapter-two/}}
+301:{{  Annotations!}}  {{http://brandonsanderson.com/annotations/}}
+302:{{  The Mad Prince}}  {{http://brandonsanderson.com/the-mad-prince/}}
+323:{{  Spontaneous Frogs}}  {{http://brandonsanderson.com/spontaneous-frogs/}}
+324:{{  Cory Doctorow is a Scholar and a Gentleman (+Annotation)}}  {{http://brandonsanderson.com/cory-doctorow-is-a-scholar-and-a-gentleman-annotation/}}
+327:{{  There&#8217;s No Place Like it!}}  {{http://brandonsanderson.com/theres-no-place-like-it/}}
+328:{{  Warbreaker + Idea}}  {{http://brandonsanderson.com/warbreaker-idea/}}
+329:{{  Stormlight 1 Maps and Illustrations}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings/stormlight-1-maps-and-illustrations/}}
+330:{{  kwaan}}  {{http://brandonsanderson.com/?attachment_id=330}}
+331:{{  Annotation + FAQ}}  {{http://brandonsanderson.com/annotation-faq/}}
+332:{{  Rithmatist Ad}}  {{http://brandonsanderson.com/?attachment_id=332}}
+334:{{  New Front Page Blurb}}  {{http://brandonsanderson.com/new-front-page-blurb/}}
+342:{{  Upcoming Events}}  {{http://brandonsanderson.com/upcoming-events/upcoming-events-2/}}
+343:{{  books}}  {{http://brandonsanderson.com/books/books-2/}}
+344:{{Brandon Sanderson}}  {{http://brandonsanderson.com/library/the-library/ :-> http://brandonsanderson.com/}}
+346:{{  About Brandon}}  {{http://brandonsanderson.com/about-brandon/about-brandon-2/}}
+347:{{  Contact Brandon}}  {{http://brandonsanderson.com/contact/contact-brandon/}}
+348:{{  body_bg}}  {{http://brandonsanderson.com/?attachment_id=348}}
+349:{{  Alcatraz Two progress report}}  {{http://brandonsanderson.com/alcatraz-two-progress-report/}}
+350:{{  Annotation + Various Things}}  {{http://brandonsanderson.com/annotation-various-things/}}
+351:{{  Warbreaker Prologue}}  {{http://brandonsanderson.com/warbreaker-prologue/}}
+354:{{  Mistborn 2 Progress Report + Annotation}}  {{http://brandonsanderson.com/mistborn-2-progress-report-annotation/}}
+355:{{  FAQ: Will there be a sequel to ELANTRIS?}}  {{http://brandonsanderson.com/faq-will-there-be-a-sequel-to-elantris/}}
+356:{{  EUOLogy: Religion Rant}}  {{http://brandonsanderson.com/euology-religion-rant/}}
+357:{{  Pemberly Moment + Annotation}}  {{http://brandonsanderson.com/pemberly-moment-annotation/}}
+358:{{  Brad Pit Was Not Here}}  {{http://brandonsanderson.com/brad-pit-was-not-here/}}
+359:{{  Infinity Blade: Redemption}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-redemption/}}
+362:{{  Alcatraz 2 Update + Annotation}}  {{http://brandonsanderson.com/alcatraz-2-update-annotation/}}
+363:{{  Back + Annotation}}  {{http://brandonsanderson.com/back-annotation-2/}}
+364:{{  default-thumbnail}}  {{http://brandonsanderson.com/?attachment_id=364}}
+365:{{  Warbreaker + Olives}}  {{http://brandonsanderson.com/warbreaker-olives/}}
+366:{{  Idea + Alcatraz 2 Update}}  {{http://brandonsanderson.com/idea-alcatraz-2-update/}}
+367:{{  Link Dump + Annotation}}  {{http://brandonsanderson.com/link-dump-annotation/}}
+368:{{  Steel Hunt}}  {{http://brandonsanderson.com/steel-hunt/}}
+371:{{  Warbreaker + Daylight Savings}}  {{http://brandonsanderson.com/warbreaker-daylight-savings/}}
+375:{{  New Amphigory}}  {{http://brandonsanderson.com/new-amphigory/}}
+376:{{  Warbreaker Acknowledgements}}  {{http://brandonsanderson.com/warbreaker-acknowledgements/}}
+378:{{  Warbreaker Chapter One}}  {{http://brandonsanderson.com/warbreaker-chapter-one/}}
+380:{{  Warbreaker Chapter Two}}  {{http://brandonsanderson.com/warbreaker-chapter-two/}}
+382:{{  Warbreaker Chapter Three}}  {{http://brandonsanderson.com/warbreaker-chapter-three/}}
+384:{{  Warbreaker Chapter Four}}  {{http://brandonsanderson.com/warbreaker-chapter-four/}}
+386:{{  Warbreaker Chapter Five}}  {{http://brandonsanderson.com/warbreaker-chapter-five/}}
+388:{{  Warbreaker Chapter Six}}  {{http://brandonsanderson.com/warbreaker-chapter-six/}}
+390:{{  Warbreaker Chapter Seven}}  {{http://brandonsanderson.com/warbreaker-chapter-seven/}}
+392:{{  Warbreaker Chapter Eight}}  {{http://brandonsanderson.com/warbreaker-chapter-eight/}}
+394:{{  Warbreaker Chapter Nine}}  {{http://brandonsanderson.com/warbreaker-chapter-nine/}}
+396:{{  Warbreaker Chapter Ten}}  {{http://brandonsanderson.com/warbreaker-chapter-ten/}}
+398:{{  Warbreaker Chapter Eleven}}  {{http://brandonsanderson.com/warbreaker-chapter-eleven/}}
+400:{{  Warbreaker Chapter Twelve}}  {{http://brandonsanderson.com/warbreaker-chapter-twelve/}}
+402:{{  Warbreaker Chapter Thirteen}}  {{http://brandonsanderson.com/warbreaker-chapter-thirteen/}}
+404:{{  Warbreaker Chapter Fourteen}}  {{http://brandonsanderson.com/warbreaker-chapter-fourteen/}}
+406:{{  Warbreaker Chapter Fifteen}}  {{http://brandonsanderson.com/warbreaker-chapter-fifteen/}}
+408:{{  Warbreaker Chapter Sixteen}}  {{http://brandonsanderson.com/warbreaker-chapter-sixteen/}}
+410:{{  Warbreaker Chapter Seventeen}}  {{http://brandonsanderson.com/warbreaker-chapter-seventeen/}}
+412:{{  Warbreaker Chapter Eighteen}}  {{http://brandonsanderson.com/warbreaker-chapter-eighteen/}}
+414:{{  Warbreaker Chapter Nineteen}}  {{http://brandonsanderson.com/warbreaker-chapter-nineteen/}}
+416:{{  Warbreaker Chapter Twenty}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty/}}
+418:{{  Warbreaker Chapter Twenty-One}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-one/}}
+420:{{  Warbreaker Chapter Twenty-Two}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-two/}}
+422:{{  Warbreaker Chapter Twenty-Three}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-three/}}
+424:{{  Warbreaker Chapter Twenty-Four}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-four/}}
+426:{{  Warbreaker Chapter Twenty-Five}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-five/}}
+428:{{  Warbreaker Chapter Twenty-Six}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-six/}}
+430:{{  Warbreaker Chapter Twenty-Seven}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-seven/}}
+432:{{  Warbreaker Chapter Twenty-Eight}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-eight/}}
+434:{{  Warbreaker Chapter Twenty-Nine}}  {{http://brandonsanderson.com/warbreaker-chapter-twenty-nine/}}
+436:{{  Warbreaker Chapter Thirty}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty/}}
+438:{{  Warbreaker Chapter Thirty-One}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-one/}}
+440:{{  Warbreaker Chapter Thirty-Two}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-two/}}
+442:{{  Warbreaker Chapter Thirty-Three}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-three/}}
+444:{{  Warbreaker Chapter Thirty-Four}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-four/}}
+446:{{  Warbreaker Chapter Thirty-Five}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-five/}}
+448:{{  Warbreaker Chapter Thirty-Six}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-six/}}
+450:{{  Warbreaker Chapter Thirty-Seven}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-seven/}}
+452:{{  Warbreaker Chapter Thirty-Eight}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-eight/}}
+454:{{  Warbreaker Chapter Thirty-Nine}}  {{http://brandonsanderson.com/warbreaker-chapter-thirty-nine/}}
+456:{{  Warbreaker Chapter Forty}}  {{http://brandonsanderson.com/warbreaker-chapter-forty/}}
+458:{{  Amphigory + Updates}}  {{http://brandonsanderson.com/amphigory-updates-2/}}
+459:{{  Defending Elysium}}  {{http://brandonsanderson.com/defending-elysium/}}
+461:{{  Firstborn}}  {{http://brandonsanderson.com/firstborn/}}
+463:{{  Firstborn}}  {{http://brandonsanderson.com/firstborn/firstborn_final_200px/}}
+464:{{  I Hate Dragons}}  {{http://brandonsanderson.com/i-hate-dragons/}}
+466:{{  I Hate Dragons Extended Version}}  {{http://brandonsanderson.com/i-hate-dragons-extended-version/}}
+468:{{  Annotation + Class}}  {{http://brandonsanderson.com/annotation-class/}}
+469:{{  Annotation + Mail}}  {{http://brandonsanderson.com/annotation-mail/}}
+470:{{  Dumbest Amphigory Ever + Scribbler}}  {{http://brandonsanderson.com/dumbest-amphigory-ever-scribbler/}}
+477:{{  I Hate Dragons Chapter Two}}  {{http://brandonsanderson.com/i-hate-dragons-chapter-two/}}
+480:{{  I Hate Dragons Chapter Four}}  {{http://brandonsanderson.com/i-hate-dragons-chapter-four/}}
+487:{{  Amphigory}}  {{http://brandonsanderson.com/amphigory-3/}}
+491:{{  Amphigory + Outage}}  {{http://brandonsanderson.com/amphigory-outage/}}
+493:{{  body_bg}}  {{http://brandonsanderson.com/?attachment_id=493}}
+495:{{  Interview + Annotation}}  {{http://brandonsanderson.com/interview-annotation/}}
+496:{{  Amphigory + Pemberly Moment}}  {{http://brandonsanderson.com/amphigory-pemberly-moment-2/}}
+497:{{  Various Notes + New Fiction}}  {{http://brandonsanderson.com/various-notes-new-fiction/}}
+498:{{  Annotation + Naming}}  {{http://brandonsanderson.com/annotation-naming/}}
+499:{{  River of Souls}}  {{http://brandonsanderson.com/river-of-souls/}}
+502:{{  Shadows for Silence in the Forests of Hell}}  {{http://brandonsanderson.com/shadows-for-silence-in-the-forests-of-hell/}}
+504:{{  Dreamer}}  {{http://brandonsanderson.com/dreamer/}}
+507:{{  Fan Art}}  {{http://brandonsanderson.com/fan-art/}}
+508:{{  Various Vacation Notes}}  {{http://brandonsanderson.com/various-vacation-notes/}}
+510:{{  Fan Art}}  {{http://brandonsanderson.com/fan-art/fan-art-2/}}
+511:{{  Elantris Maps and Illustrations}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-maps-and-illustrations/}}
+512:{{  Emperor&#8217;s Soul Maps and Illustrations}}  {{http://brandonsanderson.com/books/elantris/the-emperors-soul/emperors-soul-maps-and-illustrations/}}
+513:{{  Mistborn 1 Maps and Illustrations}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire/mistborn-1-maps-and-illustrations/}}
+514:{{  Mistborn 2 Maps and Illustrations}}  {{http://brandonsanderson.com/books/mistborn/the-well-of-ascension/mistborn-2-maps-and-illustrations/}}
+515:{{  Mistborn 3 Maps and Illustrations}}  {{http://brandonsanderson.com/books/mistborn/the-hero-of-ages/mistborn-3-maps-and-illustrations/}}
+516:{{  Alloy of Law Maps and Illustrations}}  {{http://brandonsanderson.com/books/mistborn/the-alloy-of-law/alloy-of-law-maps-and-illustrations/}}
+517:{{  Rithmatist Maps and Illustrations}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist/rithmatist-maps-and-illustrations/}}
+518:{{  Warbreaker Maps and Illustrations}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker/warbreaker-maps-and-illustrations/}}
+534:{{  New Sample Chapter + Harry Potter}}  {{http://brandonsanderson.com/new-sample-chapter-harry-potter/}}
+535:{{  Mistborn 2 Sample Chapter 3}}  {{http://brandonsanderson.com/mistborn-2-sample-chapter-3/}}
+536:{{  Elantris Prologue}}  {{http://brandonsanderson.com/elantris-prologue/}}
+538:{{  Elantris Chapter One}}  {{http://brandonsanderson.com/elantris-chapter-one/}}
+540:{{  Elantris Chapter Two}}  {{http://brandonsanderson.com/elantris-chapter-two/}}
+542:{{  Elantris Chapter Three}}  {{http://brandonsanderson.com/elantris-chapter-three/}}
+544:{{  Alcatraz Out???}}  {{http://brandonsanderson.com/alcatraz-out/}}
+546:{{  Alcatraz 2 Author&#8217;s Foreword}}  {{http://brandonsanderson.com/alcatraz-2-authors-foreword/}}
+548:{{  Alcatraz 2 Chapter One}}  {{http://brandonsanderson.com/alcatraz-2-chapter-one/}}
+550:{{  Alcatraz 2 Chapter Two}}  {{http://brandonsanderson.com/alcatraz-2-chapter-two/}}
+553:{{  Alcatraz 3 Author&#8217;s Foreword}}  {{http://brandonsanderson.com/alcatraz-3-authors-foreword/}}
+555:{{  Alcatraz 3 Chapter One}}  {{http://brandonsanderson.com/alcatraz-3-chapter-one/}}
+557:{{  Alcatraz 3 Chapter Two}}  {{http://brandonsanderson.com/alcatraz-3-chapter-two/}}
+559:{{  Alcatraz 4 Author&#8217;s Foreword}}  {{http://brandonsanderson.com/alcatraz-4-authors-foreword/}}
+561:{{  Alcatraz 4 Chapter Two}}  {{http://brandonsanderson.com/alcatraz-4-chapter-two/}}
+563:{{  Alcatraz 4 Chapter Six}}  {{http://brandonsanderson.com/alcatraz-4-chapter-six/}}
+565:{{  Infinity Blade: Awakening Prologue}}  {{http://brandonsanderson.com/infinity-blade-awakening-prologue/}}
+567:{{  Infinity Blade: Awakening Chapter One}}  {{http://brandonsanderson.com/infinity-blade-awakening-chapter-one/}}
+569:{{  Infinity Blade: Awakening Chapter Two}}  {{http://brandonsanderson.com/infinity-blade-awakening-chapter-two/}}
+571:{{  Legion Excerpt}}  {{http://brandonsanderson.com/legion-excerpt/}}
+573:{{  Mistborn Prologue}}  {{http://brandonsanderson.com/mistborn-prologue/}}
+575:{{  Mistborn Chapter One}}  {{http://brandonsanderson.com/mistborn-chapter-one/}}
+577:{{  Mistborn Chapter Two}}  {{http://brandonsanderson.com/mistborn-chapter-two/}}
+579:{{  Mistborn Chapter Three}}  {{http://brandonsanderson.com/mistborn-chapter-three/}}
+581:{{  Mistborn 2 Chapter One}}  {{http://brandonsanderson.com/mistborn-2-chapter-one/}}
+583:{{  Mistborn 2 Chapter Two}}  {{http://brandonsanderson.com/mistborn-2-chapter-two/}}
+585:{{  Mistborn 2 Chapter Three}}  {{http://brandonsanderson.com/mistborn-2-chapter-three/}}
+587:{{  Mistborn 3 Prologue}}  {{http://brandonsanderson.com/mistborn-3-prologue/}}
+589:{{  Mistborn 3 Chapter One}}  {{http://brandonsanderson.com/mistborn-3-chapter-one/}}
+591:{{  Mistborn 3 Chapter Two}}  {{http://brandonsanderson.com/mistborn-3-chapter-two/}}
+593:{{  Mistborn 3 Chapter Three}}  {{http://brandonsanderson.com/mistborn-3-chapter-three/}}
+595:{{  The Emperor&#8217;s Soul Excerpt}}  {{http://brandonsanderson.com/the-emperors-soul-excerpt/}}
+597:{{  The Gathering Storm Chapter One}}  {{http://brandonsanderson.com/the-gathering-storm-chapter-one/}}
+599:{{  The Rithmatist Excerpt}}  {{http://brandonsanderson.com/the-rithmatist-excerpt/}}
+601:{{  The Way of Kings Prelude}}  {{http://brandonsanderson.com/the-way-of-kings-prelude/}}
+603:{{  The Way of Kings Prologue}}  {{http://brandonsanderson.com/the-way-of-kings-prologue/}}
+605:{{  The Way of Kings Chapter One}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-one/}}
+607:{{  The Way of Kings Chapter Two}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-two/}}
+609:{{  The Way of Kings Chapter Three}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-three/}}
+611:{{  The Way of Kings Chapter Four}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-four/}}
+613:{{  The Way of Kings Chapter Five}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-five/}}
+615:{{  The Way of Kings Chapter Six}}  {{http://brandonsanderson.com/the-way-of-kings-chapter-six/}}
+617:{{  Towers of Midnight Chapter Eight}}  {{http://brandonsanderson.com/towers-of-midnight-chapter-eight/}}
+620:{{  WINTER&#8217;S HEART}}  {{http://brandonsanderson.com/winters-heart/}}
+621:{{  Annotation + Warbreaker html}}  {{http://brandonsanderson.com/annotation-warbreaker-html/}}
+622:{{  Crossroads of Twilight}}  {{http://brandonsanderson.com/crossroads-of-twilight/}}
+623:{{  Defining Surreal}}  {{http://brandonsanderson.com/defining-surreal/}}
+624:{{  Weekly Updates + New A Memory of Light Book Page}}  {{http://brandonsanderson.com/weekly-updates-new-a-memory-of-light-book-page/}}
+625:{{  Duty to The Fans&#8230;}}  {{http://brandonsanderson.com/duty-to-the-fans/}}
+626:{{  NAME OF THE WIND paperback out! + New Spring}}  {{http://brandonsanderson.com/name-of-the-wind-paperback-out-new-spring/}}
+628:{{  Updates}}  {{http://brandonsanderson.com/updates-3/}}
+629:{{  Back!}}  {{http://brandonsanderson.com/back-3/}}
+630:{{  ELANTRIS Jewelry!}}  {{http://brandonsanderson.com/elantris-jewelry/}}
+631:{{  Two New Annotations and Other News}}  {{http://brandonsanderson.com/two-new-annotations-and-other-news/}}
+632:{{  Reader Mail}}  {{http://brandonsanderson.com/reader-mail/}}
+633:{{  You guys are great}}  {{http://brandonsanderson.com/you-guys-are-great/}}
+634:{{  Progress Bar}}  {{http://brandonsanderson.com/progress-bar/}}
+635:{{  International Pixel-Stained Technopeasant Day}}  {{http://brandonsanderson.com/international-pixel-stained-technopeasant-day/}}
+636:{{  Signings This Saturday and Next Tuesday}}  {{http://brandonsanderson.com/signings-this-saturday-and-next-tuesday/}}
+637:{{  Aon Showcase: Aon Ehe}}  {{http://brandonsanderson.com/aon-showcase-aon-ehe/}}
+638:{{  Progress Bar Moving Again}}  {{http://brandonsanderson.com/progress-bar-moving-again/}}
+639:{{  Knife of Dreams}}  {{http://brandonsanderson.com/knife-of-dreams/}}
+640:{{  Late Updates}}  {{http://brandonsanderson.com/late-updates/}}
+641:{{  Signing This Saturday!}}  {{http://brandonsanderson.com/signing-this-saturday/}}
+642:{{  Elantris Glossary}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-glossary/}}
+646:{{  Elantris Pronunciation Guide}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-pronunciation-guide/}}
+648:{{  Wheel of Time FAQ}}  {{http://brandonsanderson.com/books/the-wheel-of-time/wheel-of-time-faq/}}
+651:{{  current-projects}}  {{http://brandonsanderson.com/?attachment_id=651}}
+652:{{  One More Annotation for the week}}  {{http://brandonsanderson.com/one-more-annotation-for-the-week/}}
+653:{{  Infinity Blade : Redemption}}  {{http://brandonsanderson.com/?attachment_id=653}}
+654:{{  Infinity Blade : Redemption}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-redemption-3/}}
+658:{{  Warbreaker and A Memory of Light General Updates}}  {{http://brandonsanderson.com/warbreaker-and-a-memory-of-light-general-updates/}}
+659:{{  Koloss Art!}}  {{http://brandonsanderson.com/koloss-art/}}
+660:{{  Form and the Fantastic}}  {{http://brandonsanderson.com/books/elantris/elantris/form-and-fantastic/}}
+662:{{  Creating the Languages of Elantris}}  {{http://brandonsanderson.com/books/elantris/elantris/languages-of-elantris/}}
+664:{{  Elantris Map Progression}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-map-progression/}}
+669:{{  Elantris Reading Group Questions}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-reading-group-questions/}}
+671:{{  Fake Twitter Reviews of the Way of Kings}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings/fake-twitter-reviews-of-the-way-of-kings/}}
+675:{{  Elantris Visual Edits}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-visual-edits/}}
+680:{{  Warbreaker Chapter Forty-One}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-one/}}
+682:{{  Warbreaker Chapter Forty-Two}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-two/}}
+685:{{  Warbreaker Chapter Forty-Three}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-three/}}
+687:{{  Warbreaker Chapter Forty-Four}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-four/}}
+689:{{  Warbreaker Chapter Forty-Five}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-five/}}
+691:{{  Warbreaker Chapter Forty-Six}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-six/}}
+694:{{  Warbreaker Chapter Forty-Seven}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-seven/}}
+696:{{  Warbreaker Chapter Forty-Eight}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-eight/}}
+698:{{  Warbreaker Chapter Forty-Nine}}  {{http://brandonsanderson.com/warbreaker-chapter-forty-nine/}}
+700:{{  Warbreaker Chapter Fifty}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty/}}
+702:{{  Warbreaker Chapter Fifty-One}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-one/}}
+704:{{  Warbreaker Chapter Fifty-Two}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-two/}}
+706:{{  Warbreaker Chapter Fifty-Three}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-three/}}
+708:{{  Warbreaker Chapter Fifty-Four}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-four/}}
+710:{{  Warbreaker Chapter Fifty-Five}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-five/}}
+712:{{  Warbreaker Chapter Fifty-Six}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-six/}}
+714:{{  Warbreaker Chapter Fifty-Seven}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-seven/}}
+716:{{  Warbreaker Chapter Fifty-Eight}}  {{http://brandonsanderson.com/warbreaker-chapter-fifty-eight/}}
+718:{{  Warbreaker Epilogue}}  {{http://brandonsanderson.com/warbreaker-epilogue/}}
+720:{{  Warbreaker Ars Arcanum}}  {{http://brandonsanderson.com/warbreaker-ars-arcanum/}}
+726:{{  Warbreaker Rights and Downloads}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker/warbreaker-rights-and-downloads/}}
+732:{{  300k}}  {{http://brandonsanderson.com/300k/}}
+734:{{  Legion}}  {{http://brandonsanderson.com/books/legion/legion-2/}}
+735:{{  Steelheart Pre-Order}}  {{http://brandonsanderson.com/?attachment_id=735}}
+737:{{  Signed Hardcovers}}  {{http://brandonsanderson.com/?attachment_id=737}}
+738:{{  Mistborn Mini Figs}}  {{http://brandonsanderson.com/mistborn-mini-figs/}}
+739:{{  Infinity Blade: Redemption}}  {{http://brandonsanderson.com/?attachment_id=739}}
+740:{{hidden}}  {{http://brandonsanderson.com/?slide=signed-hardcovers-on-sale-in-the-store}}
+741:{{hidden}}  {{http://brandonsanderson.com/?slide=infinity-blade-redemption-on-sale-now}}
+743:{{hidden}}  {{http://brandonsanderson.com/?slide=steelheart-pre-order-now}}
+744:{{  Elantris Deleted Scenes: The Mad Prince}}  {{http://brandonsanderson.com/elantris-deleted-scenes-the-mad-prince/}}
+746:{{  Elantris Deleted Scenes 2}}  {{http://brandonsanderson.com/elantris-deleted-scenes-2/}}
+748:{{  Elantris Alternate Ending Material}}  {{http://brandonsanderson.com/elantris-alternate-ending-material/}}
+750:{{  Mistborn Deleted Scenes Explanation}}  {{http://brandonsanderson.com/mistborn-deleted-scenes-explanation/}}
+752:{{  Mistborn 2 Alternate Ending}}  {{http://brandonsanderson.com/mistborn-2-alternate-ending/}}
+754:{{  Mistborn 2 Alternate Ending Part Two}}  {{http://brandonsanderson.com/mistborn-2-alternate-ending-part-two/}}
+760:{{  The Way of Kings Prime: Jeksonsonvallano}}  {{http://brandonsanderson.com/the-way-of-kings-prime-jeksonsonvallano/}}
+762:{{  Warbreaker Deleted Scenes: Mab the Cook}}  {{http://brandonsanderson.com/warbreaker-deleted-scenes-mab-the-cook/}}
+764:{{  Warbreaker Prime: Mythwalker Prologue}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-prologue/}}
+766:{{  Warbreaker Prime: Mythwalker Chapter One}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-one/}}
+768:{{  Warbreaker Prime: Mythwalker Chapter Two}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-two/}}
+770:{{  Warbreaker Prime: Mythwalker Chapter Three}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-three/}}
+772:{{  Warbreaker Prime: Mythwalker Chapter Four}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-four/}}
+774:{{  Warbreaker Prime: Mythwalker Chapter Five}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-five/}}
+776:{{  Warbreaker Prime: Mythwalker Chapter Six}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-six/}}
+778:{{  Warbreaker Prime: Mythwalker Chapter Seven}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-seven/}}
+780:{{  Warbreaker Prime: Mythwalker Chapter Eight}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-eight/}}
+782:{{  Warbreaker Prime: Mythwalker Chapter Nine}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-nine/}}
+784:{{  Warbreaker Prime: Mythwalker Chapter Ten}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-ten/}}
+786:{{  Warbreaker Prime: Mythwalker Chapter Eleven}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-eleven/}}
+788:{{  Warbreaker Prime: Mythwalker Chapter Twelve}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-twelve/}}
+790:{{  Warbreaker Prime: Mythwalker Chapter Thirteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-thirteen/}}
+792:{{  Warbreaker Prime: Mythwalker Chapter Fourteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-fourteen/}}
+794:{{  Warbreaker Prime: Mythwalker Chapter Fifteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-fifteen/}}
+796:{{  Warbreaker Prime: Mythwalker Chapter Sixteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-sixteen/}}
+798:{{  Warbreaker Prime: Mythwalker Chapter Seventeen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-seventeen/}}
+800:{{  Warbreaker Prime: Mythwalker Chapter Eighteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-eighteen/}}
+802:{{  Warbreaker Prime: Mythwalker Chapter Nineteen}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-nineteen/}}
+804:{{  Warbreaker Prime: Mythwalker Chapter Twenty}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-twenty/}}
+806:{{  Warbreaker Prime: Mythwalker Chapter Twenty-One}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-twenty-one/}}
+808:{{  Warbreaker Prime: Mythwalker Chapter Twenty-Two}}  {{http://brandonsanderson.com/warbreaker-prime-mythwalker-chapter-twenty-two/}}
+811:{{  What have I been up to?}}  {{http://brandonsanderson.com/what-have-i-been-up-to/}}
+812:{{  Heuristic Algorithm and Reasoning Response Engine}}  {{http://brandonsanderson.com/heuristic-algorithm-and-reasoning-response-engine/}}
+814:{{  Emperor&#8217;s Soul Hardcover Available}}  {{http://brandonsanderson.com/?attachment_id=814}}
+815:{{  Stormlight 1 Cover Gallery}}  {{http://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings/stormlight-1-cover-gallery/}}
+816:{{  Stormlight 2 Cover Gallery}}  {{http://brandonsanderson.com/books/the-stormlight-archive/words-of-radiance/stormlight-2-cover-gallery/}}
+817:{{  Warbreaker Cover Gallery}}  {{http://brandonsanderson.com/books/warbreaker/warbreaker/warbreaker-cover-gallery/}}
+819:{{  Elantris Cover Gallery}}  {{http://brandonsanderson.com/books/elantris/elantris/elantris-cover-gallery/}}
+820:{{  Steelheart Cover Gallery}}  {{http://brandonsanderson.com/books/steelheart/steelheart/steelheart-cover-gallery/}}
+821:{{  Rithmatist Cover Gallery}}  {{http://brandonsanderson.com/books/the-rithmatist/the-rithmatist/rithmatist-cover-gallery/}}
+822:{{  Infinity Blade 1 Cover Gallery}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-awakening/infinity-blade-1-cover-gallery/}}
+823:{{  Infinity Blade 2 cover Gallery}}  {{http://brandonsanderson.com/books/infinity-blade/infinity-blade-redemption/infinity-blade-2-cover-gallery/}}
+824:{{  Mistborn 1 Cover Gallery}}  {{http://brandonsanderson.com/books/mistborn/the-final-empire/mistborn-1-cover-gallery/}}
+825:{{  Mistborn 2 Cover Gallery}}  {{http://brandonsanderson.com/books/mistborn/the-well-of-ascension/mistborn-2-cover-gallery/}}
+826:{{  Mistborn 3 Cover Gallery}}  {{http://brandonsanderson.com/books/mistborn/the-hero-of-ages/mistborn-3-cover-gallery/}}
+827:{{  Mistborn 4 Cover Gallery}}  {{http://brandonsanderson.com/books/mistborn/the-alloy-of-law/mistborn-4-cover-gallery/}}
+829:{{  Time for some Alcatraz news}}  {{http://brandonsanderson.com/time-for-some-alcatraz-news/}}
+832:{{  FAQ}}  {{http://brandonsanderson.com/faq/faq-2/}}
+835:{{  Armored Anthology}}  {{http://brandonsanderson.com/heuristic-algorithm-and-reasoning-response-engine/armored-mm/}}
+837:{{  Unfettered}}  {{http://brandonsanderson.com/river-of-souls/unfettered/}}
+839:{{  Dangerous Women}}  {{http://brandonsanderson.com/shadows-for-silence-in-the-forests-of-hell/dangerous-women/}}
+843:{{  No Image Yet}}  {{http://brandonsanderson.com/dreamer/no_image/}}
+845:{{  Signed Hardcovers in the Store}}  {{http://brandonsanderson.com/?attachment_id=845}}
+846:{{  Steelheart Chapter Ten}}  {{http://brandonsanderson.com/steelheart-chapter-ten/}}
+847:{{  Steelheart Prologue}}  {{http://brandonsanderson.com/steelheart-prologue/}}
+850:{{  Steelheart Chapter Eleven}}  {{http://brandonsanderson.com/steelheart-chapter-eleven/}}
+883:{{  Wheel of Time 12 Cover Gallery}}  {{http://brandonsanderson.com/books/the-wheel-of-time/the-gathering-storm/wheel-of-time-12-cover-gallery/}}
+884:{{  Wheel of Time 14 Cover Gallery}}  {{http://brandonsanderson.com/books/the-wheel-of-time/a-memory-of-light/wheel-of-time-14-cover-gallery/}}
+885:{{  Wheel of Time 13 Cover Gallery}}  {{http://brandonsanderson.com/books/the-wheel-of-time/towers-of-midnight/wheel-of-time-13-cover-gallery/}}
+888:{{  Catching Up on Updates}}  {{http://brandonsanderson.com/catching-up-on-updates/}}
+889:{{  Provo Children&#8217;s Book Festival}}  {{http://brandonsanderson.com/provo-childrens-book-festival/}}
+890:{{  Superstars Writing Seminar sessions now available}}  {{http://brandonsanderson.com/superstars-writing-seminar-sessions-now-available/}}
+891:{{  Play Magic with Brandon at CONduit!}}  {{http://brandonsanderson.com/play-magic-with-brandon-at-conduit/}}
+892:{{  Last chance to vote for the David Gemmell Legend Award}}  {{http://brandonsanderson.com/last-chance-to-vote-for-the-david-gemmell-legend-award/}}
+893:{{  Robert Jordan Memorial Scholarship applications, updates}}  {{http://brandonsanderson.com/robert-jordan-memorial-scholarship-applications-updates/}}
+894:{{  Preview THE WAY OF KINGS on Tor.com}}  {{http://brandonsanderson.com/preview-the-way-of-kings-on-tor-com/}}
+895:{{  Breaking into the YA Market &amp; MISTBORN 3 Annotations}}  {{http://brandonsanderson.com/breaking-into-the-ya-market-mistborn-3-annotations/}}
+896:{{  Special prices on signed WARBREAKER &amp; Mistborn trilogy, plus Grammar Girl Giveaway &amp; Updates}}  {{http://brandonsanderson.com/special-prices-on-signed-warbreaker-mistborn-trilogy-plus-grammar-girl-giveaway-updates/}}
+897:{{  Updates, THE WAY OF KINGS ARC Giveaway, Tour}}  {{http://brandonsanderson.com/updates-the-way-of-kings-arc-giveaway-tour/}}
+898:{{  June Is (was) Audiobook Month}}  {{http://brandonsanderson.com/june-is-was-audiobook-month/}}
+899:{{  THE WAY OF KINGS Tour Details}}  {{http://brandonsanderson.com/the-way-of-kings-tour-details/}}
+900:{{  Updates + More THE WAY OF KINGS Previews}}  {{http://brandonsanderson.com/updates-more-the-way-of-kings-previews/}}
+901:{{  Ordering signed &amp; numbered copies of THE WAY OF KINGS}}  {{http://brandonsanderson.com/ordering-signed-numbered-copies-of-the-way-of-kings/}}
+902:{{  ELANTRIS Back in Stock + Sanderson 5-Pack Sale}}  {{http://brandonsanderson.com/elantris-back-in-stock-sanderson-5-pack-sale/}}
+903:{{  Updates + ARCs of THE WAY OF KINGS for Reviewers, Booksellers, and Librarians}}  {{http://brandonsanderson.com/updates-arcs-of-the-way-of-kings-for-reviewers-booksellers-and-librarians/}}
+904:{{  My Comic-Con Schedule}}  {{http://brandonsanderson.com/my-comic-con-schedule/}}
+905:{{  Updates, Tightening Language, and Suvudu Interview}}  {{http://brandonsanderson.com/updates-tightening-language-and-suvudu-interview/}}
+906:{{  Signing in Eagle Mountain with the Writing Excuses crew}}  {{http://brandonsanderson.com/signing-in-eagle-mountain-with-the-writing-excuses-crew/}}
+907:{{  THE WAY OF KINGS Preview Chapters &amp; Contests + Updates}}  {{http://brandonsanderson.com/the-way-of-kings-preview-chapters-contests-updates/}}
+908:{{  Signed Book Shipping Delays}}  {{http://brandonsanderson.com/signed-book-shipping-delays/}}
+909:{{  Writing for Charity + Updates}}  {{http://brandonsanderson.com/writing-for-charity-updates/}}
+910:{{  Last Chance for THE WAY OF KINGS Numbered Copies}}  {{http://brandonsanderson.com/last-chance-for-the-way-of-kings-numbered-copies/}}
+911:{{  TOWERS OF MIDNIGHT Is Done}}  {{http://brandonsanderson.com/towers-of-midnight-is-done/}}
+912:{{  Play Magic with Brandon at Dragon*Con}}  {{http://brandonsanderson.com/play-magic-with-brandon-at-dragoncon/}}
+913:{{  THE WAY OF KINGS Midnight Release Numbering Policy Change}}  {{http://brandonsanderson.com/the-way-of-kings-midnight-release-numbering-policy-change/}}
+914:{{  Play Magic with Brandon at Dragon*Con Updates}}  {{http://brandonsanderson.com/play-magic-with-brandon-at-dragoncon-updates/}}
+915:{{  THE WAY OF KINGS Is Out}}  {{http://brandonsanderson.com/the-way-of-kings-is-out/}}
+916:{{  The Great Hunt Update}}  {{http://brandonsanderson.com/the-great-hunt-update/}}
+917:{{  The Great Hunt Completed!}}  {{http://brandonsanderson.com/the-great-hunt-completed/}}
+918:{{  Guest Blogging, Babel Clash, Interviews, Authorpalooza Tomorrow, and TOWERS OF MIDNIGHT Tour}}  {{http://brandonsanderson.com/guest-blogging-babel-clash-interviews-authorpalooza-tomorrow-and-towers-of-midnight-tour/}}
+919:{{  TOWERS OF MIDNIGHT Prologue ebook Released + Updates + Orem Library}}  {{http://brandonsanderson.com/towers-of-midnight-prologue-ebook-released-updates-orem-library/}}
+920:{{  Registering for Worldcon, TOWERS OF MIDNIGHT News, InkWing T-Shirt + Updates}}  {{http://brandonsanderson.com/registering-for-worldcon-towers-of-midnight-news-inkwing-t-shirt-updates/}}
+921:{{  Tower Guard program + Signed &amp; Numbered TOWERS OF MIDNIGHT}}  {{http://brandonsanderson.com/tower-guard-program-signed-numbered-towers-of-midnight/}}
+922:{{  Robert Jordan Memorial Scholarship Winner + Updates}}  {{http://brandonsanderson.com/robert-jordan-memorial-scholarship-winner-updates/}}
+923:{{  New York Comic Con Schedule}}  {{http://brandonsanderson.com/new-york-comic-con-schedule/}}
+924:{{  Updates + Video of Fantasy Authors Panel}}  {{http://brandonsanderson.com/updates-video-of-fantasy-authors-panel/}}
+925:{{  Another Long and Rambling Post™ on Future Books}}  {{http://brandonsanderson.com/another-long-and-rambling-post-on-future-books/}}
+926:{{  Recent Tweets}}  {{http://brandonsanderson.com/recent-tweets/}}
+927:{{  TOWERS OF MIDNIGHT Preorders, Tower Guard, Trailer}}  {{http://brandonsanderson.com/towers-of-midnight-preorders-tower-guard-trailer/}}
+928:{{  Tweets October 16-21}}  {{http://brandonsanderson.com/tweets-october-16-21/}}
+929:{{  Updates, Interview, &amp; Superstars Writing Seminar}}  {{http://brandonsanderson.com/updates-interview-superstars-writing-seminar/}}
+930:{{  Tweets October 22-27}}  {{http://brandonsanderson.com/tweets-october-22-27/}}
+931:{{  Newsletter + Tweets October 28-November 4}}  {{http://brandonsanderson.com/newsletter-tweets-october-28-november-4/}}
+932:{{  Nantes, France Utopiales Convention Schedule + Signing in Paris}}  {{http://brandonsanderson.com/nantes-france-utopiales-convention-schedule-signing-in-paris/}}
+933:{{  Tweets November 5-11}}  {{http://brandonsanderson.com/tweets-november-5-11/}}
+935:{{  Signing Tuesday in Paris}}  {{http://brandonsanderson.com/signing-tuesday-in-paris/}}
+936:{{  Order a personalized THE GATHERING STORM + Holiday shipping deadlines}}  {{http://brandonsanderson.com/order-a-personalized-the-gathering-storm-holiday-shipping-deadlines/}}
+937:{{  Tweets November 12-19}}  {{http://brandonsanderson.com/tweets-november-12-19/}}
+938:{{  Interviews, Superstars Writing Seminar &amp; Updates}}  {{http://brandonsanderson.com/interviews-superstars-writing-seminar-updates/}}
+939:{{  France &amp; Conventions}}  {{http://brandonsanderson.com/france-conventions/}}
+940:{{  Updates + Writing Seminar}}  {{http://brandonsanderson.com/updates-writing-seminar/}}
+941:{{  Tweets November 21-30}}  {{http://brandonsanderson.com/tweets-november-21-30/}}
+942:{{  Alcatraz Four Release + Michael Whelan Prints}}  {{http://brandonsanderson.com/alcatraz-four-release-michael-whelan-prints/}}
+943:{{  Questions, 30% Off Sale, Signings, Awards &amp; Updates}}  {{http://brandonsanderson.com/questions-30-off-sale-signings-awards-updates/}}
+944:{{  Final holiday shipping deadline}}  {{http://brandonsanderson.com/final-holiday-shipping-deadline/}}
+945:{{  Writing Excuses Podcast Award Nomination, Worldbuilders Charity Drive + Updates}}  {{http://brandonsanderson.com/writing-excuses-podcast-award-nomination-worldbuilders-charity-drive-updates/}}
+946:{{  Tweets December 2-13}}  {{http://brandonsanderson.com/tweets-december-2-13/}}
+947:{{  Writing Exercise: Dialogue}}  {{http://brandonsanderson.com/writing-exercise-dialogue/}}
+948:{{  Annotations, Writing Excuses, &amp; Superstars Special}}  {{http://brandonsanderson.com/annotations-writing-excuses-superstars-special/}}
+949:{{  Interviews, Gemmell Award Nominations, Annotation}}  {{http://brandonsanderson.com/interviews-gemmell-award-nominations-annotation/}}
+950:{{  Your writing exercises and mine: &#8220;I Hate Dragons&#8221;}}  {{http://brandonsanderson.com/your-writing-exercises-and-mine-i-hate-dragons/}}
+951:{{  Superstars Writing Seminar Panel Schedule, January 13-15}}  {{http://brandonsanderson.com/superstars-writing-seminar-panel-schedule-january-13-15/}}
+952:{{  Updates + THE WAY OF KINGS in the UK}}  {{http://brandonsanderson.com/updates-the-way-of-kings-in-the-uk/}}
+953:{{  Tweets December 14-31}}  {{http://brandonsanderson.com/tweets-december-14-31/}}
+954:{{  Wrapping Up My Time Off}}  {{http://brandonsanderson.com/wrapping-up-my-time-off/}}
+956:{{  Tweets January 3-6}}  {{http://brandonsanderson.com/tweets-january-3-6/}}
+957:{{  Updates, Tor.com Q&amp;A, and Tweets January 6-10}}  {{http://brandonsanderson.com/updates-tor-com-qa-and-tweets-january-6-10/}}
+958:{{  Updates + Tweets January 10-17}}  {{http://brandonsanderson.com/updates-tweets-january-10-17/}}
+959:{{  Updates + Tweets January 17-20}}  {{http://brandonsanderson.com/updates-tweets-january-17-20/}}
+960:{{  For Your Nomination Consideration + Worldcon Deadline}}  {{http://brandonsanderson.com/for-your-nomination-consideration-worldcon-deadline/}}
+961:{{  Writing Excuses Video + Updates}}  {{http://brandonsanderson.com/writing-excuses-video-updates/}}
+962:{{  Another Writing Excuses Video &amp; WARBREAKER Annotation}}  {{http://brandonsanderson.com/another-writing-excuses-video-warbreaker-annotation/}}
+963:{{  Going to Dallas/Fort Worth + Updates}}  {{http://brandonsanderson.com/going-to-dallasfort-worth-updates/}}
+964:{{  French Interview + Updates}}  {{http://brandonsanderson.com/french-interview-updates/}}
+965:{{  Review of THE WISE MAN&#8217;S FEAR}}  {{http://brandonsanderson.com/review-of-the-wise-mans-fear/}}
+966:{{  Reader Polls + Updates}}  {{http://brandonsanderson.com/reader-polls-updates/}}
+967:{{  Suvudu Cage Matches}}  {{http://brandonsanderson.com/suvudu-cage-matches/}}
+968:{{  Updates &amp; Tweets}}  {{http://brandonsanderson.com/updates-tweets/}}
+969:{{  Wheel of Time Shirts}}  {{http://brandonsanderson.com/wheel-of-time-shirts/}}
+970:{{  Vericon Schedule, Signing in Boston Area, ALLOY OF LAW Cover}}  {{http://brandonsanderson.com/vericon-schedule-signing-in-boston-area-alloy-of-law-cover/}}
+971:{{  WARBREAKER Annotation, Tweets, and Writing Excuses Episode on Rewriting}}  {{http://brandonsanderson.com/warbreaker-annotation-tweets-and-writing-excuses-episode-on-rewriting/}}
+972:{{  Suvudu Cage Match: Vin vs. Zeddicus Zu&#8217;l Zorander}}  {{http://brandonsanderson.com/suvudu-cage-match-vin-vs-zeddicus-zul-zorander/}}
+973:{{  Hugo Nomination Deadline Tomorrow}}  {{http://brandonsanderson.com/hugo-nomination-deadline-tomorrow/}}
+974:{{  Tsunami Relief Auctions, Writing &amp; Illustrating for Young Readers + Updates}}  {{http://brandonsanderson.com/tsunami-relief-auctions-writing-illustrating-for-young-readers-updates/}}
+975:{{  Dan Wells says, &#8220;I don&#8217;t want to kill you.&#8221;}}  {{http://brandonsanderson.com/dan-wells-says-i-dont-want-to-kill-you/}}
+976:{{  Name Auction Coming, Music + Updates}}  {{http://brandonsanderson.com/name-auction-coming-music-updates/}}
+977:{{  UK Cover Art for THE ALLOY OF LAW}}  {{http://brandonsanderson.com/uk-cover-art-for-the-alloy-of-law/}}
+978:{{  Appear in the Sequel to THE WAY OF KINGS}}  {{http://brandonsanderson.com/appear-in-the-sequel-to-the-way-of-kings/}}
+979:{{  My JordanCon Schedule + Updates}}  {{http://brandonsanderson.com/my-jordancon-schedule-updates/}}
+980:{{  Stormlight Archive Name Auction Winner, T-Shirts + Updates}}  {{http://brandonsanderson.com/stormlight-archive-name-auction-winner-t-shirts-updates/}}
+981:{{  Writing Excuses Nominated for a Hugo Award}}  {{http://brandonsanderson.com/writing-excuses-nominated-for-a-hugo-award/}}
+982:{{  My Penguicon Schedule}}  {{http://brandonsanderson.com/my-penguicon-schedule/}}
+985:{{  Anyone out there work for Delta Air Lines?}}  {{http://brandonsanderson.com/anyone-out-there-work-for-delta-air-lines/}}
+986:{{  More of &#8220;I Hate Dragons&#8221;}}  {{http://brandonsanderson.com/more-of-i-hate-dragons/}}
+987:{{  Gemmell Award Nominations + Updates}}  {{http://brandonsanderson.com/gemmell-award-nominations-updates/}}
+988:{{  Updates + Hugo Voter Packet}}  {{http://brandonsanderson.com/updates-hugo-voter-packet/}}
+991:{{  I&#8217;m going to France, Norway, the UK, and France again}}  {{http://brandonsanderson.com/im-going-to-france-norway-the-uk-and-france-again/}}
+992:{{  Signing in Oslo Tomorrow}}  {{http://brandonsanderson.com/signing-in-oslo-tomorrow/}}
+993:{{  France Schedule + Mary Robinette Kowal Joins Writing Excuses}}  {{http://brandonsanderson.com/france-schedule-mary-robinette-kowal-joins-writing-excuses/}}
+994:{{  THE ALLOY OF LAW Sample Chapters}}  {{http://brandonsanderson.com/the-alloy-of-law-sample-chapters/}}
+995:{{  THE WAY OF KINGS Wins the David Gemmell Legend Award}}  {{http://brandonsanderson.com/the-way-of-kings-wins-the-david-gemmell-legend-award/}}
+996:{{  Updates + Sanderson&#8217;s Second Law in The Leading Edge}}  {{http://brandonsanderson.com/updates-sandersons-second-law-in-the-leading-edge/}}
+997:{{  My Toronto Convention Schedule}}  {{http://brandonsanderson.com/my-toronto-convention-schedule/}}
+998:{{  My San Diego Comic-Con schedule}}  {{http://brandonsanderson.com/my-san-diego-comic-con-schedule/}}
+999:{{  Q&amp;A Recording, T-Shirts &amp; Updates}}  {{http://brandonsanderson.com/qa-recording-t-shirts-updates/}}
+1000:{{  Australia 2012 visit, Signings + Updates}}  {{http://brandonsanderson.com/australia-2012-visit-signings-updates/}}
+1001:{{  THE ALLOY OF LAW Signing Tour}}  {{http://brandonsanderson.com/the-alloy-of-law-signing-tour/}}
+1002:{{  Last chance to vote for the Hugos}}  {{http://brandonsanderson.com/last-chance-to-vote-for-the-hugos/}}
+1003:{{  Mistborn Adventure Game preorders + Updates}}  {{http://brandonsanderson.com/mistborn-adventure-game-preorders-updates/}}
+1004:{{  Signing tonight in West Jordan with Peter Orullian}}  {{http://brandonsanderson.com/signing-tonight-in-west-jordan-with-peter-orullian/}}
+1005:{{  Final WARBREAKER Annotation + Updates}}  {{http://brandonsanderson.com/final-warbreaker-annotation-updates/}}
+1006:{{  My Worldcon Schedule}}  {{http://brandonsanderson.com/my-worldcon-schedule/}}
+1007:{{  MYTHWALKER Prologue + Updates}}  {{http://brandonsanderson.com/mythwalker-prologue-updates/}}
+1008:{{  THE ALLOY OF LAW Release Events}}  {{http://brandonsanderson.com/the-alloy-of-law-release-events/}}
+1009:{{  Forum move, ALLOY preview, Worldcon costumes + Updates}}  {{http://brandonsanderson.com/forum-move-alloy-preview-worldcon-costumes-updates/}}
+1010:{{  A NIGHT OF BLACKER DARKNESS}}  {{http://brandonsanderson.com/a-night-of-blacker-darkness/}}
+1011:{{  Reddit IAmA, Signed THE WAY OF KINGS + Updates}}  {{http://brandonsanderson.com/reddit-iama-signed-the-way-of-kings-updates/}}
+1012:{{  THE WAY OF KINGS interior illustrations now uploaded}}  {{http://brandonsanderson.com/the-way-of-kings-interior-illustrations-now-uploaded/}}
+1013:{{  Updates + ALCATRAZ ebooks in French}}  {{http://brandonsanderson.com/updates-alcatraz-ebooks-in-french/}}
+1014:{{  THE ALLOY OF LAW giveaways &amp; ebooks + updates}}  {{http://brandonsanderson.com/the-alloy-of-law-giveaways-ebooks-updates/}}
+1016:{{  November 2011 UK Signing Tour}}  {{http://brandonsanderson.com/november-2011-uk-signing-tour/}}
+1017:{{  Mistborn Fan Trailer + Updates}}  {{http://brandonsanderson.com/mistborn-fan-trailer-updates/}}
+1018:{{  Magic: The Gathering Tonight in West Valley}}  {{http://brandonsanderson.com/magic-the-gathering-tonight-in-west-valley/}}
+1019:{{  Fantasy Magazine interview with Leigh Butler + Updates}}  {{http://brandonsanderson.com/fantasy-magazine-interview-with-leigh-butler-updates/}}
+1020:{{  New novella INFINITY BLADE: AWAKENING + Updates}}  {{http://brandonsanderson.com/new-novella-infinity-blade-awakening-updates/}}
+1021:{{  A MEMORY OF LIGHT Naming Rights for JordanCon and the Mayo Clinic}}  {{http://brandonsanderson.com/a-memory-of-light-naming-rights-for-jordancon-and-the-mayo-clinic/}}
+1022:{{  Get a personalized copy of TOWERS OF MIDNIGHT + Holiday shipping deadlines}}  {{http://brandonsanderson.com/get-a-personalized-copy-of-towers-of-midnight-holiday-shipping-deadlines/}}
+1023:{{  A MEMORY OF LIGHT names + Updates}}  {{http://brandonsanderson.com/a-memory-of-light-names-updates/}}
+1024:{{  My New York Comic Con Schedule}}  {{http://brandonsanderson.com/my-new-york-comic-con-schedule/}}
+1025:{{  THE ALLOY OF LAW in three weeks + Updates}}  {{http://brandonsanderson.com/the-alloy-of-law-in-three-weeks-updates/}}
+1026:{{  Play Magic with Me: Saturday the 22nd Edition}}  {{http://brandonsanderson.com/play-magic-with-me-saturday-the-22nd-edition/}}
+1027:{{  Mistborn UK ebooks, Bulgarian ALLOY release, Mistborn metal music}}  {{http://brandonsanderson.com/mistborn-uk-ebooks-bulgarian-alloy-release-mistborn-metal-music/}}
+1028:{{  Holiday deadline, Mistborn pumpkin &amp; Updates}}  {{http://brandonsanderson.com/holiday-deadline-mistborn-pumpkin-updates/}}
+1029:{{  Alloy of Law T-shirt, Infinity Blade novella on Nook + Updates}}  {{http://brandonsanderson.com/alloy-of-law-t-shirt-infinity-blade-novella-on-nook-updates/}}
+1030:{{  Mistborn: THE ALLOY OF LAW comes out in one week}}  {{http://brandonsanderson.com/mistborn-the-alloy-of-law-comes-out-in-one-week/}}
+1031:{{  THE ALLOY OF LAW midnight release tonight, Fan Trailer + Updates}}  {{http://brandonsanderson.com/the-alloy-of-law-midnight-release-tonight-fan-trailer-updates/}}
+1032:{{  New Wheel of Time Great Hunt}}  {{http://brandonsanderson.com/new-wheel-of-time-great-hunt/}}
+1033:{{  Mysterious Galaxy can ship you THE ALLOY OF LAW}}  {{http://brandonsanderson.com/mysterious-galaxy-can-ship-you-the-alloy-of-law/}}
+1034:{{  ALLOY illustrations, Blood and Bloody Ashes Shirt + Updates}}  {{http://brandonsanderson.com/alloy-illustrations-blood-and-bloody-ashes-shirt-updates/}}
+1035:{{  Mistborn &amp; Stormlight gamer bags + Updates}}  {{http://brandonsanderson.com/mistborn-stormlight-gamer-bags-updates/}}
+1036:{{  Official NaNoWriMo Pep Talk + Updates}}  {{http://brandonsanderson.com/official-nanowrimo-pep-talk-updates/}}
+1037:{{  Magic with Brandon, Monday the 5th Edition}}  {{http://brandonsanderson.com/magic-with-brandon-monday-the-5th-edition/}}
+1038:{{  Interview, Giveaways, Ordering Deadline &amp; Updates}}  {{http://brandonsanderson.com/interview-giveaways-ordering-deadline-updates/}}
+1039:{{  Darrell Sweet}}  {{http://brandonsanderson.com/darrell-sweet/}}
+1040:{{  Stormlight (or other) Naming Rights Charity Auction}}  {{http://brandonsanderson.com/stormlight-or-other-naming-rights-charity-auction/}}
+1041:{{  Where to buy signed copies of THE ALLOY OF LAW + Updates}}  {{http://brandonsanderson.com/where-to-buy-signed-copies-of-the-alloy-of-law-updates/}}
+1042:{{  Utah Signings This Week}}  {{http://brandonsanderson.com/utah-signings-this-week/}}
+1043:{{  Mistborn Adventure Game Out Now + Updates}}  {{http://brandonsanderson.com/mistborn-adventure-game-out-now-updates/}}
+1044:{{  First Draft Finished + Updates}}  {{http://brandonsanderson.com/first-draft-finished-updates/}}
+1045:{{  Soulcaster Fan Jewelry, Writing Excuses Season 7 &amp; MYTHWALKER}}  {{http://brandonsanderson.com/soulcaster-fan-jewelry-writing-excuses-season-7-mythwalker/}}
+1046:{{  Updates + Hugo-Eligible Works &amp; Gemmell Award Nomination}}  {{http://brandonsanderson.com/updates-hugo-eligible-works-gemmell-award-nomination/}}
+1047:{{  Sanderson&#8217;s Second Law + Updates}}  {{http://brandonsanderson.com/sandersons-second-law-updates/}}
+1048:{{  Signed, leatherbound THE GATHERING STORM and TOWERS OF MIDNIGHT auction for Worldbuilders charity}}  {{http://brandonsanderson.com/signed-leatherbound-the-gathering-storm-and-towers-of-midnight-auction-for-worldbuilders-charity/}}
+1049:{{  Magic: Dark Ascension Prerelease}}  {{http://brandonsanderson.com/magic-dark-ascension-prerelease/}}
+1050:{{  Alcatraz Annotations + Updates}}  {{http://brandonsanderson.com/alcatraz-annotations-updates/}}
+1051:{{  2012 Conventions: Taiwan, Orem, Australia Australia Australia, Las Vegas, BayCon, SDCC, Chattanooga, Gen Con Indy, Albuquerque, Dragon*Con}}  {{http://brandonsanderson.com/2012-conventions-taiwan-orem-australia-australia-australia-las-vegas-baycon-sdcc-chattanooga-gen-con-indy-albuquerque-dragoncon/}}
+1052:{{  Superstars Writing Seminar Prize Drawing}}  {{http://brandonsanderson.com/superstars-writing-seminar-prize-drawing/}}
+1053:{{  New novella &#8220;Legion&#8221; up for preorder at Subterranean Press}}  {{http://brandonsanderson.com/new-novella-legion-up-for-preorder-at-subterranean-press/}}
+1054:{{  Newsletter + Updates}}  {{http://brandonsanderson.com/newsletter-updates/}}
+1055:{{  My LTUE Schedule}}  {{http://brandonsanderson.com/my-ltue-schedule/}}
+1056:{{  Taiwan Trip Haul}}  {{http://brandonsanderson.com/taiwan-trip-haul/}}
+1057:{{  Alternate ALCATRAZ Chapters + Updates}}  {{http://brandonsanderson.com/alternate-alcatraz-chapters-updates/}}
+1058:{{  A MEMORY OF LIGHT Release Date}}  {{http://brandonsanderson.com/a-memory-of-light-release-date/}}
+1059:{{  Updates + Bridge Four Shirts}}  {{http://brandonsanderson.com/updates-bridge-four-shirts/}}
+1060:{{  Updates + More T-Shirts}}  {{http://brandonsanderson.com/updates-more-t-shirts/}}
+1061:{{  Hugo Nominations Deadline, Suvudu Cage Match &amp; Updates}}  {{http://brandonsanderson.com/hugo-nominations-deadline-suvudu-cage-match-updates/}}
+1062:{{  Podcasts + Updates}}  {{http://brandonsanderson.com/podcasts-updates/}}
+1063:{{  Writing for Charity Conference This Saturday}}  {{http://brandonsanderson.com/writing-for-charity-conference-this-saturday/}}
+1064:{{  ALCATRAZ 2 Audiobook, Trailers + Updates}}  {{http://brandonsanderson.com/alcatraz-2-audiobook-trailers-updates/}}
+1065:{{  Topics we&#8217;ll cover at the 2012 Superstars Writing Seminar}}  {{http://brandonsanderson.com/topics-well-cover-at-the-2012-superstars-writing-seminar/}}
+1066:{{  Play Magic with Brandon at SLC Nerd}}  {{http://brandonsanderson.com/play-magic-with-brandon-at-slc-nerd/}}
+1067:{{  Announcing the Mistborn Video Game}}  {{http://brandonsanderson.com/announcing-the-mistborn-video-game/}}
+1068:{{  Moiraine vs. Kelsier, Gen Con Indy, Interview + Updates}}  {{http://brandonsanderson.com/moiraine-vs-kelsier-gen-con-indy-interview-updates/}}
+1069:{{  My Australian Schedule: Perth, Melbourne, Sydney, Gold Coast}}  {{http://brandonsanderson.com/my-australian-schedule-perth-melbourne-sydney-gold-coast/}}
+1070:{{  Writing Excuses, ALCATRAZ annotation, CNN&#8217;s Geek Out}}  {{http://brandonsanderson.com/writing-excuses-alcatraz-annotation-cnns-geek-out/}}
+1071:{{  New military SF story with Ethan Skarstedt in ARMORED}}  {{http://brandonsanderson.com/new-military-sf-story-with-ethan-skarstedt-in-armored/}}
+1072:{{  Swancon $1 Gold Coin Day Friday in Perth}}  {{http://brandonsanderson.com/swancon-1-gold-coin-day-friday-in-perth/}}
+1073:{{  Google+ Hangout on April 18th}}  {{http://brandonsanderson.com/google-hangout-on-april-18th/}}
+1074:{{  Mistborn Movie Update and Hugo Nomination}}  {{http://brandonsanderson.com/mistborn-movie-update-and-hugo-nomination/}}
+1075:{{  GLAMOUR IN GLASS, Suvudu Cage Match Finals, ALCATRAZ Annotation}}  {{http://brandonsanderson.com/glamour-in-glass-suvudu-cage-match-finals-alcatraz-annotation/}}
+1076:{{  My Melbourne Schedule; Sydney &amp; Gold Coast Next Week}}  {{http://brandonsanderson.com/my-melbourne-schedule-sydney-gold-coast-next-week/}}
+1078:{{  Sydney Signing + Updates}}  {{http://brandonsanderson.com/sydney-signing-updates/}}
+1079:{{  My Gold Coast Schedule, JordanCon, Superstars Writing Seminar}}  {{http://brandonsanderson.com/my-gold-coast-schedule-jordancon-superstars-writing-seminar/}}
+1080:{{  Creative Writing Class Lectures + Updates}}  {{http://brandonsanderson.com/creative-writing-class-lectures-updates/}}
+1081:{{  Mary Robinette Kowal Signing in SLC Tonight}}  {{http://brandonsanderson.com/mary-robinette-kowal-signing-in-slc-tonight/}}
+1082:{{  Magic with Brandon and Dan: Avacyn Restored}}  {{http://brandonsanderson.com/magic-with-brandon-and-dan-avacyn-restored/}}
+1083:{{  Class Lecture on Characterization + Updates}}  {{http://brandonsanderson.com/class-lecture-on-characterization-updates/}}
+1084:{{  More Creative Writing Lectures + Updates}}  {{http://brandonsanderson.com/more-creative-writing-lectures-updates/}}
+1085:{{  Play the Mistborn Adventure Game with Me at Gen Con + Updates}}  {{http://brandonsanderson.com/play-the-mistborn-adventure-game-with-me-at-gen-con-updates/}}
+1086:{{  Updates + Reader Mail}}  {{http://brandonsanderson.com/updates-reader-mail/}}
+1087:{{  Bay Area this weekend: BayCon, including Magic}}  {{http://brandonsanderson.com/bay-area-this-weekend-baycon-including-magic/}}
+1088:{{  Lloyd Alexander Documentary Kickstarter, Creative Writing Lectures + Updates}}  {{http://brandonsanderson.com/lloyd-alexander-documentary-kickstarter-creative-writing-lectures-updates/}}
+1089:{{  I Hate Dragons Speech Competition + Updates}}  {{http://brandonsanderson.com/i-hate-dragons-speech-competition-updates/}}
+1090:{{  Szeth T-Shirt Contest, Lecture Video + Updates}}  {{http://brandonsanderson.com/szeth-t-shirt-contest-lecture-video-updates/}}
+1091:{{  June is Audiobook Month}}  {{http://brandonsanderson.com/june-is-audiobook-month/}}
+1092:{{  THE HOLLOW CITY Release Party Tonight}}  {{http://brandonsanderson.com/the-hollow-city-release-party-tonight/}}
+1093:{{  M13 Prerelease}}  {{http://brandonsanderson.com/m13-prerelease/}}
+1094:{{  My Comic-Con Schedule}}  {{http://brandonsanderson.com/my-comic-con-schedule-2/}}
+1095:{{  Final 2012 Creative Writing Lecture + Updates}}  {{http://brandonsanderson.com/final-2012-creative-writing-lecture-updates/}}
+1096:{{  San Diego Comic-Con!}}  {{http://brandonsanderson.com/san-diego-comic-con/}}
+1097:{{  Interviews + Updates}}  {{http://brandonsanderson.com/interviews-updates/}}
+1098:{{  Mistborn Adventure Game Release Event in Provo}}  {{http://brandonsanderson.com/mistborn-adventure-game-release-event-in-provo/}}
+1099:{{  My Chattanooga LibertyCon Schedule This Weekend}}  {{http://brandonsanderson.com/my-chattanooga-libertycon-schedule-this-weekend/}}
+1100:{{  Hugo Voting Deadline Tomorrow + Updates}}  {{http://brandonsanderson.com/hugo-voting-deadline-tomorrow-updates/}}
+1101:{{  Today I got up, and I did not have a Wheel of Time book to work on.}}  {{http://brandonsanderson.com/today-i-got-up-and-i-did-not-have-a-wheel-of-time-book-to-work-on/}}
+1102:{{  Mistborn Adventure Game Release Event in Provo Saturday}}  {{http://brandonsanderson.com/mistborn-adventure-game-release-event-in-provo-saturday/}}
+1103:{{  August Conventions, LEGION &amp; Updates}}  {{http://brandonsanderson.com/august-conventions-legion-updates/}}
+1104:{{  THE WAY OF KINGS Deleted Scene + Updates}}  {{http://brandonsanderson.com/the-way-of-kings-deleted-scene-updates/}}
+1105:{{  Feruchemical Table Prints Wednesday}}  {{http://brandonsanderson.com/feruchemical-table-prints-wednesday/}}
+1106:{{  My Gen Con Schedule}}  {{http://brandonsanderson.com/my-gen-con-schedule/}}
+1107:{{  My Albuquerque Bubonicon Schedule}}  {{http://brandonsanderson.com/my-albuquerque-bubonicon-schedule/}}
+1108:{{  My Dragon*Con Schedule}}  {{http://brandonsanderson.com/my-dragoncon-schedule/}}
+1109:{{  Magic with Brandon at Dragon*Con + LEGION out now}}  {{http://brandonsanderson.com/magic-with-brandon-at-dragoncon-legion-out-now/}}
+1111:{{  Writing Excuses Parsec + A MEMORY OF LIGHT Excerpt }}  {{http://brandonsanderson.com/writing-excuses-parsec-a-memory-of-light-excerpt/}}
+1112:{{  League of Utah Writers Roundup This Weekend}}  {{http://brandonsanderson.com/league-of-utah-writers-roundup-this-weekend/}}
+1113:{{  LEGION ebook available now!}}  {{http://brandonsanderson.com/legion-ebook-available-now/}}
+1114:{{  Late Notice Signing!}}  {{http://brandonsanderson.com/late-notice-signing/}}
+1115:{{  THE RITHMATIST Cover Art + Updates}}  {{http://brandonsanderson.com/the-rithmatist-cover-art-updates/}}
+1116:{{  CHASING THE SKIP by Janci Patterson}}  {{http://brandonsanderson.com/chasing-the-skip-by-janci-patterson/}}
+1117:{{  LEGION (free) on Audible + Google Hangout with Pat Rothfuss, Cherie Priest &amp; Terry Brooks}}  {{http://brandonsanderson.com/legion-free-on-audible-google-hangout-with-pat-rothfuss-cherie-priest-terry-brooks/}}
+1118:{{  A MEMORY OF LIGHT Signing-by-Mail (SOLD OUT) + Updates}}  {{http://brandonsanderson.com/a-memory-of-light-signing-by-mail-sold-out-updates/}}
+1119:{{  A MEMORY OF LIGHT deleted sequence &#8220;River of Souls&#8221; to appear in UNFETTERED anthology}}  {{http://brandonsanderson.com/a-memory-of-light-deleted-sequence-river-of-souls-to-appear-in-unfettered-anthology/}}
+1120:{{  Updates, Contests, Random Links}}  {{http://brandonsanderson.com/updates-contests-random-links/}}
+1121:{{  THE EMPEROR&#8217;S SOUL}}  {{http://brandonsanderson.com/the-emperors-soul/}}
+1122:{{  EMPEROR&#8217;S SOUL signing-by-mail, AMoL audiobook promo, Holiday shipping deadline + Updates}}  {{http://brandonsanderson.com/emperors-soul-signing-by-mail-amol-audiobook-promo-holiday-shipping-deadline-updates/}}
+1123:{{  Canadians! Halifax, Toronto }}  {{http://brandonsanderson.com/canadians-halifax-toronto/}}
+1124:{{  Toronto this weekend: Chapters Markham &amp; World Fantasy (sold out, 1 membership available!)}}  {{http://brandonsanderson.com/toronto-this-weekend-chapters-markham-world-fantasy-sold-out-1-membership-available/}}
+1125:{{  Two Utah signings this week, THE EMPEROR&#8217;S SOUL ebook, Writing Excuses Retreat scholarship}}  {{http://brandonsanderson.com/two-utah-signings-this-week-the-emperors-soul-ebook-writing-excuses-retreat-scholarship/}}
+1126:{{  THE ALLOY OF LAW signed hardcovers, THE EMPEROR&#8217;S SOUL episode + Updates}}  {{http://brandonsanderson.com/the-alloy-of-law-signed-hardcovers-the-emperors-soul-episode-updates/}}
+1127:{{  A MEMORY OF LIGHT Release Events}}  {{http://brandonsanderson.com/a-memory-of-light-release-events/}}
+1128:{{  Fan Art, Shirts, NaNoWriMo}}  {{http://brandonsanderson.com/fan-art-shirts-nanowrimo/}}
+1129:{{  A MEMORY OF LIGHT happenings + Updates}}  {{http://brandonsanderson.com/a-memory-of-light-happenings-updates/}}
+1130:{{  Signing Thursday in West Jordan }}  {{http://brandonsanderson.com/signing-thursday-in-west-jordan/}}
+1131:{{  Utah events this week + Updates}}  {{http://brandonsanderson.com/utah-events-this-week-updates/}}
+1132:{{  Signing &amp; Magic Draft in Salt Lake area Saturday}}  {{http://brandonsanderson.com/signing-magic-draft-in-salt-lake-area-saturday/}}

@@ -94,10 +94,15 @@ for page_id in range(fromnum,12000):
      canread=False	
     #print canread 
    # print p.status
+    
     if (p.status==301 or p.status==302 ) and canread==True:
      #print p.status
      #http=p.read()
      m1=pat.search(http)
+     sfname="store/brandon_%06d.html"%(page_id)
+     fll=open(sfname,"wb")
+     fll.write(http)
+     fll.close()
      if m1:
       m=m1.group(1)
       strg= str(page_id)+':{{'+m+'}}  {{'+strp+'}}'
@@ -106,6 +111,10 @@ for page_id in range(fromnum,12000):
       print strg
     elif p.status==777:
 	 hidden='hidden'
+	 sfname="store/brandon_hdn_%06d.html"%(page_id)
+	 fll=open(sfname,"wb")
+	 fll.write(http)
+	 fll.close()     
 	 strg= str(page_id)+':{{'+hidden+'}}  {{'+strp+'}}'
 	 file.write(strg+"\r\n")
 	 file.flush()
