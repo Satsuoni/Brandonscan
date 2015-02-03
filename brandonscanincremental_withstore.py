@@ -63,7 +63,7 @@ except:
  fromnum=1
 opener = urllib2.build_opener(SmartRedirectHandler(),SmartErrorHandler())
 file=open('brandondata.txt','a')
-pat=re.compile('<title>(.+?)</title>',re.MULTILINE+re.I)
+pat=re.compile('<title>(.*?)</title>',re.MULTILINE+re.I)
 for page_id in range(fromnum,12000):
   try:
    #print page_id
